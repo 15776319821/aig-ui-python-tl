@@ -1,0 +1,4 @@
+2021/03/21/18:20:10 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/btnTabMessage')元素
+2021/03/21/18:20:10 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/btnTabMessage'),点击消息列表
+2021/03/21/18:20:13 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/linearLayout2')元素
+2021/03/21/18:20:13 base_action.py INFO 点击第1个元素,('id', 'com.cuteu.videochat:id/linearLayout2')

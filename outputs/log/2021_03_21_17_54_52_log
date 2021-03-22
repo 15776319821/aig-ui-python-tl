@@ -1,0 +1,13 @@
+2021/03/21/17:55:09 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/btnTabMine')元素
+2021/03/21/17:55:10 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/btnTabMine'),点击我的
+2021/03/21/17:55:11 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/imgSet')元素
+2021/03/21/17:55:11 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/imgSet'),点击设置齿轮角标
+2021/03/21/17:55:12 base_action.py INFO 发现('xpath', "//*[@text='关于我们']")元素
+2021/03/21/17:55:12 base_action.py INFO 点击元素('xpath', "//*[@text='关于我们']"),点击设置页面的关于我们
+2021/03/21/17:55:14 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/toolbar_title')元素
+2021/03/21/17:55:24 base_action.py INFO 连续点击<appium.webdriver.webelement.WebElement (session="f7cab44e-b7d6-4ff7-a8e1-90b787120592", element="5ea55b5d-a2e1-4d1d-b00e-d14a2bb584c5")>，20次
+2021/03/21/17:55:24 base_action.py INFO 发现('class name', 'android.widget.ImageButton')元素
+2021/03/21/17:55:24 base_action.py INFO 点击元素('class name', 'android.widget.ImageButton'),点击返回
+2021/03/21/17:55:49 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/btnTabMessage')元素
+2021/03/21/17:55:49 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/btnTabMessage'),点击消息列表
+2021/03/21/17:55:49 base_action.py INFO 点击元素失败('id', 'com.cuteu.videochat:id/btnTabMessage')，是因为I/O operation on closed file.:点击消息列表
