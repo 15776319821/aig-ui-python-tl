@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e3af040-e1f6-4d67-a001-fc6e2bd32e50" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/po.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/po.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/readIphoneData.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/base_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_driver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/confData/confData.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/data/confData/confData.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +159,7 @@
       <recent name="D:\po\outputs\log" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_match">
+  <component name="RunManager" selected="Python.base_driver">
     <configuration name="1111" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="po" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -204,7 +204,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="base_driver" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="base_driver" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="po" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -216,7 +216,6 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base/base_driver.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -226,7 +225,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="readIphoneData" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="po" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -234,12 +233,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\po\scripts\atest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base/readIphoneData.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -271,19 +269,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.base_driver" />
-      <item itemvalue="Python.test (1)" />
       <item itemvalue="Python.atest" />
       <item itemvalue="Python.1111" />
       <item itemvalue="Python.test_match" />
+      <item itemvalue="Python.readIphoneData" />
+      <item itemvalue="Python.base_driver" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.base_driver" />
+        <item itemvalue="Python.readIphoneData" />
         <item itemvalue="Python.test_match" />
         <item itemvalue="Python.1111" />
         <item itemvalue="Python.atest" />
-        <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.base_driver" />
       </list>
     </recent_temporary>
   </component>
@@ -374,6 +372,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />

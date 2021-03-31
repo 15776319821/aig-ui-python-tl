@@ -5,7 +5,9 @@ import time
 import io
 import sys
 import urllib.request
-
+from base.readIphoneData import readIphone
+iphoneData=readIphone()
+print(iphoneData)
 
 #Serverurl='http://127.0.0.1:4723/wd/hub'
 def desired():
@@ -31,6 +33,7 @@ def desired():
     driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
     driver.implicitly_wait(20)
     return driver
+#if __name__ == '__main__':
 
 
 
