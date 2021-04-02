@@ -144,7 +144,9 @@ class sendAdb():
                     uiTestPlanIphone = reprotRspon['data']['jobs'][0]['devices']
                     '''此处暂定获取到任务后再次传送当前连接手机信息，未优化完成（未增加锁死功能）'''
                     if uiTestPlanIphone == self.iphoneInfo:
-                        self.iphoneStatus=1
+                        iphoneStatus=1
+                        sendAdb().sendreq(iphoneStatus)
+                    else:
                         sendAdb()
 
                 else:
