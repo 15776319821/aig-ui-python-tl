@@ -52,5 +52,3 @@ class DemeLog():
 
 
 
-
-logger =DemeLog().log()

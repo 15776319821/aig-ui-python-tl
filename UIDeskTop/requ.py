@@ -5,6 +5,7 @@ import os
 import json
 import sys
 from UIDeskTop.getGitFile import gitPull
+from base.base_driver import setdriver
 class sendAdb():
     '''获取当前adb连接的手机'''
     def __init__(self):
@@ -64,10 +65,11 @@ class sendAdb():
             return reprotRspon
         except Exception as e:
             print("接口传输错误！")
+            '''
     def testPlan(self,uiTestPlanNum):
 
-        '''获取当前电脑环境,如果是mac本则在桌面生成一个txt文件储存测试任务，
-        windows环境则在D盘生成一个文件夹里面生成一个txt文件。
+        '''#获取当前电脑环境,如果是mac本则在桌面生成一个txt文件储存测试任务，
+        #windows环境则在D盘生成一个文件夹里面生成一个txt文件。
         '''
         computerSysterm = sys.platform
         if computerSysterm == 'darwin':
@@ -97,12 +99,10 @@ class sendAdb():
             f = open('testPlan.txt', 'r', encoding='utf-8')
             w = f.read()
             return w
-
-    def adbDataYaml(self):
-        '''将本地手机的信息储存到yaml文件中'''
-        DataYaml={}
-        DataYaml['iphoneAndroidNum']=self.iphoneAndroidNum
-        DataYaml['iphoneInfo'] = self.iphoneInfo
+'''
+    def adbDataYaml(self,uiTestPlanNum):
+        #获取当前电脑环境,如果是mac本则生成一个txt文件储存测试任务，
+        #windows环境则生成一个文件夹里面生成一个txt文件。
 
         if sys.platform == "windows":
             confDataPath = (r'D:/DHN/UIgit/aig-ui-python/data/confData')
@@ -110,7 +110,10 @@ class sendAdb():
                 os.mkdir(r'D:/DHN/UIgit/aig-ui-python/data/confData')
             os.chdir(r'D:/DHN/UIgit/aig-ui-python/data/confData/')
             f = open('confData.yaml', 'w+', encoding='utf-8')
-            f.writelines(str(DataYaml) + '\n')
+            for uiPlan in uiTestPlanNum:
+                print(type(uiPlan))
+                uiPlan = str(uiPlan)
+                f.writelines(uiPlan + '\n')
             f.flush()
             f.close()
 
@@ -120,7 +123,10 @@ class sendAdb():
                 os.mkdir(r'/Users/aig/Documents/UIgit/aig-ui-python/data/confData/')
             os.chdir(r'/Users/aig/Documents/UIgit/aig-ui-python/data/confData/')
             f = open('confData.yaml', 'w+', encoding='utf-8')
-            f.writelines(str(DataYaml) + '\n')
+            for uiPlan in uiTestPlanNum:
+                print(type(uiPlan))
+                uiPlan = str(uiPlan)
+                f.writelines(uiPlan + '\n')
             f.flush()
             f.close()
     def runData(self):
@@ -139,7 +145,7 @@ class sendAdb():
                 reprotNum=reprotRspon['data']['jobs']
                 gitresult=gitPull(reprotNum)
                 if gitresult == True:
-                    self.adbDataYaml()
+                    self.adbDataYaml(reprotRspon)
                     time.sleep(2)
                     uiTestPlanIphone = reprotRspon['data']['jobs'][0]['devices']
                     '''此处暂定获取到任务后再次传送当前连接手机信息，未优化完成（未增加锁死功能）'''
@@ -148,6 +154,8 @@ class sendAdb():
                         sendAdb().sendreq(iphoneStatus)
                     else:
                         sendAdb()
+                    #将测试的项目名称与运行的文件记录下来
+                    UITestPlan=reprotRspon['data']['jobs'][0]['']
 
                 else:
                     print("git拉取失败")
