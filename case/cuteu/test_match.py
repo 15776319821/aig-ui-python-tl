@@ -23,3 +23,4 @@ class Testmatch:
         #self.driver.find_element_by_id('com.cuteu.videochat:id/btnTabMessage').click()
         MatchPage(init_driver['driver']).msglist(1)
         logger.info("执行后")
+

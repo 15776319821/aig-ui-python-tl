@@ -19,7 +19,7 @@ class setdriver():
         desired_caps['platformName']='Android'
         #要测试手机安卓版本（9.1.1可以写9.1 也可以写9都行）
         #desired_caps['platformVersion']=str(appProjectData['iphoneAndroidNum'])
-        desired_caps['platformVersion'] = '10'
+        desired_caps['platformVersion'] = '11'
         #设备的名字，adb命令：adb devices查看，这个设备号安卓可以随便写，ios必须写对
         desired_caps['deviceName']=str(appProjectData['devices'])
         #要测试的应用的包名
@@ -56,11 +56,11 @@ class setdriver():
                 #os.popen("appium -a 127.0.0.1 -p %s -U %s --no-reset" % (appiumPort, desired['deviceName']))
                 return (appiumPort, desired)
 
-    @threads(2)
+
     def runapp(self):
         appiumData=self.startappium()
         driver = webdriver.Remote('http://0.0.0.0:%s/wd/hub' % appiumData[0], appiumData[1])
-        driver.implicitly_wait(2)
+        driver.implicitly_wait(20)
         return driver
     def iphone_desired(self):
         iphoneData = readIphone()
@@ -88,9 +88,3 @@ class setdriver():
                 p1 = int(p0.split('\n')[1].split()[1])  # 获取进程号
                 os.popen('kill {}'.format(p1))  # 结束进程
                 print('appium server已结束')
-
-if __name__ == '__main__':
-    x=setdriver()
-    #x.startappium()
-    #x.endappium('4723')
-    x.runapp()

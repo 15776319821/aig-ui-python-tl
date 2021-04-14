@@ -8,12 +8,12 @@
 import time
 
 from selenium.webdriver.support.wait import WebDriverWait
-from base.base_log import logger
+from base.base_log import DemeLog
 from datetime import datetime
 from base.createpath import p_path
 from appium.webdriver.common.touch_action import TouchAction
 
-
+logger = DemeLog().log()
 class BaseAction:
     def __init__(self,driver):
         self.driver = driver

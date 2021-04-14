@@ -14,9 +14,9 @@ from pageproject.aboutus_page import AboutUs
 
 @pytest.fixture(scope='class')
 def init_driver():
-    driver = setdriver.runapp
+    driver = setdriver().runapp()
     dri = AboutUs(driver).Us(5)
-    yield {'driver':driver ,'dri':dri}
+    yield {'driver':driver, 'dri':dri}
     #driver.close_app()
     driver.quit()
 # @pytest.fixture(scope='class')
