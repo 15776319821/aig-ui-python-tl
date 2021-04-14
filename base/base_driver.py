@@ -53,7 +53,7 @@ class setdriver():
                 print("appium服务已经启动：%s" % t1)
                 return (appiumPort, desired)
             else:
-                os.popen("appium -a 127.0.0.1 -p %s -U %s --no-reset" % (appiumPort, desired['deviceName']))
+                #os.popen("appium -a 127.0.0.1 -p %s -U %s --no-reset" % (appiumPort, desired['deviceName']))
                 return (appiumPort, desired)
 
     @threads(2)
@@ -74,19 +74,19 @@ class setdriver():
         '''关闭appium服务'''
         pc = sys.platform
         if pc.upper() == 'WINDOWS':
-            p = os.popen(f'netstat  -aon|findstr {post_num}')
+            p = os.popen('netstat  -aon|findstr {}'.format(post_num))
             p0 = p.read().strip()
             if p0 != '' and 'LISTENING' in p0:
                 p1 = int(p0.split('LISTENING')[1].strip()[0:4])   # 获取进程号
-                os.popen(f'taskkill /F /PID {p1}')   # 结束进程
+                os.popen('taskkill /F /PID {}'.format(p1))   # 结束进程
                 print('appium server已结束')
         elif pc == 'darwin':
-            p = os.popen(f'lsof -i:{post_num}')
+            p = os.popen('lsof -i:{}'.format(post_num))
             p0 = p.read()
             print(p0)
             if p0.strip() != '':
                 p1 = int(p0.split('\n')[1].split()[1])  # 获取进程号
-                os.popen(f'kill {p1}')  # 结束进程
+                os.popen('kill {}'.format(p1))  # 结束进程
                 print('appium server已结束')
 
 if __name__ == '__main__':
@@ -94,4 +94,3 @@ if __name__ == '__main__':
     #x.startappium()
     #x.endappium('4723')
     x.runapp()
-

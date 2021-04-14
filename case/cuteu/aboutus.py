@@ -6,7 +6,7 @@ import time
 
 sys.path.append(os.getcwd())
 from pageproject.aboutus_page import AboutUs
-from base.base_driver import desired
+from base.base_driver import setdriver
 from base.base_action import BaseAction
 
 #为了截图

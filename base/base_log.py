@@ -40,6 +40,7 @@ class DemeLog():
             Logger.addHandler(sh)
             Logger.addHandler(fh)
         return Logger
+logger=DemeLog().log()
 
 """
         #下面就是设置你想输出的日志的等级
