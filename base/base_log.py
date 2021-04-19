@@ -7,6 +7,7 @@
 
 import logging
 import time
+import os
 
 class DemeLog():
 
@@ -22,8 +23,9 @@ class DemeLog():
             #创建一个处理器——在控制台输出
             sh=logging.StreamHandler()
             #创建一个处理器——保存成文件
-            fh=logging.FileHandler(filename='outputs/log/{}_log'.format(time.strftime('%Y_%m_%d_%H_%M_%S')),
-                                   encoding='utf-8')
+            filepath=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+            filename=os.path.join(filepath + "/outputs/log/{}_log".format(time.strftime('%Y_%m_%d_%H')))
+            fh=logging.FileHandler(filename=filename,encoding='utf-8')
             #保存成文件和在控制台输出不一样的就是需要写清楚文件保存的路径和文件名字的格式，而控制台不需要这些
 
 
@@ -38,6 +40,7 @@ class DemeLog():
             Logger.addHandler(sh)
             Logger.addHandler(fh)
         return Logger
+logger=DemeLog().log()
 
 """
         #下面就是设置你想输出的日志的等级
@@ -50,5 +53,3 @@ class DemeLog():
 
 
 
-
-logger =DemeLog().log()

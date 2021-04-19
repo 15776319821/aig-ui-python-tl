@@ -13,3 +13,5 @@ class AboutUsLoc():
     aboutus_loc = (By.ID,"com.cuteu.videochat:id/toolbar_title")
     #设置—关于我们—关于我们—返回
     backset_loc =(By.CLASS_NAME,"android.widget.ImageButton")
+    # 设置—关于我们—关于我们—返回—返回
+    backset_loc1 = (By.CLASS_NAME,"android.widget.ImageButton")

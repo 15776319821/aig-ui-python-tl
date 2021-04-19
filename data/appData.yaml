@@ -1,0 +1,28 @@
+---
+fancyu:
+  appPackage: com.fancyu.videochat.love
+  appActivity: com.fancyu.videochat.love.business.splash.SplashActivity
+realu:
+  appPackage: com.realu.dating
+  appActivity: com.realu.dating.business.splash.SplashActivity
+peppermint:
+  appPackage: com.peppermint.livechat.findbeauty
+  appActivity: com.peppermint.livechat.findbeauty.business.splash.SplashActivity
+moonchat:
+  appPackage: com.moonchat.date
+  appActivity: com.moonchat.date.business.main.MainActivity
+lamour:
+  appPackage: com.asiainno.uplive.aiglamour
+  appActivity: com.asiainno.uplive.beepme.business.splash.SplashActiveActivity
+fancyme:
+  appPackage: com.aiglamour.ancho
+  appActivity: com.asiainno.uplive.beepme.business.main.MainActivity
+cuteu:
+  appPackage: com.cuteu.videochat
+  appActivity: com.cuteu.video.chat.business.splash.SplashActivity
+chatjoy:
+  appPackage: test
+  appActivity: test2
+smallworld:
+  appPackage: test
+  appActivity: test2
