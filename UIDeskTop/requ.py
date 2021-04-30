@@ -4,7 +4,8 @@ import requests
 import os
 import json
 import sys
-from UIDeskTop.getGitFile import gitPull
+import jsonpath
+from UIDeskTop.getGitFile import gitPull,code_path
 from base.base_driver import setdriver
 class sendAdb():
     '''获取当前adb连接的手机'''
@@ -17,7 +18,6 @@ class sendAdb():
             #time.sleep(4)
             #获取当前连接的手机
             adbResult=os.popen("adb devices").read()
-            #print(adbResult)
             adbResult=str(adbResult)
             adbInfo=adbResult.split("\n")
             self.iphoneInfo=adbInfo[1].split("\t")[0].strip()
@@ -54,7 +54,6 @@ class sendAdb():
 
             }])
         }
-        #print(datas)
 
         header={"Content-Type":"application/x-www-form-urlencoded"}
         try:
@@ -101,14 +100,16 @@ class sendAdb():
             return w
 '''
     def adbDataYaml(self,uiTestPlanNum):
-        #获取当前电脑环境,如果是mac本则生成一个txt文件储存测试任务，
-        #windows环境则生成一个文件夹里面生成一个txt文件。
-
+        '''
+        获取当前电脑环境,如果是mac本则生成一个yaml文件储存测试任务，
+        windows环境则生成一个文件夹里面生成一个yaml文件。
+        '''
+        code_Path=code_path()
         if sys.platform == "windows":
-            confDataPath = (r'D:/DHN/UIgit/aig-ui-python/data/confData')
+            confDataPath=os.path.join(code_Path(computersys='windows') + "/data/confData/")
             if not os.path.exists(confDataPath):
-                os.mkdir(r'D:/DHN/UIgit/aig-ui-python/data/confData')
-            os.chdir(r'D:/DHN/UIgit/aig-ui-python/data/confData/')
+                os.mkdir(confDataPath)
+            os.chdir(confDataPath)
             f = open('confData.yaml', 'w+', encoding='utf-8')
             for uiPlan in uiTestPlanNum:
                 print(type(uiPlan))
@@ -118,10 +119,11 @@ class sendAdb():
             f.close()
 
         if sys.platform == 'darwin':
-            confDataPath = (r'/Users/aig/Documents/UIgit/aig-ui-python/data/confData')
+            confDataPath=os.path.join(code_Path() + "/data/confData/")
+            #confDataPath = (r'/Users/aig/Documents/UIgit/aig-ui-python/data/confData')
             if not os.path.exists(confDataPath):
-                os.mkdir(r'/Users/aig/Documents/UIgit/aig-ui-python/data/confData/')
-            os.chdir(r'/Users/aig/Documents/UIgit/aig-ui-python/data/confData/')
+                os.mkdir(confDataPath)
+            os.chdir(confDataPath)
             f = open('confData.yaml', 'w+', encoding='utf-8')
             for uiPlan in uiTestPlanNum:
                 print(type(uiPlan))
@@ -139,6 +141,7 @@ class sendAdb():
                 #print("查看传参参数有错误！")
             elif len(reprotRspon['data']['jobs']) == 0:
                 print("当前无自动化任务！")
+                return None
 
             else:
                 '''当有任务时，去git拉取最新版本代码'''
@@ -148,14 +151,13 @@ class sendAdb():
                     self.adbDataYaml(reprotRspon)
                     time.sleep(2)
                     uiTestPlanIphone = reprotRspon['data']['jobs'][0]['devices']
-                    '''此处暂定获取到任务后再次传送当前连接手机信息，未优化完成（未增加锁死功能）'''
+                    '''此处获取当前有任务的手机，并将手机状态修改为1，传回中台，中台默认status=1，为占用状态'''
                     if uiTestPlanIphone == self.iphoneInfo:
                         iphoneStatus=1
                         sendAdb().sendreq(iphoneStatus)
                     else:
                         sendAdb()
-                    #将测试的项目名称与运行的文件记录下来
-                    UITestPlan=reprotRspon['data']['jobs'][0]['']
+                    return reprotRspon
 
                 else:
                     print("git拉取失败")
@@ -164,9 +166,35 @@ class sendAdb():
             print("程序运行出现错误，错误原因： %s" .format(e))
 
 
-
+    def readRunProject(self):
+        respone=self.runData()
+        '''
+        中台好了在注销，未好时先注掉上面的调用
+        respone={
+				"code":200,
+				"msg":"操作成功",
+				"data":{
+					"msg":"收到了1台可用手机",
+					"jobs":[
+							{
+								"devices":"NXTDU16818005575",
+								"project":"cuteu",
+								"py":"test_match.py",
+								"tag":"v1.0"
+							}
+						]
+					}
+			}
+			'''
+        uiTestPlanProject = jsonpath.jsonpath(respone,"$..project")
+        uiTestPlanWork = jsonpath.jsonpath(respone,"$..py")
+        uiTestPlan=" ".join(sorted(uiTestPlanWork))
+        #此处需要修改文件路径，获取path.yaml中的路径，调试情况，没加
+        os.chdir(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "/case/" + uiTestPlanProject[0]))
+        os.popen("chmod +x %s" % uiTestPlan)
+        os.system("python3 -m pytest %s" % uiTestPlan)
 
 if __name__ == '__main__':
     x=sendAdb()
     #x.adbDataYaml()
-    x.runData()
+    x.readRunProject()
