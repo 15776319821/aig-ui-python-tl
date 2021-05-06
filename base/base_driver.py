@@ -89,3 +89,7 @@ class setdriver():
                 p1 = int(p0.split('\n')[1].split()[1])  # 获取进程号
                 os.popen('kill {}'.format(p1))  # 结束进程
                 print('appium server已结束')
+
+if __name__ == '__main__':
+    x=setdriver()
+    x.runapp()
