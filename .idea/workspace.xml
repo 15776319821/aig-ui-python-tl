@@ -1,24 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5e3af040-e1f6-4d67-a001-fc6e2bd32e50" name="默认的" comment="针对图片比对代码进行优化，与对log日志输出位置进行路径与文件名称进行修改">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/case/atest.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/base_driver.py" afterPath="$PROJECT_DIR$/base/base_driver.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/cuteu/aboutus.py" afterPath="$PROJECT_DIR$/case/cuteu/aboutus.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/cuteu/conftest.py" afterPath="$PROJECT_DIR$/case/cuteu/conftest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/cuteu/test_match.py" afterPath="$PROJECT_DIR$/case/cuteu/test_match.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/confData/confData.yaml" afterPath="$PROJECT_DIR$/data/confData/confData.yaml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/1.txt" afterPath="$PROJECT_DIR$/elementloc/cuteu/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/case/test2.py" afterPath="$PROJECT_DIR$/pageproject/cuteu/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/elementloc/aboutus_loc.py" afterPath="$PROJECT_DIR$/elementloc/cuteu/aboutus_loc.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/elementloc/match_loc.py" afterPath="$PROJECT_DIR$/elementloc/cuteu/match_loc.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pageproject/aboutus_page.py" afterPath="$PROJECT_DIR$/pageproject/cuteu/aboutus_page.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pageproject/match_page.py" afterPath="$PROJECT_DIR$/pageproject/cuteu/match_page.py" />
+      <change afterPath="$PROJECT_DIR$/outputs/log/2021_05_06_17_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/log/2021_05_06_18_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/po.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/po.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/base_action.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_action.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/base_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_driver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/cuteu/test_match.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/cuteu/test_match.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/cuteu/test_matchwink.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/confData/confData.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/data/confData/confData.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elementloc/cuteu/match_loc.py" beforeDir="false" afterPath="$PROJECT_DIR$/elementloc/cuteu/match_loc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/log/2021_03_10_21_49_19_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/log/2021_03_21_17_23_45_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/log/2021_03_21_17_25_04_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/log/2021_03_21_17_26_15_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/log/2021_03_21_17_35_02_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/log/2021_03_21_17_35_33_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/log/2021_03_21_17_35_50_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/log/2021_03_21_17_37_03_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/log/2021_03_21_17_37_55_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/log/2021_03_21_17_42_48_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/log/2021_03_21_17_44_55_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/log/2021_03_21_17_47_39_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/log/2021_03_21_17_48_48_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/log/2021_03_21_17_51_41_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/log/2021_03_21_17_54_52_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/log/2021_03_21_18_02_57_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/log/2021_03_21_18_08_27_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/log/2021_03_21_18_10_12_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/log/2021_03_21_18_12_07_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/log/2021_03_21_18_19_48_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/log/2021_03_21_18_20_50_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/log/2021_03_21_18_22_11_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/log/2021_03_22_10_47_43_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/log/2021_04_13_20_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/log/2021_04_13_21_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/log/2021_04_14_10_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/log/2021_04_14_11_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/log/2021_04_14_13_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/log/2021_04_14_21_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/log/2021_04_18_16_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/log/2021_04_18_17_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pageproject/cuteu/match_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageproject/cuteu/match_page.py" afterDir="false" />
     </list>
-    <ignored path="D:\fancyu\aig-ui-python\.idea\shelf/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,76 +83,6 @@
     <SUITE FILE_PATH="coverage/po$test_match.coverage" NAME="test_match Coverage Results" MODIFIED="1616317959038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/po$test.coverage" NAME="test Coverage Results" MODIFIED="1615198089803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="base_driver.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base/base_driver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-              <folding>
-                <element signature="e#24#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getGitFile.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UIDeskTop/getGitFile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1089">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requ.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UIDeskTop/requ.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-400">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#12#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="appData.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/appData.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-231">
-              <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readIphoneData.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/base/readIphoneData.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="confData.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/confData/confData.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="85" lean-forward="true" selection-start-line="0" selection-start-column="62" selection-end-line="0" selection-end-column="85" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -114,64 +90,14 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>self.save_page</find>
-      <find>self.save_pag</find>
-      <find>save_pag</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="dev_tianlei" />
       </map>
     </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/de/des.py" />
-        <option value="$PROJECT_DIR$/pro/test_mat.py" />
-        <option value="$PROJECT_DIR$/scripts/test_mat.py" />
-        <option value="$PROJECT_DIR$/page/match_page.py" />
-        <option value="$PROJECT_DIR$/outputs/loggg/__init__.py" />
-        <option value="$PROJECT_DIR$/base/log.py" />
-        <option value="$PROJECT_DIR$/data/dataa.py" />
-        <option value="$PROJECT_DIR$/data/SHOUJI.py" />
-        <option value="$PROJECT_DIR$/data/msg_data.py" />
-        <option value="$PROJECT_DIR$/elementloc/set_about us.py" />
-        <option value="$PROJECT_DIR$/pageproject/set_about us_page.py" />
-        <option value="$PROJECT_DIR$/scripts/test_aboutus.py" />
-        <option value="$PROJECT_DIR$/scripts/test.py" />
-        <option value="$PROJECT_DIR$/scripts/test_match.py" />
-        <option value="$PROJECT_DIR$/elementloc/消息/aboutus_loc.py" />
-        <option value="$PROJECT_DIR$/case/1111.py" />
-        <option value="$PROJECT_DIR$/outputs/log/2021_03_10_21_49_19_log" />
-        <option value="$PROJECT_DIR$/base/createpath.py" />
-        <option value="$PROJECT_DIR$/elementloc/match_loc.py" />
-        <option value="$PROJECT_DIR$/case/test_match.py" />
-        <option value="$PROJECT_DIR$/case/test_aboutus.py" />
-        <option value="$PROJECT_DIR$/case/cuteu/test_matchwink.py" />
-        <option value="$PROJECT_DIR$/case/wink/conftest.py" />
-        <option value="$PROJECT_DIR$/data/appData.yaml" />
-        <option value="$PROJECT_DIR$/case/wink/match.py" />
-        <option value="$PROJECT_DIR$/base/base_action.py" />
-        <option value="$PROJECT_DIR$/base/base_log.py" />
-        <option value="$PROJECT_DIR$/pytest.ini" />
-        <option value="$PROJECT_DIR$/pageproject/match_page.py" />
-        <option value="$PROJECT_DIR$/data/confData/confData.yaml" />
-        <option value="$PROJECT_DIR$/base/base_driver.py" />
-        <option value="$PROJECT_DIR$/case/cuteu/test_match.py" />
-        <option value="$PROJECT_DIR$/elementloc/aboutus_loc.py" />
-        <option value="$PROJECT_DIR$/pageproject/aboutus_page.py" />
-        <option value="$PROJECT_DIR$/case/atest.py" />
-        <option value="$PROJECT_DIR$/case/cuteu/aboutus.py" />
-        <option value="$PROJECT_DIR$/case/cuteu/conftest.py" />
-      </list>
-    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -182,71 +108,28 @@
   <component name="ProblemsViewState">
     <option name="selectedIndex" value="1" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="190" />
-    <option name="y" value="82" />
-    <option name="width" value="1400" />
-    <option name="height" value="990" />
-  </component>
   <component name="ProjectId" id="1qSbHn7BDj5O7CKFyAufFmj6WJU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="aig-ui-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aig-ui-python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aig-ui-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aig-ui-python" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aig-ui-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aig-ui-python" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aig-ui-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aig-ui-python" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="confData" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-    </panes>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/po" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/case/cuteu" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\fancyu\aig-ui-python\pageproject\cuteu" />
       <recent name="D:\fancyu\aig-ui-python\elementloc\cuteu" />
@@ -255,20 +138,30 @@
       <recent name="D:\po\elementloc" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python tests.py.test in test_match.py">
+  <component name="RunManager" selected="Python.base_driver">
+    <configuration name="aboutus_page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="po" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pageproject/cuteu" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pageproject/cuteu/aboutus_page.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="base_driver" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="po" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -279,102 +172,93 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="po" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base/base_driver.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="base_log" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="po" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case/cuteu" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="po" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base/base_log.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/cuteu/conftest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="py.test for test_match.Testmatch.test_msg" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="xuexi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="po" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case/cuteu" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="po" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_match.Testmatch.test_msg&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/xuexi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="py.test in test_match.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="po" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case/cuteu" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="po" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/case/cuteu/test_match.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
     </configuration>
-    <configuration name="retry" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="po" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.retry" />
-      <item index="1" class="java.lang.String" itemvalue="Python.base_log" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for test_match.Testmatch.test_msg" />
-      <item index="3" class="java.lang.String" itemvalue="Python.base_driver" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_match.py" />
+    <list>
+      <item itemvalue="Python.aboutus_page" />
+      <item itemvalue="Python.base_driver" />
+      <item itemvalue="Python.conftest" />
+      <item itemvalue="Python.xuexi" />
+      <item itemvalue="Python tests.py.test in test_match.py" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_match.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python.base_driver" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for test_match.Testmatch.test_msg" />
-        <item index="3" class="java.lang.String" itemvalue="Python.base_log" />
-        <item index="4" class="java.lang.String" itemvalue="Python.retry" />
+      <list>
+        <item itemvalue="Python tests.py.test in test_match.py" />
+        <item itemvalue="Python.xuexi" />
+        <item itemvalue="Python.conftest" />
+        <item itemvalue="Python.base_driver" />
+        <item itemvalue="Python.aboutus_page" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -438,75 +322,6 @@
     <option name="localTasksCounter" value="8" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="py_test_for_test_match_Testmatch_test_msg - 2021.04.14 at 11h 38m 15s.xml">
-      <configuration name="py.test for test_match.Testmatch.test_msg" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_match_py - 2021.04.14 at 21h 14m 04s.xml">
-      <configuration name="py.test in test_match.py" configurationId="tests" />
-    </history-entry>
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28487125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39104828" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3828033" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3392226" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34603006" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -515,23 +330,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="启动多线程" />
     <MESSAGE value="图片比对函数，appium多线程启动一部分" />
     <MESSAGE value="增加本地启动代码" />
@@ -540,374 +347,51 @@
     <MESSAGE value="针对图片比对代码进行优化，与对log日志输出位置进行路径与文件名称进行修改" />
     <option name="LAST_COMMIT_MESSAGE" value="针对图片比对代码进行优化，与对log日志输出位置进行路径与文件名称进行修改" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/UIDeskTop/requ.py</url>
-          <line>145</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/base/pictureComparison.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/UIDeskTop/requ.py</url>
-          <line>115</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/case/cuteu/test_match.py</url>
-          <line>29</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/base/base_driver.py</url>
-          <line>59</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-      <option name="time" value="11" />
-    </breakpoint-manager>
-    <watches-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://D:/python/Lib/site-packages/appium/webdriver/common/touch_action.py" />
-    <entry file="file://$PROJECT_DIR$/base/11.yml" />
-    <entry file="file://$PROJECT_DIR$/outputs/log/2021_03_14_14_40_15_log" />
-    <entry file="file://D:/python/Lib/site-packages/appium/webdriver/webdriver.py" />
-    <entry file="file://D:/python/Lib/site-packages/selenium/webdriver/remote/webdriver.py" />
-    <entry file="file://D:/python/Lib/site-packages/selenium/webdriver/remote/errorhandler.py" />
-    <entry file="file://$PROJECT_DIR$/case/1111.py" />
-    <entry file="file://$PROJECT_DIR$/outputs/log/2021_03_10_21_49_19_log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/outputs/log/2021_03_21_17_26_15_log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/outputs/log/2021_03_21_17_37_55_log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elementloc/cuteu/match_loc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/outputs/log/2021_03_21_18_02_57_log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/createpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/test_match.py" />
-    <entry file="file://$PROJECT_DIR$/base/pictureComparison.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/msg_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screenShotImage/小图.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screenShotImage/小图2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screenShotImage/截屏图.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/cuteu/test_matchwink.py" />
-    <entry file="file://$PROJECT_DIR$/case/cuteu/test_msg.py" />
-    <entry file="file://$PROJECT_DIR$/pageproject/cuteu/match_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python/python39/Lib/site-packages/_pytest/python.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="1640" column="0" lean-forward="false" selection-start-line="1640" selection-start-column="0" selection-end-line="1640" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python/python39/Lib/site-packages/pluggy/manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python/python39/Lib/site-packages/pluggy/hooks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="285" column="0" lean-forward="false" selection-start-line="285" selection-start-column="0" selection-end-line="285" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python/python39/Lib/site-packages/_pytest/runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python/python39/Lib/site-packages/pluggy/callers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="201" column="0" lean-forward="false" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python/python39/Lib/site-packages/appium/webdriver/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="144" column="8" lean-forward="false" selection-start-line="144" selection-start-column="8" selection-end-line="144" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/base_log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="42" column="22" lean-forward="false" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
-          <folding>
-            <element signature="e#146#160#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python/python39/Lib/threading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29403">
-          <caret line="898" column="61" lean-forward="true" selection-start-line="898" selection-start-column="61" selection-end-line="898" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python/python39/Lib/concurrent/futures/thread.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1551">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pytest.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="22" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="9" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/base_action.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="e#147#158#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/atest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="45" column="11" lean-forward="true" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/appData.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-231">
-          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/cuteu/test_match.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elementloc/cuteu/aboutus_loc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/cuteu/aboutus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pageproject/cuteu/aboutus_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/cuteu/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding>
-            <element signature="e#23#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/-519253645/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="143" column="4" lean-forward="false" selection-start-line="143" selection-start-column="4" selection-end-line="143" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/-519253645/_io.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="1381" column="8" lean-forward="false" selection-start-line="1381" selection-start-column="8" selection-end-line="1381" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/-519253645/sys.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="605" column="0" lean-forward="false" selection-start-line="605" selection-start-column="0" selection-end-line="605" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/base_driver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-          <folding>
-            <element signature="e#24#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UIDeskTop/getGitFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1089">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UIDeskTop/requ.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-400">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#12#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/confData/confData.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="85" lean-forward="true" selection-start-line="0" selection-start-column="62" selection-end-line="0" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/readIphoneData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="604" y="317" key="#Notifications" timestamp="1619169345649">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="604" y="317" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1619169345649" />
+    <state x="329" y="206" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1619089317812">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="329" y="206" key="#com.intellij.fileTypes.FileTypeChooser/-1920.-228.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1619089317812" />
+    <state width="1259" height="402" key="GridCell.Tab.0.bottom" timestamp="1620296023971">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="169" key="GridCell.Tab.0.bottom/-1920.-203.1920.1055/0.25.1280.700@0.25.1280.700" timestamp="1619091838953" />
+    <state width="1259" height="402" key="GridCell.Tab.0.bottom/-1920.-228.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1620296023971" />
+    <state width="1259" height="402" key="GridCell.Tab.0.center" timestamp="1620296023970">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="169" key="GridCell.Tab.0.center/-1920.-203.1920.1055/0.25.1280.700@0.25.1280.700" timestamp="1619091838952" />
+    <state width="1259" height="402" key="GridCell.Tab.0.center/-1920.-228.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1620296023970" />
+    <state width="1259" height="402" key="GridCell.Tab.0.left" timestamp="1620296023969">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="169" key="GridCell.Tab.0.left/-1920.-203.1920.1055/0.25.1280.700@0.25.1280.700" timestamp="1619091838952" />
+    <state width="1259" height="402" key="GridCell.Tab.0.left/-1920.-228.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1620296023969" />
+    <state width="1259" height="402" key="GridCell.Tab.0.right" timestamp="1620296023970">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="169" key="GridCell.Tab.0.right/-1920.-203.1920.1055/0.25.1280.700@0.25.1280.700" timestamp="1619091838953" />
+    <state width="1259" height="402" key="GridCell.Tab.0.right/-1920.-228.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1620296023970" />
+    <state x="149" y="36" key="SettingsEditor" timestamp="1619089902786">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="149" y="36" key="SettingsEditor/-1920.-203.1920.1055/0.0.1280.800@0.0.1280.800" timestamp="1619000745966" />
+    <state x="149" y="36" key="SettingsEditor/-1920.-228.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1619089902786" />
+    <state x="431" y="318" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619093491752">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="431" y="318" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.-228.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1619093491751" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1620292450809">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/-1920.-228.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1620292450809" />
+    <state x="450" y="366" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1619172124041">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="450" y="366" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1440.900@0.0.1440.900" timestamp="1619172124041" />
   </component>
 </project>

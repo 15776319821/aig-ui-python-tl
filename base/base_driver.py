@@ -6,7 +6,7 @@ import io
 import os
 import sys
 import urllib.request
-from base.readIphoneData import readIphone,readAppData
+from base.readIphoneData import readIphone, readAppData
 from tomorrow3 import threads
 
 class setdriver():
@@ -19,7 +19,7 @@ class setdriver():
         desired_caps['platformName']='Android'
         #要测试手机安卓版本（9.1.1可以写9.1 也可以写9都行）
         #desired_caps['platformVersion']=str(appProjectData['iphoneAndroidNum'])
-        desired_caps['platformVersion'] = '9'
+        desired_caps['platformVersion'] = '10'
         #设备的名字，adb命令：adb devices查看，这个设备号安卓可以随便写，ios必须写对
         desired_caps['deviceName']=str(appProjectData['devices'])
         #要测试的应用的包名
@@ -46,7 +46,7 @@ class setdriver():
             iphoneData[i]=eval(iphoneData[i])
             desired = self.desired(iphoneData,i)
             appiumPort= 4723 + i
-            status=os.popen("netstat -an | findstr %s" % appiumPort)
+            status=os.popen("netstat -an | grep %s" % appiumPort)
             time.sleep(2)
             t1 = status.read()
             if "LISTENING" in t1:
@@ -87,3 +87,6 @@ class setdriver():
                 p1 = int(p0.split('\n')[1].split()[1])  # 获取进程号
                 os.popen('kill {}'.format(p1))  # 结束进程
                 print('appium server已结束')
+
+if __name__ == '__main__':
+    x =setdriver().runapp()

@@ -2,6 +2,7 @@
 #引用自己的模块就要用到下面的这个不然报错找不到模块
 import os
 import sys
+import time
 
 sys.path.append(os.getcwd())
 from pageproject.cuteu.match_page import MatchPage
@@ -22,7 +23,8 @@ class Testmatch:
         logger.info("执行前")
         MatchPage(init_driver['driver']).match()
         #self.driver.find_element_by_id('com.cuteu.videochat:id/btnTabMessage').click()
-        MatchPage(init_driver['driver']).msglist(1)
+        #MatchPage(init_driver['driver']).msglist(1)
+        MatchPage(init_driver['driver']).msgteam()
         logger.info("执行后")
 
 if __name__ == '__main__':
