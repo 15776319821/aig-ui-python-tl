@@ -3,6 +3,7 @@
 from base.base_action import BaseAction
 from base.base_driver import setdriver
 from appium import webdriver
+import json
 x=setdriver().runapp()
 #x=(4723,{'platformName': 'Android', 'platformVersion': '11', 'deviceName': 'R5CN90H26NK', 'appPackage': 'com.cuteu.videochat', 'appActivity': 'com.cuteu.video.chat.business.splash.SplashActivity', 'unicodeKeyboard': False, 'resetKeyboard': False, 'noReset': True})
 #driver = webdriver.Remote('http://0.0.0.0:%s/wd/hub' % x[0], x[1])
