@@ -284,9 +284,9 @@
     <list>
       <item itemvalue="Python.base_driver" />
       <item itemvalue="Python.debug_code" />
-      <item itemvalue="Python.requ" />
       <item itemvalue="Python.getGitFile" />
       <item itemvalue="Python.readIphoneData" />
+      <item itemvalue="Python.requ" />
     </list>
     <recent_temporary>
       <list>
