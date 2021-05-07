@@ -6,20 +6,23 @@ import io
 import os
 import sys
 import urllib.request
-from base.readIphoneData import readIphone,readAppData
+from base.readIphoneData import readIphone,readAppData,apkConfig
 from tomorrow3 import threads
-
+apkConfig=apkConfig()
 class setdriver():
     def desired(self,iphoneData,num):
         sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf8')
         appProjectData=eval(str(iphoneData[num]))
         appname=readAppData(appProjectData['project'])
+        apkpath=apkConfig.getApkPath(appname='FancyU',appbuild='217000')
         desired_caps=dict()
         #手机平台版本，大小写无所谓，对就行
         desired_caps['platformName']='Android'
         #要测试手机安卓版本（9.1.1可以写9.1 也可以写9都行）
         #desired_caps['platformVersion']=str(appProjectData['iphoneAndroidNum'])
-        desired_caps['platformVersion'] = '11'
+        desired_caps['platformVersion'] = '9'
+        #安装apk包
+        desired_caps['app'] = str(apkpath)
         #设备的名字，adb命令：adb devices查看，这个设备号安卓可以随便写，ios必须写对
         desired_caps['deviceName']=str(appProjectData['devices'])
         #要测试的应用的包名
@@ -91,4 +94,8 @@ class setdriver():
 
 if __name__ == '__main__':
     x=setdriver()
-    x.runapp()
+    Y=x.runapp()
+    i=0
+    if i <3:
+        Y.switch_to.alert.accept()
+        i+=1

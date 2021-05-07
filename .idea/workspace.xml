@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e3af040-e1f6-4d67-a001-fc6e2bd32e50" name="默认的" comment="修改了运行和本地端增加自动化路径，双端暂定分离">
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+    <list default="true" id="5e3af040-e1f6-4d67-a001-fc6e2bd32e50" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/data/appPackage/FancyU_2021.04.29_2.17.0_217000.production_fancyULocalDevelop.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UIDeskTop/requ.py" beforeDir="false" afterPath="$PROJECT_DIR$/UIDeskTop/requ.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/base_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_driver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/FancyMe/test_startApp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outputs/log/2021_04_30_18_log" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/log/2021_04_30_18_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/readIphoneData.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/readIphoneData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/confData/confData.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/data/confData/confData.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +45,14 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -161,19 +167,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/appPackage" />
       <recent name="$PROJECT_DIR$/screenShotImage" />
       <recent name="D:\po\elementloc" />
       <recent name="D:\po\elementloc\消息" />
       <recent name="D:\po\outputs\log" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.requ">
+  <component name="RunManager" selected="Python.base_driver">
     <configuration name="base_driver" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="po" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -237,6 +245,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="readIphoneData" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="po" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base/readIphoneData.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="requ" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="po" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -258,36 +287,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_match.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="po" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case/cuteu" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/cuteu/test_match.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.base_driver" />
-      <item itemvalue="Python tests.pytest in test_match.py" />
       <item itemvalue="Python.debug_code" />
       <item itemvalue="Python.requ" />
       <item itemvalue="Python.getGitFile" />
+      <item itemvalue="Python.readIphoneData" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.base_driver" />
+        <item itemvalue="Python.readIphoneData" />
         <item itemvalue="Python.requ" />
         <item itemvalue="Python.debug_code" />
-        <item itemvalue="Python.base_driver" />
         <item itemvalue="Python.getGitFile" />
-        <item itemvalue="Python tests.pytest in test_match.py" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619779610366</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="新代码">
+      <created>1620368208243</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1620368208246</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -442,6 +462,35 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -450,7 +499,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/Fancyme" />
+                        <option value="origin/FancyU" />
                       </list>
                     </value>
                   </entry>
@@ -461,10 +510,12 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="启动多线程" />
@@ -475,7 +526,8 @@
     <MESSAGE value="针对图片比对代码进行优化，与对log日志输出位置进行路径与文件名称进行修改" />
     <MESSAGE value="优化" />
     <MESSAGE value="修改了运行和本地端增加自动化路径，双端暂定分离" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改了运行和本地端增加自动化路径，双端暂定分离" />
+    <MESSAGE value="新代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="新代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -487,12 +539,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/base/base_driver.py</url>
-          <line>65</line>
+          <line>68</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/base/base_driver.py</url>
-          <line>54</line>
+          <line>57</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -507,13 +559,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/base/base_driver.py</url>
-          <line>61</line>
+          <line>64</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/debug_code.py</url>
           <line>8</line>
           <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/base/base_driver.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
