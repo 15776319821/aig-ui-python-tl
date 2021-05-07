@@ -167,9 +167,9 @@ class sendAdb():
 
 
     def readRunProject(self):
-        respone=self.runData()
-        '''
-        中台好了在注销，未好时先注掉上面的调用
+        #respone=self.runData()
+
+        #中台好了在注销，未好时先注掉上面的调用
         respone={
 				"code":200,
 				"msg":"操作成功",
@@ -178,20 +178,21 @@ class sendAdb():
 					"jobs":[
 							{
 								"devices":"NXTDU16818005575",
-								"project":"cuteu",
-								"py":"test_match.py",
+								"project":"fancyme",
+								"py":"test_startApp.py",
 								"tag":"v1.0"
 							}
 						]
 					}
 			}
-			'''
+
         uiTestPlanProject = jsonpath.jsonpath(respone,"$..project")
         uiTestPlanWork = jsonpath.jsonpath(respone,"$..py")
         uiTestPlan=" ".join(sorted(uiTestPlanWork))
         #此处需要修改文件路径，获取path.yaml中的路径，调试情况，没加
         os.chdir(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "/case/" + uiTestPlanProject[0]))
         os.popen("chmod +x %s" % uiTestPlan)
+        print("python3 -m pytest %s" % uiTestPlan)
         os.system("python3 -m pytest %s" % uiTestPlan)
 
 if __name__ == '__main__':

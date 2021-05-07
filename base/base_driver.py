@@ -70,7 +70,7 @@ class setdriver():
             appiumPort = 4723 + i
             return desired,appiumPort
 
-    def endappium(self,post_num):
+    def endAppium(self,post_num):
         '''关闭appium服务'''
         pc = sys.platform
         if pc.upper() == 'WINDOWS':
