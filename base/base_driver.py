@@ -19,11 +19,11 @@ class setdriver():
         desired_caps=dict()
         #手机平台版本，大小写无所谓，对就行
         desired_caps['platformName']='Android'
-        #要测试手机安卓版本（9.1.1可以写9.1 也可以写9都行）
+        #要测试手机安卓版本（9.1.1可以写9.1 也可以写9都行
         #desired_caps['platformVersion']=str(appProjectData['iphoneAndroidNum'])
-        desired_caps['platformVersion'] = '9'
+        desired_caps['platformVersion'] = '11'
         #安装apk包
-        desired_caps['app'] = str(apkpath)
+        #desired_caps['app'] = str(apkpath)
         #设备的名字，adb命令：adb devices查看，这个设备号安卓可以随便写，ios必须写对
         desired_caps['deviceName']=str(appProjectData['devices'])
         #要测试的应用的包名
@@ -31,8 +31,8 @@ class setdriver():
         #要启动应用的那个界面，就输入对应页面的activity
         desired_caps['appActivity']=str(appname['appActivity'])
         #加上下面两个配置项，才可以在app上输入中文
-        desired_caps['unicodeKeyboard']=False
-        desired_caps['resetKeyboard']=False
+        desired_caps['unicodeKeyboard'] = False
+        desired_caps['resetKeyboard'] = False
         #启动app时不要清楚原有的数据
         desired_caps['noReset']=True
         return desired_caps
@@ -93,10 +93,3 @@ class setdriver():
                 os.popen('kill {}'.format(p1))  # 结束进程
                 print('appium server已结束')
 
-if __name__ == '__main__':
-    x=setdriver()
-    Y=x.runapp()
-    i=0
-    if i <3:
-        Y.switch_to.alert.accept()
-        i+=1

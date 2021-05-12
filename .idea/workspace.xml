@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e3af040-e1f6-4d67-a001-fc6e2bd32e50" name="默认的" comment="默认的" />
+    <list default="true" id="5e3af040-e1f6-4d67-a001-fc6e2bd32e50" name="默认的" comment="默认的">
+      <change afterPath="$PROJECT_DIR$/elementloc/FancyMe/IM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elementloc/FancyMe/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageproject/FancyMe/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageproject/FancyMe/im_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/base_action.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_action.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/base_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_driver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/readIphoneData.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/readIphoneData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/FancyMe/test_myPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/FancyMe/test_IMPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/appData.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/data/appData.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/confData/confData.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/data/confData/confData.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -168,14 +180,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/elementloc" />
       <recent name="$PROJECT_DIR$/data/appPackage" />
       <recent name="$PROJECT_DIR$/screenShotImage" />
       <recent name="D:\po\elementloc" />
       <recent name="D:\po\elementloc\消息" />
-      <recent name="D:\po\outputs\log" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.base_driver">
+  <component name="RunManager" selected="Python tests.pytest in test_IMPage.py">
     <configuration name="base_driver" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="po" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,7 +209,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="debug_code" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pictureComparison" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="po" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -205,32 +217,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/debug_code.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="getGitFile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="po" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UIDeskTop" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UIDeskTop/getGitFile.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base/pictureComparison.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -260,41 +251,52 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="requ" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in im_page.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="po" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UIDeskTop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pageproject/FancyMe" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UIDeskTop/requ.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pageproject/FancyMe/im_page.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_IMPage.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="po" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case/FancyMe" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/FancyMe/test_IMPage.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.base_driver" />
-      <item itemvalue="Python.debug_code" />
-      <item itemvalue="Python.getGitFile" />
       <item itemvalue="Python.readIphoneData" />
-      <item itemvalue="Python.requ" />
+      <item itemvalue="Python.pictureComparison" />
+      <item itemvalue="Python tests.pytest in im_page.py" />
+      <item itemvalue="Python tests.pytest in test_IMPage.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_IMPage.py" />
+        <item itemvalue="Python tests.pytest in im_page.py" />
+        <item itemvalue="Python.pictureComparison" />
         <item itemvalue="Python.base_driver" />
         <item itemvalue="Python.readIphoneData" />
-        <item itemvalue="Python.requ" />
-        <item itemvalue="Python.debug_code" />
-        <item itemvalue="Python.getGitFile" />
       </list>
     </recent_temporary>
   </component>
@@ -535,21 +537,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/base/pictureComparison.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/base/base_driver.py</url>
-          <line>68</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/base/base_driver.py</url>
-          <line>57</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/case/cuteu/test_match.py</url>
           <line>20</line>
           <option name="timeStamp" value="33" />
@@ -560,19 +547,14 @@
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/base/base_driver.py</url>
-          <line>64</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/debug_code.py</url>
           <line>9</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/base/base_driver.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="45" />
+          <url>file://$PROJECT_DIR$/case/FancyMe/test_IMPage.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

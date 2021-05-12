@@ -4,7 +4,7 @@
 # @Email    :1420500885@qq.com
 # @File     :basepage.py
 # @Software :PyCharm
-
+import os
 import time
 
 from selenium.webdriver.support.wait import WebDriverWait
@@ -83,21 +83,37 @@ class BaseAction:
         self.driver.quit()
 
     #保存截图到outputs/screenshots需要用到
-    # def save_page_screenshot(self, img_dic):
-    #     """
-    #     :param img_dic:  截屏的图片
-    #     :return:
-    #     """
-    #
-    #     time =datetime.now().strftime('%Y%m%d%H%M%S')
-    #     screenshot_path = p_path.SCREENSHOTS_PATH+ "/{}_{}.png".format(img_dic, time)
-    #     try:
-    #         self.driver.get_screenshot_as_file(p_path.SCREENSHOTS_PATH+screenshot_path)
-    #         self.driver.save_screenshot(screenshot_path)
-    #     except Exception as err:
-    #         logger.exception("当前网页截图失败")
-    #     else:
-    #         logger.info("截取当前网页成功并存储在:{}".format(screenshot_path))
+    def save_page_screenshot(self, img_dic):
+        """
+        :param img_dic:  截屏的图片
+        :return:
+        """
 
+        time =datetime.now().strftime('%Y%m%d%H%M%S')
+        screenshot_path = p_path.SCREENSHOTS_PATH+ "/{}_{}.png".format(img_dic, time)
+        try:
+            self.driver.get_screenshot_as_file(p_path.SCREENSHOTS_PATH+screenshot_path)
+            self.driver.save_screenshot(screenshot_path)
+        except Exception as err:
+            logger.exception("当前网页截图失败")
+        else:
+            logger.info("截取当前网页成功并存储在:{}".format(screenshot_path))
 
+    def comparisonScreenShot(self, img_dic:str):
+        """
+        对比图片进行底图截图模块
+        :param img_dic:  截屏的图片名称
+        :return:保存图片
+        """
+
+        filepath = os.path.dirname(os.path.abspath(__file__))
+        imagefilepath = os.path.join(os.path.dirname(filepath) + "/screenShotImage")
+        screenshot_path = imagefilepath + str(img_dic) + '.png'
+        try:
+            self.driver.get_screenshot_as_file(screenshot_path)
+            self.driver.save_screenshot(screenshot_path)
+        except Exception as err:
+            logger.exception("当前网页截图失败")
+        else:
+            logger.info("截取当前网页成功并存储在:{}".format(screenshot_path))
 

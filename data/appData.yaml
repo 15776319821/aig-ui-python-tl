@@ -14,7 +14,7 @@ moonchat:
 lamour:
   appPackage: com.asiainno.uplive.aiglamour
   appActivity: com.asiainno.uplive.beepme.business.splash.SplashActiveActivity
-fancyme:
+fancyMe:
   appPackage: com.aiglamour.ancho
   appActivity: com.asiainno.uplive.beepme.business.splash.SplashActivity
 cuteu:

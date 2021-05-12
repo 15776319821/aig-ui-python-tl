@@ -1,6 +1,8 @@
 import yaml
 import os
+from base.base_log import DemeLog
 from selenium import webdriver
+log=DemeLog().log()
 def readIphone():
     '''获取手机配置信息，返回手机adb号与安卓版本'''
     rootPath=os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
@@ -49,3 +51,20 @@ class apkConfig:
     def downloadApk(self):
         '''下载apk'''
         pass
+def permissionPopupClose(driver):
+    #根据名称进行点击权限弹窗
+    while True:
+        if "允许" in driver.page_source():
+            driver.switch_to.alert.accept()
+        else:
+            print('权限处理结束')
+            break
+def permissionPopupClose2(driver):
+    #获取弹窗中允许的xpath,获取当前页面元素判断是否包含允许字符，有则点击xpath
+    while True:
+        loc = ("xpath", "//android.widget.Button[contains(@text,'允许')]")
+        if '允许' in driver.page_source():
+            driver.click_element(loc)
+        else:
+            print("权限处理结束")
+            break
