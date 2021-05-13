@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e3af040-e1f6-4d67-a001-fc6e2bd32e50" name="默认的" comment="默认的">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/base_action.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_action.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/FancyMe/test_IMPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/FancyMe/test_IMPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/FancyMe/test_startApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/FancyMe/test_startApp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elementloc/FancyMe/IM.py" beforeDir="false" afterPath="$PROJECT_DIR$/elementloc/FancyMe/IM.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageproject/FancyMe/im_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageproject/FancyMe/im_page.py" afterDir="false" />
-    </list>
+    <list default="true" id="5e3af040-e1f6-4d67-a001-fc6e2bd32e50" name="默认的" comment="增加iM元素与一些基础方法" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -274,11 +267,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.im_page" />
       <item itemvalue="Python.pictureComparison" />
+      <item itemvalue="Python tests.pytest for test_IMPage.TestIm.test_clickImPage" />
       <item itemvalue="Python tests.pytest in im_page.py" />
       <item itemvalue="Python tests.pytest in test_IMPage.py" />
-      <item itemvalue="Python tests.pytest for test_IMPage.TestIm.test_clickImPage" />
-      <item itemvalue="Python.im_page" />
     </list>
     <recent_temporary>
       <list>
@@ -386,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620385111843</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="增加iM元素与一些基础方法">
+      <created>1620904703479</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1620904703481</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -521,7 +521,8 @@
     <MESSAGE value="修改了运行和本地端增加自动化路径，双端暂定分离" />
     <MESSAGE value="新代码" />
     <MESSAGE value="默认的" />
-    <option name="LAST_COMMIT_MESSAGE" value="默认的" />
+    <MESSAGE value="增加iM元素与一些基础方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加iM元素与一些基础方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
