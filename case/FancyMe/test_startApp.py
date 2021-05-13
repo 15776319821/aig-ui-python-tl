@@ -1,9 +1,11 @@
-import os,sys
-sys.path.append(os.getcwd())
 from pageproject.match_page import MatchPage
 from base.base_log import logger
+from pageproject.FancyMe.im_page import Im
 
-class TestStartApp():
-    def test_start(self,init_driver):
-        logger.info("执行前")
-        pass
+class TestIm():
+    def test_clickImPage(self,init_driver):
+        logger.info("开始执行进入IM模块")
+        driver=Im(init_driver['driver'])
+        driver.clickImPage()
+        driver.click1v1Message()
+        driver.returnBtn()

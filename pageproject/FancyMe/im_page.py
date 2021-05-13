@@ -2,7 +2,7 @@ from pageproject.match_page import MatchPage
 from base.base_log import logger
 from base.base_action import BaseAction
 from elementloc.FancyMe.IM import ImLoc
-
+import time
 class Im(BaseAction):
 
     def __init__(self, driver):
@@ -32,6 +32,31 @@ class Im(BaseAction):
         if click != 1:
             logger.info("点击进入互动消息页面")
             self.click_element(ImLoc.Im_notice,"互动消息")
+
+    def click1v1Message(self,click=1):
+        logger.info("消息列表信息")
+        self.find_element(ImLoc.Im_news_lastTime,"1v1消息最后时间")
+        if click == 1:
+            logger.info("点击最后消息时间")
+            self.click_element(ImLoc.Im_news_lastTime,"1v1消息最后时间")
+            if self.find_element(ImLoc.Im_news_1v1message_btnReply,"1v1消息预设置按钮"):
+                logger.info("进入1v1消息页面")
+    def returnBtn(self):
+        logger.info("返回")
+        #self.find_element(ImLoc.Im_news_1v1message_returnBtn,"返回按钮")
+
+        returnBtn=ImLoc.Im_news_1v1message_returnBtn
+        source=self.driver.page_source
+        time.sleep(2)
+        while True:
+            if returnBtn[1] in source:
+
+                self.click_element(ImLoc.Im_news_1v1message_returnBtn,'返回按钮')
+                logger.info("循环点击返回按钮，退出到一级页面")
+            else:
+                logger.info("页面返回到一级页面")
+                break
+
 
 
 

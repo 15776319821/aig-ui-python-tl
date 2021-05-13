@@ -5,6 +5,9 @@ from pageproject.FancyMe.im_page import Im
 class TestIm():
     def test_clickImPage(self,init_driver):
         logger.info("开始执行进入IM模块")
-        Im(init_driver['driver']).clickImPage()
+        driver=Im(init_driver['driver'])
+        driver.clickImPage()
+        driver.click1v1Message()
+        driver.returnBtn()
 
 
