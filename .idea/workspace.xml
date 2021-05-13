@@ -20,10 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e3af040-e1f6-4d67-a001-fc6e2bd32e50" name="默认的" comment="针对图片比对代码进行优化，与对log日志输出位置进行路径与文件名称进行修改">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/po.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/po.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/case/cuteu/recommend/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case/cuteu/recommend/test_discover.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elementloc/cuteu/recommend/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elementloc/cuteu/recommend/recommend_loc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/log/2021_05_08_17_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/log/2021_05_08_18_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageproject/cuteu/recommend/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageproject/cuteu/recommend/discover_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+>>>>>>> dev_tianlei
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +97,11 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pageproject/cuteu/recommend" />
+<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+=======
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+>>>>>>> dev_tianlei
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -302,9 +319,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+<<<<<<< HEAD
     <ignored-roots>
       <path value="$PROJECT_DIR$/UIDesktop" />
     </ignored-roots>
+=======
+>>>>>>> dev_tianlei
     <MESSAGE value="启动多线程" />
     <MESSAGE value="图片比对函数，appium多线程启动一部分" />
     <MESSAGE value="增加本地启动代码" />
@@ -342,6 +362,7 @@
     </state>
     <state width="1259" height="169" key="GridCell.Tab.0.right/-1920.-203.1920.1055/0.25.1280.700@0.25.1280.700" timestamp="1619091838953" />
     <state width="1259" height="402" key="GridCell.Tab.0.right/-1920.-228.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1620296023970" />
+<<<<<<< HEAD
     <state x="128" y="66" key="MergeDialog" timestamp="1620817070530">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -356,14 +377,25 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="240" y="137" key="Vcs.Push.Dialog.v2/-1920.-228.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1620889114583" />
+=======
+    <state x="168" y="41" key="SettingsEditor" timestamp="1620460420738">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="149" y="36" key="SettingsEditor/-1920.-203.1920.1055/0.0.1280.800@0.0.1280.800" timestamp="1619000745966" />
+    <state x="149" y="36" key="SettingsEditor/-1920.-228.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1619089902786" />
+    <state x="168" y="41" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1620460420738" />
+>>>>>>> dev_tianlei
     <state x="431" y="318" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619093491752">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="431" y="318" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.-228.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1619093491751" />
+<<<<<<< HEAD
     <state x="393" y="117" key="git4idea.branch.GitSmartOperationDialog" timestamp="1620817059082">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="393" y="117" key="git4idea.branch.GitSmartOperationDialog/-1920.-228.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1620817059082" />
+=======
+>>>>>>> dev_tianlei
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1620292450809">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

@@ -1,0 +1,685 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"5e3af040-e1f6-4d67-a001-fc6e2bd32e50\" name=\"默认的\" comment=\"针对图片比对代码进行优化，与对log日志输出位置进行路径与文件名称进行修改\">\n      <change afterPath=\"$PROJECT_DIR$/debug_code.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/po.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/po.iml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_3_31,_11_10_上午_[默认的]1/shelved.patch\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_3_31__11_10____1.xml\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/base/base_action.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/base/base_action.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/base/base_driver.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/base/base_driver.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/case/cuteu/conftest.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/case/cuteu/conftest.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/case/cuteu/test_match.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/case/cuteu/test_match.py\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"CoverageDataManager\">\n    <SUITE FILE_PATH=\"coverage/po$1111.coverage\" NAME=\"1111 Coverage Results\" MODIFIED=\"1615968371712\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/case\" />\n    <SUITE FILE_PATH=\"coverage/po$test__1_.coverage\" NAME=\"test (1) Coverage Results\" MODIFIED=\"1615719797921\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/scripts\" />\n    <SUITE FILE_PATH=\"coverage/po$test_mat.coverage\" NAME=\"test_mat Coverage Results\" MODIFIED=\"1614606289302\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/pro\" />\n    <SUITE FILE_PATH=\"coverage/po$atest.coverage\" NAME=\"atest Coverage Results\" MODIFIED=\"1615816654733\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/scripts\" />\n    <SUITE FILE_PATH=\"coverage/po$base_driver.coverage\" NAME=\"base_driver Coverage Results\" MODIFIED=\"1615380953567\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/base\" />\n    <SUITE FILE_PATH=\"coverage/po$log.coverage\" NAME=\"log Coverage Results\" MODIFIED=\"1615023058551\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/base\" />\n    <SUITE FILE_PATH=\"coverage/po$test_match.coverage\" NAME=\"test_match Coverage Results\" MODIFIED=\"1616317959038\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/case\" />\n    <SUITE FILE_PATH=\"coverage/po$test.coverage\" NAME=\"test Coverage Results\" MODIFIED=\"1615198089803\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/scripts\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Python Script\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"FindInProjectRecents\">\n    <findStrings>\n      <find>self.save_page</find>\n      <find>self.save_pag</find>\n      <find>save_pag</find>\n    </findStrings>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n    <option name=\"ROOT_SYNC\" value=\"DONT_SYNC\" />\n  </component>\n  <component name=\"IdeDocumentHistory\">\n    <option name=\"CHANGED_PATHS\">\n      <list>\n        <option value=\"$PROJECT_DIR$/de/des.py\" />\n        <option value=\"$PROJECT_DIR$/pro/test_mat.py\" />\n        <option value=\"$PROJECT_DIR$/scripts/test_mat.py\" />\n        <option value=\"$PROJECT_DIR$/page/match_page.py\" />\n        <option value=\"$PROJECT_DIR$/outputs/loggg/__init__.py\" />\n        <option value=\"$PROJECT_DIR$/base/log.py\" />\n        <option value=\"$PROJECT_DIR$/data/dataa.py\" />\n        <option value=\"$PROJECT_DIR$/data/SHOUJI.py\" />\n        <option value=\"$PROJECT_DIR$/data/msg_data.py\" />\n        <option value=\"$PROJECT_DIR$/elementloc/set_about us.py\" />\n        <option value=\"$PROJECT_DIR$/pageproject/set_about us_page.py\" />\n        <option value=\"$PROJECT_DIR$/scripts/test_aboutus.py\" />\n        <option value=\"$PROJECT_DIR$/scripts/test.py\" />\n        <option value=\"$PROJECT_DIR$/elementloc/aboutus_loc.py\" />\n        <option value=\"$PROJECT_DIR$/scripts/test_match.py\" />\n        <option value=\"$PROJECT_DIR$/elementloc/消息/aboutus_loc.py\" />\n        <option value=\"$PROJECT_DIR$/case/1111.py\" />\n        <option value=\"$PROJECT_DIR$/base/base_driver.py\" />\n        <option value=\"$PROJECT_DIR$/pageproject/aboutus_page.py\" />\n        <option value=\"$PROJECT_DIR$/outputs/log/2021_03_10_21_49_19_log\" />\n        <option value=\"$PROJECT_DIR$/base/base_log.py\" />\n        <option value=\"$PROJECT_DIR$/base/createpath.py\" />\n        <option value=\"$PROJECT_DIR$/base/base_action.py\" />\n        <option value=\"$PROJECT_DIR$/elementloc/match_loc.py\" />\n        <option value=\"$PROJECT_DIR$/pageproject/match_page.py\" />\n        <option value=\"$PROJECT_DIR$/pytest.ini\" />\n        <option value=\"$PROJECT_DIR$/case/test_match.py\" />\n        <option value=\"$PROJECT_DIR$/case/test_aboutus.py\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"JsBuildToolGruntFileManager\" detection-done=\"true\" sorting=\"DEFINITION_ORDER\" />\n  <component name=\"JsBuildToolPackageJson\" detection-done=\"true\" sorting=\"DEFINITION_ORDER\" />\n  <component name=\"JsGulpfileManager\">\n    <detection-done>true</detection-done>\n    <sorting>DEFINITION_ORDER</sorting>\n  </component>\n  <component name=\"ProblemsViewState\">\n    <option name=\"selectedIndex\" value=\"1\" />\n  </component>\n  <component name=\"ProjectFrameBounds\" extendedState=\"7\">\n    <option name=\"x\" value=\"190\" />\n    <option name=\"y\" value=\"82\" />\n    <option name=\"width\" value=\"1400\" />\n    <option name=\"height\" value=\"990\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1qSbHn7BDj5O7CKFyAufFmj6WJU\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectView\">\n    <navigator currentView=\"ProjectPane\" proportions=\"\" version=\"1\">\n      <flattenPackages />\n      <showMembers />\n      <showModules />\n      <showLibraryContents />\n      <hideEmptyPackages />\n      <abbreviatePackageNames />\n      <autoscrollToSource />\n      <autoscrollFromSource />\n      <sortByType />\n      <manualOrder />\n      <foldersAlwaysOnTop value=\"true\" />\n    </navigator>\n    <panes>\n      <pane id=\"Scratches\" />\n      <pane id=\"ProjectPane\">\n        <subPane>\n          <expand>\n            <path>\n              <item name=\"po\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"po\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"po\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"po\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"base\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"po\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"po\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"case\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"po\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"po\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"elementloc\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"po\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"po\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"outputs\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"po\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"po\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"outputs\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"log\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n          </expand>\n          <select />\n        </subPane>\n      </pane>\n      <pane id=\"Scope\" />\n    </panes>\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/screenShotImage\" />\n      <recent name=\"D:\\po\\elementloc\" />\n      <recent name=\"D:\\po\\elementloc\\消息\" />\n      <recent name=\"D:\\po\\outputs\\log\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Python tests.pytest in test_match.py\">\n    <configuration name=\"base_driver\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"po\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/base\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/base/base_driver.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"debug_code\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"po\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/debug_code.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"retry\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"po\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"pytest for test_match.Testmatch.test_msg\" type=\"tests\" factoryName=\"py.test\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"po\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/case/cuteu\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"_new_keywords\" value=\"&quot;&quot;\" />\n      <option name=\"_new_parameters\" value=\"&quot;&quot;\" />\n      <option name=\"_new_additionalArguments\" value=\"&quot;&quot;\" />\n      <option name=\"_new_target\" value=\"&quot;test_match.Testmatch.test_msg&quot;\" />\n      <option name=\"_new_targetType\" value=\"&quot;PYTHON&quot;\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"pytest in test_match.py\" type=\"tests\" factoryName=\"py.test\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"po\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/case/cuteu\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"_new_keywords\" value=\"&quot;&quot;\" />\n      <option name=\"_new_parameters\" value=\"&quot;&quot;\" />\n      <option name=\"_new_additionalArguments\" value=\"&quot;&quot;\" />\n      <option name=\"_new_target\" value=\"&quot;$PROJECT_DIR$/case/cuteu/test_match.py&quot;\" />\n      <option name=\"_new_targetType\" value=\"&quot;PATH&quot;\" />\n      <method v=\"2\" />\n    </configuration>\n    <list>\n      <item itemvalue=\"Python.base_driver\" />\n      <item itemvalue=\"Python.retry\" />\n      <item itemvalue=\"Python tests.pytest for test_match.Testmatch.test_msg\" />\n      <item itemvalue=\"Python tests.pytest in test_match.py\" />\n      <item itemvalue=\"Python.debug_code\" />\n    </list>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Python tests.pytest in test_match.py\" />\n        <item itemvalue=\"Python.debug_code\" />\n        <item itemvalue=\"Python.base_driver\" />\n        <item itemvalue=\"Python tests.pytest for test_match.Testmatch.test_msg\" />\n        <item itemvalue=\"Python.retry\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"SvnConfiguration\">\n    <configuration />\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"5e3af040-e1f6-4d67-a001-fc6e2bd32e50\" name=\"默认的\" comment=\"\" />\n      <created>1614605978002</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1614605978002</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"启动多线程\">\n      <created>1617162428400</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1617162428400</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"图片比对函数，appium多线程启动一部分\">\n      <created>1617186725094</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1617186725094</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"增加本地启动代码\">\n      <created>1617187403041</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1617187403041</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"增加本地启动\">\n      <created>1617187912312</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1617187912312</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"增加本地启动\">\n      <created>1617187918317</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1617187918317</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"针对图片比对进行优化\">\n      <created>1617354561523</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1617354561523</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"针对图片比对代码进行优化，与对log日志输出位置进行路径与文件名称进行修改\">\n      <created>1617354634492</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1617354634492</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"8\" />\n    <servers />\n  </component>\n  <component name=\"TodoView\">\n    <todo-panel id=\"selected-file\">\n      <is-autoscroll-to-source value=\"true\" />\n    </todo-panel>\n    <todo-panel id=\"all\">\n      <are-packages-shown value=\"true\" />\n      <is-autoscroll-to-source value=\"true\" />\n    </todo-panel>\n  </component>\n  <component name=\"ToolWindowManager\">\n    <frame x=\"-9\" y=\"-9\" width=\"1938\" height=\"1048\" extended-state=\"7\" />\n    <layout>\n      <window_info id=\"Project\" active=\"true\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"true\" show_stripe_button=\"true\" weight=\"0.35085836\" sideWeight=\"0.5\" order=\"0\" side_tool=\"false\" content_ui=\"combo\" />\n      <window_info id=\"TODO\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.32979977\" sideWeight=\"0.5\" order=\"6\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Event Log\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"7\" side_tool=\"true\" content_ui=\"tabs\" />\n      <window_info id=\"Database\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"3\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Version Control\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"false\" weight=\"0.33\" sideWeight=\"0.5\" order=\"7\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Python Console\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.32979977\" sideWeight=\"0.5\" order=\"7\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Structure\" active=\"false\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.25\" sideWeight=\"0.5\" order=\"1\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Terminal\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"true\" show_stripe_button=\"true\" weight=\"0.38162544\" sideWeight=\"0.5\" order=\"7\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Favorites\" active=\"false\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"2\" side_tool=\"true\" content_ui=\"tabs\" />\n      <window_info id=\"Data View\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"3\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Cvs\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.25\" sideWeight=\"0.5\" order=\"4\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"调试\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"7\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Message\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"0\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Commander\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.4\" sideWeight=\"0.5\" order=\"0\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Inspection\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.4\" sideWeight=\"0.5\" order=\"5\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Run\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"2\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"运行\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.32979977\" sideWeight=\"0.5\" order=\"7\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Hierarchy\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.25\" sideWeight=\"0.5\" order=\"2\" side_tool=\"false\" content_ui=\"combo\" />\n      <window_info id=\"Find\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"1\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Ant Build\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.25\" sideWeight=\"0.5\" order=\"1\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Debug\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.4\" sideWeight=\"0.5\" order=\"3\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"找到\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"8\" side_tool=\"false\" content_ui=\"tabs\" />\n    </layout>\n    <layout-to-restore>\n      <window_info id=\"TODO\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.32979977\" sideWeight=\"0.5\" order=\"6\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Cvs\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.25\" sideWeight=\"0.5\" order=\"4\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"调试\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"7\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Message\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"0\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Commander\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.4\" sideWeight=\"0.5\" order=\"0\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Event Log\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"8\" side_tool=\"true\" content_ui=\"tabs\" />\n      <window_info id=\"Inspection\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.4\" sideWeight=\"0.5\" order=\"5\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Version Control\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"false\" weight=\"0.33\" sideWeight=\"0.5\" order=\"9\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Python Console\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.32979977\" sideWeight=\"0.5\" order=\"10\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Run\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"2\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Terminal\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"true\" show_stripe_button=\"true\" weight=\"0.3392226\" sideWeight=\"0.5\" order=\"11\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"运行\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.32979977\" sideWeight=\"0.5\" order=\"12\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Project\" active=\"false\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"true\" show_stripe_button=\"true\" weight=\"0.34603006\" sideWeight=\"0.5\" order=\"0\" side_tool=\"false\" content_ui=\"combo\" />\n      <window_info id=\"Hierarchy\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.25\" sideWeight=\"0.5\" order=\"2\" side_tool=\"false\" content_ui=\"combo\" />\n      <window_info id=\"Database\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"3\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Find\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"1\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Structure\" active=\"false\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.25\" sideWeight=\"0.5\" order=\"1\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Ant Build\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.25\" sideWeight=\"0.5\" order=\"1\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Favorites\" active=\"false\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"2\" side_tool=\"true\" content_ui=\"tabs\" />\n      <window_info id=\"Debug\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.4\" sideWeight=\"0.5\" order=\"3\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"找到\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"13\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Data View\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"4\" side_tool=\"false\" content_ui=\"tabs\" />\n    </layout-to-restore>\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"1\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"VcsContentAnnotationSettings\">\n    <option name=\"myLimit\" value=\"2678400000\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"启动多线程\" />\n    <MESSAGE value=\"图片比对函数，appium多线程启动一部分\" />\n    <MESSAGE value=\"增加本地启动代码\" />\n    <MESSAGE value=\"增加本地启动\" />\n    <MESSAGE value=\"针对图片比对进行优化\" />\n    <MESSAGE value=\"针对图片比对代码进行优化，与对log日志输出位置进行路径与文件名称进行修改\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"针对图片比对代码进行优化，与对log日志输出位置进行路径与文件名称进行修改\" />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <breakpoints>\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\n          <url>file://$PROJECT_DIR$/UIDeskTop/requ.py</url>\n          <line>145</line>\n          <option name=\"timeStamp\" value=\"4\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\n          <url>file://$PROJECT_DIR$/base/pictureComparison.py</url>\n          <line>17</line>\n          <option name=\"timeStamp\" value=\"11\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\n          <url>file://$PROJECT_DIR$/UIDeskTop/requ.py</url>\n          <line>115</line>\n          <option name=\"timeStamp\" value=\"13\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\n          <url>file://$PROJECT_DIR$/base/base_driver.py</url>\n          <line>65</line>\n          <option name=\"timeStamp\" value=\"27\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\n          <url>file://$PROJECT_DIR$/base/base_driver.py</url>\n          <line>54</line>\n          <option name=\"timeStamp\" value=\"32\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\n          <url>file://$PROJECT_DIR$/case/cuteu/test_match.py</url>\n          <line>20</line>\n          <option name=\"timeStamp\" value=\"33\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\n          <url>file://$PROJECT_DIR$/debug_code.py</url>\n          <line>4</line>\n          <option name=\"timeStamp\" value=\"35\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\n          <url>file://$PROJECT_DIR$/base/base_driver.py</url>\n          <line>61</line>\n          <option name=\"timeStamp\" value=\"36\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\n          <url>file://$PROJECT_DIR$/debug_code.py</url>\n          <line>7</line>\n          <option name=\"timeStamp\" value=\"38\" />\n        </line-breakpoint>\n      </breakpoints>\n    </breakpoint-manager>\n  </component>\n  <component name=\"editorHistoryManager\">\n    <entry file=\"file://$PROJECT_DIR$/base/base_log.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"561\">\n          <caret line=\"18\" column=\"38\" lean-forward=\"true\" selection-start-line=\"18\" selection-start-column=\"38\" selection-end-line=\"18\" selection-end-column=\"38\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://D:/python/Lib/logging/__init__.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"33462\">\n          <caret line=\"1016\" column=\"38\" lean-forward=\"true\" selection-start-line=\"1016\" selection-start-column=\"19\" selection-end-line=\"1016\" selection-end-column=\"38\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/elementloc/match_loc.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"132\">\n          <caret line=\"4\" column=\"61\" lean-forward=\"true\" selection-start-line=\"4\" selection-start-column=\"61\" selection-end-line=\"4\" selection-end-column=\"61\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/case/test_match.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"726\">\n          <caret line=\"22\" column=\"29\" lean-forward=\"false\" selection-start-line=\"22\" selection-start-column=\"27\" selection-end-line=\"22\" selection-end-column=\"29\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/outputs/log/2021_03_06_18_31_25_log\" />\n    <entry file=\"file://$PROJECT_DIR$/base/base_driver.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"924\">\n          <caret line=\"32\" column=\"0\" lean-forward=\"true\" selection-start-line=\"32\" selection-start-column=\"0\" selection-end-line=\"32\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/outputs/log/2021_03_06_19_21_09_log\" />\n    <entry file=\"file://$PROJECT_DIR$/case/test_match.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"231\">\n          <caret line=\"7\" column=\"11\" lean-forward=\"true\" selection-start-line=\"7\" selection-start-column=\"11\" selection-end-line=\"7\" selection-end-column=\"11\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/pytest.ini\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"33\">\n          <caret line=\"1\" column=\"0\" lean-forward=\"true\" selection-start-line=\"1\" selection-start-column=\"0\" selection-end-line=\"1\" selection-end-column=\"0\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/elementloc/match_loc.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"99\">\n          <caret line=\"3\" column=\"10\" lean-forward=\"false\" selection-start-line=\"3\" selection-start-column=\"10\" selection-end-line=\"3\" selection-end-column=\"10\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/base/base_driver.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"924\">\n          <caret line=\"32\" column=\"0\" lean-forward=\"true\" selection-start-line=\"32\" selection-start-column=\"0\" selection-end-line=\"32\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/base/base_action.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"198\">\n          <caret line=\"6\" column=\"26\" lean-forward=\"false\" selection-start-line=\"6\" selection-start-column=\"26\" selection-end-line=\"6\" selection-end-column=\"26\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/pageproject/match_page.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"231\">\n          <caret line=\"7\" column=\"0\" lean-forward=\"true\" selection-start-line=\"7\" selection-start-column=\"0\" selection-end-line=\"7\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/case/test_match.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/base/base_driver.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"924\">\n          <caret line=\"32\" column=\"0\" lean-forward=\"false\" selection-start-line=\"32\" selection-start-column=\"0\" selection-end-line=\"32\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/case/test_match.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"297\">\n          <caret line=\"9\" column=\"0\" lean-forward=\"true\" selection-start-line=\"9\" selection-start-column=\"0\" selection-end-line=\"9\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/pytest.ini\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"396\">\n          <caret line=\"12\" column=\"21\" lean-forward=\"true\" selection-start-line=\"12\" selection-start-column=\"21\" selection-end-line=\"12\" selection-end-column=\"21\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/outputs/loggg/__init__.py\" />\n    <entry file=\"file://$PROJECT_DIR$/outputs/log/2021_03_06_19_21_09_log\" />\n    <entry file=\"file://$PROJECT_DIR$/outputs/log/2021_03_06_18_31_25_log\" />\n    <entry file=\"file://D:/python/Lib/logging/__init__.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"633\">\n          <caret line=\"1016\" column=\"38\" lean-forward=\"true\" selection-start-line=\"1016\" selection-start-column=\"19\" selection-end-line=\"1016\" selection-end-column=\"38\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/scripts/adsadasdtest.py\" />\n    <entry file=\"file://$PROJECT_DIR$/outputs/log/2021_03_09_10_28_51_log\" />\n    <entry file=\"file://$PROJECT_DIR$/outputs/log/2021_03_06_18_13_32_log\" />\n    <entry file=\"file://$PROJECT_DIR$/outputs/log/2021_03_09_10_30_41_log\" />\n    <entry file=\"file://$PROJECT_DIR$/data/SHOUJI.py\" />\n    <entry file=\"file://$PROJECT_DIR$/outputs/reports/report.html\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"33\">\n          <caret line=\"47\" column=\"28\" lean-forward=\"false\" selection-start-line=\"47\" selection-start-column=\"28\" selection-end-line=\"47\" selection-end-column=\"28\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://D:/python/Lib/site-packages/appium/webdriver/common/touch_action.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"15\">\n          <caret line=\"43\" column=\"50\" lean-forward=\"false\" selection-start-line=\"43\" selection-start-column=\"40\" selection-end-line=\"43\" selection-end-column=\"50\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/base/11.yml\" />\n    <entry file=\"file://$PROJECT_DIR$/outputs/log/2021_03_14_14_40_15_log\" />\n    <entry file=\"file://D:/python/Lib/site-packages/appium/webdriver/webdriver.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"6006\">\n          <caret line=\"224\" column=\"0\" lean-forward=\"false\" selection-start-line=\"224\" selection-start-column=\"0\" selection-end-line=\"224\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://D:/python/Lib/site-packages/selenium/webdriver/remote/webdriver.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"10032\">\n          <caret line=\"320\" column=\"0\" lean-forward=\"false\" selection-start-line=\"320\" selection-start-column=\"0\" selection-end-line=\"320\" selection-end-column=\"0\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://D:/python/Lib/site-packages/selenium/webdriver/remote/errorhandler.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"7953\">\n          <caret line=\"241\" column=\"0\" lean-forward=\"false\" selection-start-line=\"241\" selection-start-column=\"0\" selection-end-line=\"241\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/elementloc/aboutus_loc.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"198\">\n          <caret line=\"6\" column=\"40\" lean-forward=\"false\" selection-start-line=\"6\" selection-start-column=\"31\" selection-end-line=\"6\" selection-end-column=\"40\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/case/1111.py\" />\n    <entry file=\"file://$PROJECT_DIR$/case/atest.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"429\">\n          <caret line=\"45\" column=\"9\" lean-forward=\"false\" selection-start-line=\"45\" selection-start-column=\"9\" selection-end-line=\"45\" selection-end-column=\"9\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/data/msg_data.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"231\">\n          <caret line=\"7\" column=\"0\" lean-forward=\"false\" selection-start-line=\"7\" selection-start-column=\"0\" selection-end-line=\"7\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/pageproject/aboutus_page.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"670\">\n          <caret line=\"27\" column=\"0\" lean-forward=\"false\" selection-start-line=\"27\" selection-start-column=\"0\" selection-end-line=\"27\" selection-end-column=\"0\" />\n          <folding>\n            <element signature=\"e#24#33#0\" expanded=\"false\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/base/base_log.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"330\">\n          <caret line=\"11\" column=\"0\" lean-forward=\"false\" selection-start-line=\"11\" selection-start-column=\"0\" selection-end-line=\"11\" selection-end-column=\"0\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/base/base_driver.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"990\">\n          <caret line=\"34\" column=\"0\" lean-forward=\"false\" selection-start-line=\"34\" selection-start-column=\"0\" selection-end-line=\"34\" selection-end-column=\"0\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/outputs/log/2021_03_10_21_49_19_log\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"99\">\n          <caret line=\"3\" column=\"48\" lean-forward=\"false\" selection-start-line=\"3\" selection-start-column=\"48\" selection-end-line=\"3\" selection-end-column=\"48\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/outputs/log/2021_03_21_17_26_15_log\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/outputs/log/2021_03_21_17_37_55_log\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/elementloc/match_loc.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"264\">\n          <caret line=\"8\" column=\"0\" lean-forward=\"false\" selection-start-line=\"8\" selection-start-column=\"0\" selection-end-line=\"8\" selection-end-column=\"0\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/outputs/log/2021_03_21_18_02_57_log\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/pageproject/match_page.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"891\">\n          <caret line=\"28\" column=\"25\" lean-forward=\"false\" selection-start-line=\"28\" selection-start-column=\"25\" selection-end-line=\"28\" selection-end-column=\"25\" />\n          <folding>\n            <element signature=\"e#24#33#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/base/base_action.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"594\">\n          <caret line=\"24\" column=\"56\" lean-forward=\"false\" selection-start-line=\"24\" selection-start-column=\"56\" selection-end-line=\"24\" selection-end-column=\"56\" />\n          <folding>\n            <element signature=\"e#147#158#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/base/createpath.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"495\">\n          <caret line=\"15\" column=\"4\" lean-forward=\"false\" selection-start-line=\"15\" selection-start-column=\"4\" selection-end-line=\"15\" selection-end-column=\"4\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/case/test_aboutus.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"251\">\n          <caret line=\"20\" column=\"23\" lean-forward=\"false\" selection-start-line=\"20\" selection-start-column=\"23\" selection-end-line=\"20\" selection-end-column=\"23\" />\n          <folding>\n            <element signature=\"e#50#63#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/pytest.ini\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"330\">\n          <caret line=\"12\" column=\"0\" lean-forward=\"true\" selection-start-line=\"12\" selection-start-column=\"0\" selection-end-line=\"12\" selection-end-column=\"0\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/case/test_match.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"-23\">\n          <caret line=\"18\" column=\"6\" lean-forward=\"false\" selection-start-line=\"18\" selection-start-column=\"6\" selection-end-line=\"21\" selection-end-column=\"26\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 849f89df1eb0ba5ee61a0172368372e3b8925068)
++++ .idea/workspace.xml	(date 1620385859255)
+@@ -1,18 +1,11 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="BranchesTreeState">
++    <expand />
++    <select />
++  </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="5e3af040-e1f6-4d67-a001-fc6e2bd32e50" name="默认的" comment="针对图片比对代码进行优化，与对log日志输出位置进行路径与文件名称进行修改">
+-      <change afterPath="$PROJECT_DIR$/debug_code.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/po.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/po.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_3_31,_11_10_上午_[默认的]1/shelved.patch" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_3_31__11_10____1.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/base/base_action.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_action.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/base/base_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_driver.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/case/cuteu/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/cuteu/conftest.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/case/cuteu/test_match.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/cuteu/test_match.py" afterDir="false" />
+-    </list>
++    <list default="true" id="5e3af040-e1f6-4d67-a001-fc6e2bd32e50" name="默认的" comment="针对图片比对代码进行优化，与对log日志输出位置进行路径与文件名称进行修改" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -45,45 +38,11 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="master" />
++        <entry key="$PROJECT_DIR$" value="dev_tianlei" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+     <option name="ROOT_SYNC" value="DONT_SYNC" />
+-  </component>
+-  <component name="IdeDocumentHistory">
+-    <option name="CHANGED_PATHS">
+-      <list>
+-        <option value="$PROJECT_DIR$/de/des.py" />
+-        <option value="$PROJECT_DIR$/pro/test_mat.py" />
+-        <option value="$PROJECT_DIR$/scripts/test_mat.py" />
+-        <option value="$PROJECT_DIR$/page/match_page.py" />
+-        <option value="$PROJECT_DIR$/outputs/loggg/__init__.py" />
+-        <option value="$PROJECT_DIR$/base/log.py" />
+-        <option value="$PROJECT_DIR$/data/dataa.py" />
+-        <option value="$PROJECT_DIR$/data/SHOUJI.py" />
+-        <option value="$PROJECT_DIR$/data/msg_data.py" />
+-        <option value="$PROJECT_DIR$/elementloc/set_about us.py" />
+-        <option value="$PROJECT_DIR$/pageproject/set_about us_page.py" />
+-        <option value="$PROJECT_DIR$/scripts/test_aboutus.py" />
+-        <option value="$PROJECT_DIR$/scripts/test.py" />
+-        <option value="$PROJECT_DIR$/elementloc/aboutus_loc.py" />
+-        <option value="$PROJECT_DIR$/scripts/test_match.py" />
+-        <option value="$PROJECT_DIR$/elementloc/消息/aboutus_loc.py" />
+-        <option value="$PROJECT_DIR$/case/1111.py" />
+-        <option value="$PROJECT_DIR$/base/base_driver.py" />
+-        <option value="$PROJECT_DIR$/pageproject/aboutus_page.py" />
+-        <option value="$PROJECT_DIR$/outputs/log/2021_03_10_21_49_19_log" />
+-        <option value="$PROJECT_DIR$/base/base_log.py" />
+-        <option value="$PROJECT_DIR$/base/createpath.py" />
+-        <option value="$PROJECT_DIR$/base/base_action.py" />
+-        <option value="$PROJECT_DIR$/elementloc/match_loc.py" />
+-        <option value="$PROJECT_DIR$/pageproject/match_page.py" />
+-        <option value="$PROJECT_DIR$/pytest.ini" />
+-        <option value="$PROJECT_DIR$/case/test_match.py" />
+-        <option value="$PROJECT_DIR$/case/test_aboutus.py" />
+-      </list>
+-    </option>
+   </component>
+   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+@@ -101,62 +60,8 @@
+     <option name="height" value="990" />
+   </component>
+   <component name="ProjectId" id="1qSbHn7BDj5O7CKFyAufFmj6WJU" />
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+-  <component name="ProjectView">
+-    <navigator currentView="ProjectPane" proportions="" version="1">
+-      <flattenPackages />
+-      <showMembers />
+-      <showModules />
+-      <showLibraryContents />
+-      <hideEmptyPackages />
+-      <abbreviatePackageNames />
+-      <autoscrollToSource />
+-      <autoscrollFromSource />
+-      <sortByType />
+-      <manualOrder />
+-      <foldersAlwaysOnTop value="true" />
+-    </navigator>
+-    <panes>
+-      <pane id="Scratches" />
+-      <pane id="ProjectPane">
+-        <subPane>
+-          <expand>
+-            <path>
+-              <item name="po" type="b2602c69:ProjectViewProjectNode" />
+-              <item name="po" type="462c0819:PsiDirectoryNode" />
+-            </path>
+-            <path>
+-              <item name="po" type="b2602c69:ProjectViewProjectNode" />
+-              <item name="po" type="462c0819:PsiDirectoryNode" />
+-              <item name="base" type="462c0819:PsiDirectoryNode" />
+-            </path>
+-            <path>
+-              <item name="po" type="b2602c69:ProjectViewProjectNode" />
+-              <item name="po" type="462c0819:PsiDirectoryNode" />
+-              <item name="case" type="462c0819:PsiDirectoryNode" />
+-            </path>
+-            <path>
+-              <item name="po" type="b2602c69:ProjectViewProjectNode" />
+-              <item name="po" type="462c0819:PsiDirectoryNode" />
+-              <item name="elementloc" type="462c0819:PsiDirectoryNode" />
+-            </path>
+-            <path>
+-              <item name="po" type="b2602c69:ProjectViewProjectNode" />
+-              <item name="po" type="462c0819:PsiDirectoryNode" />
+-              <item name="outputs" type="462c0819:PsiDirectoryNode" />
+-            </path>
+-            <path>
+-              <item name="po" type="b2602c69:ProjectViewProjectNode" />
+-              <item name="po" type="462c0819:PsiDirectoryNode" />
+-              <item name="outputs" type="462c0819:PsiDirectoryNode" />
+-              <item name="log" type="462c0819:PsiDirectoryNode" />
+-            </path>
+-          </expand>
+-          <select />
+-        </subPane>
+-      </pane>
+-      <pane id="Scope" />
+-    </panes>
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
++    <ConfirmationsSetting value="2" id="Add" />
+   </component>
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+@@ -176,8 +81,8 @@
+       <recent name="D:\po\outputs\log" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Python tests.pytest in test_match.py">
+-    <configuration name="base_driver" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++  <component name="RunManager" selected="Python.base_driver">
++    <configuration name="aboutus_page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="po" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -185,11 +90,11 @@
+         <env name="PYTHONUNBUFFERED" value="1" />
+       </envs>
+       <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pageproject/cuteu" />
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base/base_driver.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pageproject/cuteu/aboutus_page.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -198,7 +103,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="debug_code" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++    <configuration name="base_driver" type="PythonConfigurationType" factoryName="Python" temporary="true">
+       <module name="po" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -206,11 +111,12 @@
+         <env name="PYTHONUNBUFFERED" value="1" />
+       </envs>
+       <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base" />
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/debug_code.py" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base/base_driver.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -219,7 +125,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="retry" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++    <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="po" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -227,11 +133,11 @@
+         <env name="PYTHONUNBUFFERED" value="1" />
+       </envs>
+       <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case/cuteu" />
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/cuteu/conftest.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -240,23 +146,28 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="pytest for test_match.Testmatch.test_msg" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
++    <configuration name="xuexi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="po" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
+       <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case/cuteu" />
+-      <option name="IS_MODULE_SDK" value="true" />
++      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop" />
++      <option name="IS_MODULE_SDK" value="false" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="_new_keywords" value="&quot;&quot;" />
+-      <option name="_new_parameters" value="&quot;&quot;" />
+-      <option name="_new_additionalArguments" value="&quot;&quot;" />
+-      <option name="_new_target" value="&quot;test_match.Testmatch.test_msg&quot;" />
+-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
++      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/xuexi.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="pytest in test_match.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
++    <configuration name="py.test in test_match.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+       <module name="po" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -265,6 +176,7 @@
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+       <option name="_new_keywords" value="&quot;&quot;" />
+       <option name="_new_parameters" value="&quot;&quot;" />
+       <option name="_new_additionalArguments" value="&quot;&quot;" />
+@@ -274,22 +186,22 @@
+     </configuration>
+     <list>
+       <item itemvalue="Python.base_driver" />
+-      <item itemvalue="Python.retry" />
+-      <item itemvalue="Python tests.pytest for test_match.Testmatch.test_msg" />
+-      <item itemvalue="Python tests.pytest in test_match.py" />
+-      <item itemvalue="Python.debug_code" />
++      <item itemvalue="Python.aboutus_page" />
++      <item itemvalue="Python.conftest" />
++      <item itemvalue="Python.xuexi" />
++      <item itemvalue="Python tests.py.test in test_match.py" />
+     </list>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Python tests.pytest in test_match.py" />
+-        <item itemvalue="Python.debug_code" />
++        <item itemvalue="Python tests.py.test in test_match.py" />
++        <item itemvalue="Python.xuexi" />
++        <item itemvalue="Python.conftest" />
+         <item itemvalue="Python.base_driver" />
+-        <item itemvalue="Python tests.pytest for test_match.Testmatch.test_msg" />
+-        <item itemvalue="Python.retry" />
++        <item itemvalue="Python.aboutus_page" />
+       </list>
+     </recent_temporary>
+   </component>
+-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+   <component name="SvnConfiguration">
+     <configuration />
+   </component>
+@@ -361,57 +273,6 @@
+       <are-packages-shown value="true" />
+       <is-autoscroll-to-source value="true" />
+     </todo-panel>
+-  </component>
+-  <component name="ToolWindowManager">
+-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+-    <layout>
+-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35085836" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38162544" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+-      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+-    </layout>
+-    <layout-to-restore>
+-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3392226" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34603006" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+-      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+-    </layout-to-restore>
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="1" />
+@@ -427,9 +288,6 @@
+       </map>
+     </option>
+     <option name="oldMeFiltersMigrated" value="true" />
+-  </component>
+-  <component name="VcsContentAnnotationSettings">
+-    <option name="myLimit" value="2678400000" />
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="启动多线程" />
+@@ -439,6 +297,12 @@
+     <MESSAGE value="针对图片比对进行优化" />
+     <MESSAGE value="针对图片比对代码进行优化，与对log日志输出位置进行路径与文件名称进行修改" />
+     <option name="LAST_COMMIT_MESSAGE" value="针对图片比对代码进行优化，与对log日志输出位置进行路径与文件名称进行修改" />
++  </component>
++  <component name="WindowStateProjectService">
++    <state x="431" y="318" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1620385739995">
++      <screen x="0" y="0" width="1280" height="800" />
++    </state>
++    <state x="431" y="318" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.-228.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1620385739995" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+@@ -491,307 +355,4 @@
+       </breakpoints>
+     </breakpoint-manager>
+   </component>
+-  <component name="editorHistoryManager">
+-    <entry file="file://$PROJECT_DIR$/base/base_log.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="561">
+-          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://D:/python/Lib/logging/__init__.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="33462">
+-          <caret line="1016" column="38" lean-forward="true" selection-start-line="1016" selection-start-column="19" selection-end-line="1016" selection-end-column="38" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/elementloc/match_loc.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="132">
+-          <caret line="4" column="61" lean-forward="true" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
+-          <folding />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/case/test_match.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="726">
+-          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="29" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/outputs/log/2021_03_06_18_31_25_log" />
+-    <entry file="file://$PROJECT_DIR$/base/base_driver.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="924">
+-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/outputs/log/2021_03_06_19_21_09_log" />
+-    <entry file="file://$PROJECT_DIR$/case/test_match.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="231">
+-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/pytest.ini">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="33">
+-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+-          <folding />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/elementloc/match_loc.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="99">
+-          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+-          <folding />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/base/base_driver.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="924">
+-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/base/base_action.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="198">
+-          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/pageproject/match_page.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="231">
+-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/case/test_match.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="0">
+-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/base/base_driver.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="924">
+-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/case/test_match.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="297">
+-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/pytest.ini">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="396">
+-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+-          <folding />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/outputs/loggg/__init__.py" />
+-    <entry file="file://$PROJECT_DIR$/outputs/log/2021_03_06_19_21_09_log" />
+-    <entry file="file://$PROJECT_DIR$/outputs/log/2021_03_06_18_31_25_log" />
+-    <entry file="file://D:/python/Lib/logging/__init__.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="633">
+-          <caret line="1016" column="38" lean-forward="true" selection-start-line="1016" selection-start-column="19" selection-end-line="1016" selection-end-column="38" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/scripts/adsadasdtest.py" />
+-    <entry file="file://$PROJECT_DIR$/outputs/log/2021_03_09_10_28_51_log" />
+-    <entry file="file://$PROJECT_DIR$/outputs/log/2021_03_06_18_13_32_log" />
+-    <entry file="file://$PROJECT_DIR$/outputs/log/2021_03_09_10_30_41_log" />
+-    <entry file="file://$PROJECT_DIR$/data/SHOUJI.py" />
+-    <entry file="file://$PROJECT_DIR$/outputs/reports/report.html">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="33">
+-          <caret line="47" column="28" lean-forward="false" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://D:/python/Lib/site-packages/appium/webdriver/common/touch_action.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="15">
+-          <caret line="43" column="50" lean-forward="false" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="50" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/base/11.yml" />
+-    <entry file="file://$PROJECT_DIR$/outputs/log/2021_03_14_14_40_15_log" />
+-    <entry file="file://D:/python/Lib/site-packages/appium/webdriver/webdriver.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="6006">
+-          <caret line="224" column="0" lean-forward="false" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://D:/python/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="10032">
+-          <caret line="320" column="0" lean-forward="false" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
+-          <folding />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://D:/python/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="7953">
+-          <caret line="241" column="0" lean-forward="false" selection-start-line="241" selection-start-column="0" selection-end-line="241" selection-end-column="0" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/elementloc/aboutus_loc.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="198">
+-          <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="40" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/case/1111.py" />
+-    <entry file="file://$PROJECT_DIR$/case/atest.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="429">
+-          <caret line="45" column="9" lean-forward="false" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/data/msg_data.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="231">
+-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/pageproject/aboutus_page.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="670">
+-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+-          <folding>
+-            <element signature="e#24#33#0" expanded="false" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/base/base_log.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="330">
+-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+-          <folding />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/base/base_driver.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="990">
+-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+-          <folding />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/outputs/log/2021_03_10_21_49_19_log">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="99">
+-          <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/outputs/log/2021_03_21_17_26_15_log">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="0">
+-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/outputs/log/2021_03_21_17_37_55_log">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="0">
+-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/elementloc/match_loc.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="264">
+-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+-          <folding />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/outputs/log/2021_03_21_18_02_57_log">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="0">
+-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/pageproject/match_page.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="891">
+-          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+-          <folding>
+-            <element signature="e#24#33#0" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/base/base_action.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="594">
+-          <caret line="24" column="56" lean-forward="false" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+-          <folding>
+-            <element signature="e#147#158#0" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/base/createpath.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="495">
+-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/case/test_aboutus.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="251">
+-          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+-          <folding>
+-            <element signature="e#50#63#0" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/pytest.ini">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="330">
+-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+-          <folding />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/case/test_match.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="-23">
+-          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="21" selection-end-column="26" />
+-          <folding />
+-        </state>
+-      </provider>
+-    </entry>
+-  </component>
+ </project>
+\ No newline at end of file

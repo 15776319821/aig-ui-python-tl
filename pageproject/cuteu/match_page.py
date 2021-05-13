@@ -22,3 +22,7 @@ class MatchPage(BaseAction):
 
     def msglist(self,c):
         self.click_elements(ElementLoc.maglist_loc,c,"点击第{}个元素".format(c))
+
+    def msgteam(self):
+        self.click_element(ElementLoc.msgteam_loc,"点击CuteU团队")
+        self.click_element(ElementLoc.msgteam_return_loc, "团队信点击返回按钮")

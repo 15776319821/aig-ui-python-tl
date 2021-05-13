@@ -1,0 +1,113 @@
+2021/05/08/18:05:17 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/btnTabMine')元素
+2021/05/08/18:05:17 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/btnTabMine'),点击我的
+2021/05/08/18:05:20 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/imgSet')元素
+2021/05/08/18:05:20 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/imgSet'),点击设置齿轮角标
+2021/05/08/18:05:21 base_action.py INFO 发现('xpath', "//*[@text='关于我们']")元素
+2021/05/08/18:05:21 base_action.py INFO 点击元素('xpath', "//*[@text='关于我们']"),点击设置页面的关于我们
+2021/05/08/18:05:23 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/toolbar_title')元素
+2021/05/08/18:05:31 base_action.py INFO 连续点击<appium.webdriver.webelement.WebElement (session="1ad05c55-90ac-4306-abbc-63a129e998bd", element="18dd6d3d-2d4c-4434-8d32-92d699bac5e3")>，10次
+2021/05/08/18:05:31 base_action.py INFO 发现('class name', 'android.widget.ImageButton')元素
+2021/05/08/18:05:31 base_action.py INFO 点击元素('class name', 'android.widget.ImageButton'),点击返回
+2021/05/08/18:05:34 base_action.py INFO 发现('class name', 'android.widget.ImageButton')元素
+2021/05/08/18:05:34 base_action.py INFO 点击元素('class name', 'android.widget.ImageButton'),返回到我的页面
+2021/05/08/18:05:34 test_discover.py INFO 执行前
+2021/05/08/18:05:35 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/btnTabRecommend')元素
+2021/05/08/18:05:35 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/btnTabRecommend'),点击推荐
+2021/05/08/18:05:39 base_action.py INFO 发现('xpath', '//android.widget.LinearLayout[@content-desc="发现"]/android.view.ViewGroup/android.widget.TextView')元素
+2021/05/08/18:05:39 base_action.py INFO 点击元素('xpath', '//android.widget.LinearLayout[@content-desc="发现"]/android.view.ViewGroup/android.widget.TextView'),点击推荐-发现按钮
+2021/05/08/18:05:42 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/countryTv')元素
+2021/05/08/18:05:42 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/countryTv'),点击推荐-发现-筛选国家按钮
+2021/05/08/18:05:45 test_discover.py INFO 执行后
+2021/05/08/18:07:53 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/btnTabMine')元素
+2021/05/08/18:07:53 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/btnTabMine'),点击我的
+2021/05/08/18:07:56 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/imgSet')元素
+2021/05/08/18:07:56 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/imgSet'),点击设置齿轮角标
+2021/05/08/18:07:57 base_action.py INFO 发现('xpath', "//*[@text='关于我们']")元素
+2021/05/08/18:07:57 base_action.py INFO 点击元素('xpath', "//*[@text='关于我们']"),点击设置页面的关于我们
+2021/05/08/18:07:59 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/toolbar_title')元素
+2021/05/08/18:08:06 base_action.py INFO 连续点击<appium.webdriver.webelement.WebElement (session="69932d20-4646-4d8e-a22a-3bc609b62c85", element="6a65bca2-6621-4b3c-968f-e2367f99ca00")>，10次
+2021/05/08/18:08:06 base_action.py INFO 发现('class name', 'android.widget.ImageButton')元素
+2021/05/08/18:08:06 base_action.py INFO 点击元素('class name', 'android.widget.ImageButton'),点击返回
+2021/05/08/18:08:09 base_action.py INFO 发现('class name', 'android.widget.ImageButton')元素
+2021/05/08/18:08:09 base_action.py INFO 点击元素('class name', 'android.widget.ImageButton'),返回到我的页面
+2021/05/08/18:08:09 test_discover.py INFO 执行前
+2021/05/08/18:08:10 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/btnTabRecommend')元素
+2021/05/08/18:08:10 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/btnTabRecommend'),点击推荐
+2021/05/08/18:08:14 base_action.py INFO 发现('xpath', '//android.widget.LinearLayout[@content-desc="发现"]/android.view.ViewGroup/android.widget.TextView')元素
+2021/05/08/18:08:14 base_action.py INFO 点击元素('xpath', '//android.widget.LinearLayout[@content-desc="发现"]/android.view.ViewGroup/android.widget.TextView'),点击推荐-发现按钮
+2021/05/08/18:08:18 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/countryTv')元素
+2021/05/08/18:08:18 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/countryTv'),点击推荐-发现-筛选国家按钮
+2021/05/08/18:08:21 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/nameTv')元素
+2021/05/08/18:08:22 base_action.py INFO 点击第1个元素,('id', 'com.cuteu.videochat:id/nameTv')
+2021/05/08/18:08:25 test_discover.py INFO 执行后
+2021/05/08/18:42:39 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/btnTabMine')元素
+2021/05/08/18:42:39 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/btnTabMine'),点击我的
+2021/05/08/18:42:45 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/imgSet')元素
+2021/05/08/18:42:45 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/imgSet'),点击设置齿轮角标
+2021/05/08/18:42:45 base_action.py INFO 发现('xpath', "//*[@text='关于我们']")元素
+2021/05/08/18:42:45 base_action.py INFO 点击元素('xpath', "//*[@text='关于我们']"),点击设置页面的关于我们
+2021/05/08/18:42:47 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/toolbar_title')元素
+2021/05/08/18:42:55 base_action.py INFO 连续点击<appium.webdriver.webelement.WebElement (session="aff492c9-8260-4403-9ce1-9ddb76ef49e9", element="e7f116cb-b459-4a91-b855-b0301db185f0")>，10次
+2021/05/08/18:42:55 base_action.py INFO 发现('class name', 'android.widget.ImageButton')元素
+2021/05/08/18:42:55 base_action.py INFO 点击元素('class name', 'android.widget.ImageButton'),点击返回
+2021/05/08/18:42:58 base_action.py INFO 发现('class name', 'android.widget.ImageButton')元素
+2021/05/08/18:42:58 base_action.py INFO 点击元素('class name', 'android.widget.ImageButton'),返回到我的页面
+2021/05/08/18:42:58 test_discover.py INFO 非会员点击筛选按钮case开始
+2021/05/08/18:42:59 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/btnTabRecommend')元素
+2021/05/08/18:43:00 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/btnTabRecommend'),点击推荐
+2021/05/08/18:43:03 base_action.py INFO 发现('xpath', '//android.widget.LinearLayout[@content-desc="发现"]/android.view.ViewGroup/android.widget.TextView')元素
+2021/05/08/18:43:03 base_action.py INFO 点击元素('xpath', '//android.widget.LinearLayout[@content-desc="发现"]/android.view.ViewGroup/android.widget.TextView'),点击推荐-发现按钮
+2021/05/08/18:43:06 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/countryTv')元素
+2021/05/08/18:43:07 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/countryTv'),点击推荐-发现-筛选国家按钮
+2021/05/08/18:43:10 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/nameTv')元素
+2021/05/08/18:43:11 base_action.py INFO 点击第1个元素,('id', 'com.cuteu.videochat:id/nameTv')
+2021/05/08/18:43:14 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/tvTitle')元素，是因为unsupported operand type(s) for +: 'float' and 'str'
+2021/05/08/18:43:17 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/tvClose')元素
+2021/05/08/18:43:17 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/tvClose'),点击关闭会员拦截弹窗
+2021/05/08/18:43:20 test_discover.py INFO 非会员点击筛选按钮case开始结束
+2021/05/08/18:49:56 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/btnTabMine')元素
+2021/05/08/18:49:56 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/btnTabMine'),点击我的
+2021/05/08/18:49:59 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/imgSet')元素
+2021/05/08/18:50:00 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/imgSet'),点击设置齿轮角标
+2021/05/08/18:50:01 base_action.py INFO 发现('xpath', "//*[@text='关于我们']")元素
+2021/05/08/18:50:01 base_action.py INFO 点击元素('xpath', "//*[@text='关于我们']"),点击设置页面的关于我们
+2021/05/08/18:50:03 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/toolbar_title')元素
+2021/05/08/18:50:09 base_action.py INFO 连续点击<appium.webdriver.webelement.WebElement (session="cca79e6a-abb7-4af6-aa02-6cff64fcacf6", element="83319330-faca-45ab-8624-54a9c32be6bb")>，10次
+2021/05/08/18:50:09 base_action.py INFO 发现('class name', 'android.widget.ImageButton')元素
+2021/05/08/18:50:09 base_action.py INFO 点击元素('class name', 'android.widget.ImageButton'),点击返回
+2021/05/08/18:50:12 base_action.py INFO 发现('class name', 'android.widget.ImageButton')元素
+2021/05/08/18:50:12 base_action.py INFO 点击元素('class name', 'android.widget.ImageButton'),返回到我的页面
+2021/05/08/18:50:12 test_discover.py INFO 非会员点击筛选按钮case开始
+2021/05/08/18:50:14 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/btnTabRecommend')元素
+2021/05/08/18:50:14 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/btnTabRecommend'),点击推荐
+2021/05/08/18:50:37 base_action.py INFO 无法获取('xpath', '//android.widget.LinearLayout[@content-desc="发现"]/android.view.ViewGroup/android.widget.TextView')元素，是因为Message: 
+
+2021/05/08/18:50:37 base_action.py INFO 点击元素失败('xpath', '//android.widget.LinearLayout[@content-desc="发现"]/android.view.ViewGroup/android.widget.TextView')，是因为'NoneType' object has no attribute 'click':点击推荐-发现按钮
+2021/05/08/18:51:01 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/countryTv')元素，是因为Message: 
+
+2021/05/08/18:51:01 base_action.py INFO 点击元素失败('id', 'com.cuteu.videochat:id/countryTv')，是因为'NoneType' object has no attribute 'click':点击推荐-发现-筛选国家按钮
+2021/05/08/18:51:05 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/nameTv')元素
+2021/05/08/18:51:05 base_action.py INFO 点击第1个元素,('id', 'com.cuteu.videochat:id/nameTv')
+2021/05/08/18:51:08 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/tvTitle')元素，是因为unsupported operand type(s) for +: 'float' and 'str'
+2021/05/08/18:51:45 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/btnTabMine')元素
+2021/05/08/18:51:48 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/btnTabMine'),点击我的
+2021/05/08/18:51:48 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/imgSet')元素
+2021/05/08/18:51:49 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/imgSet'),点击设置齿轮角标
+2021/05/08/18:51:49 base_action.py INFO 发现('xpath', "//*[@text='关于我们']")元素
+2021/05/08/18:51:49 base_action.py INFO 点击元素('xpath', "//*[@text='关于我们']"),点击设置页面的关于我们
+2021/05/08/18:51:51 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/toolbar_title')元素
+2021/05/08/18:51:58 base_action.py INFO 连续点击<appium.webdriver.webelement.WebElement (session="82c8f945-c6b6-4482-b7d5-234fba2653aa", element="7fe028e8-4289-459e-84c2-f329e4218688")>，10次
+2021/05/08/18:51:58 base_action.py INFO 发现('class name', 'android.widget.ImageButton')元素
+2021/05/08/18:51:58 base_action.py INFO 点击元素('class name', 'android.widget.ImageButton'),点击返回
+2021/05/08/18:52:01 base_action.py INFO 发现('class name', 'android.widget.ImageButton')元素
+2021/05/08/18:52:01 base_action.py INFO 点击元素('class name', 'android.widget.ImageButton'),返回到我的页面
+2021/05/08/18:52:01 test_discover.py INFO 非会员点击筛选按钮case开始
+2021/05/08/18:52:03 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/btnTabRecommend')元素
+2021/05/08/18:52:03 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/btnTabRecommend'),点击推荐
+2021/05/08/18:52:07 base_action.py INFO 发现('xpath', '//android.widget.LinearLayout[@content-desc="发现"]/android.view.ViewGroup/android.widget.TextView')元素
+2021/05/08/18:52:07 base_action.py INFO 点击元素('xpath', '//android.widget.LinearLayout[@content-desc="发现"]/android.view.ViewGroup/android.widget.TextView'),点击推荐-发现按钮
+2021/05/08/18:52:10 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/countryTv')元素
+2021/05/08/18:52:11 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/countryTv'),点击推荐-发现-筛选国家按钮
+2021/05/08/18:52:14 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/nameTv')元素
+2021/05/08/18:52:14 base_action.py INFO 点击第1个元素,('id', 'com.cuteu.videochat:id/nameTv')
+2021/05/08/18:52:17 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/tvTitle')元素，是因为unsupported operand type(s) for +: 'float' and 'str'

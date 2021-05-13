@@ -1,0 +1,38 @@
+2021/05/06/18:02:03 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/btnTabMine')元素
+2021/05/06/18:02:05 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/btnTabMine'),点击我的
+2021/05/06/18:02:06 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/imgSet')元素
+2021/05/06/18:02:06 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/imgSet'),点击设置齿轮角标
+2021/05/06/18:02:07 base_action.py INFO 发现('xpath', "//*[@text='关于我们']")元素
+2021/05/06/18:02:07 base_action.py INFO 点击元素('xpath', "//*[@text='关于我们']"),点击设置页面的关于我们
+2021/05/06/18:02:09 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/toolbar_title')元素
+2021/05/06/18:02:16 base_action.py INFO 连续点击<appium.webdriver.webelement.WebElement (session="c39c5c9e-0b44-440f-b2d8-dc6e7479a1fe", element="826851a4-cf2b-4d68-89dc-11f0fc44295b")>，10次
+2021/05/06/18:02:16 base_action.py INFO 发现('class name', 'android.widget.ImageButton')元素
+2021/05/06/18:02:16 base_action.py INFO 点击元素('class name', 'android.widget.ImageButton'),点击返回
+2021/05/06/18:02:19 base_action.py INFO 发现('class name', 'android.widget.ImageButton')元素
+2021/05/06/18:02:19 base_action.py INFO 点击元素('class name', 'android.widget.ImageButton'),返回到我的页面
+2021/05/06/18:02:19 test_match.py INFO 执行前
+2021/05/06/18:02:20 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/btnTabMessage')元素
+2021/05/06/18:02:20 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/btnTabMessage'),点击消息列表
+2021/05/06/18:02:24 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/layout_cs')元素
+2021/05/06/18:02:24 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/layout_cs'),点击CuteU团队
+2021/05/06/18:02:24 test_match.py INFO 执行后
+2021/05/06/18:17:22 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/btnTabMine')元素
+2021/05/06/18:17:25 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/btnTabMine'),点击我的
+2021/05/06/18:17:25 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/imgSet')元素
+2021/05/06/18:17:25 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/imgSet'),点击设置齿轮角标
+2021/05/06/18:17:26 base_action.py INFO 发现('xpath', "//*[@text='关于我们']")元素
+2021/05/06/18:17:26 base_action.py INFO 点击元素('xpath', "//*[@text='关于我们']"),点击设置页面的关于我们
+2021/05/06/18:17:28 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/toolbar_title')元素
+2021/05/06/18:17:35 base_action.py INFO 连续点击<appium.webdriver.webelement.WebElement (session="d58fc07c-932b-4e7b-9a13-5adb57f493a0", element="d8a007f8-6305-42ec-b784-3615e3d5b06e")>，10次
+2021/05/06/18:17:35 base_action.py INFO 发现('class name', 'android.widget.ImageButton')元素
+2021/05/06/18:17:35 base_action.py INFO 点击元素('class name', 'android.widget.ImageButton'),点击返回
+2021/05/06/18:17:38 base_action.py INFO 发现('class name', 'android.widget.ImageButton')元素
+2021/05/06/18:17:38 base_action.py INFO 点击元素('class name', 'android.widget.ImageButton'),返回到我的页面
+2021/05/06/18:17:38 test_match.py INFO 执行前
+2021/05/06/18:17:39 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/btnTabMessage')元素
+2021/05/06/18:17:40 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/btnTabMessage'),点击消息列表
+2021/05/06/18:17:43 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/layout_cs')元素
+2021/05/06/18:17:43 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/layout_cs'),点击CuteU团队
+2021/05/06/18:17:43 base_action.py INFO 发现('class name', 'android.widget.ImageButton')元素
+2021/05/06/18:17:44 base_action.py INFO 点击元素('class name', 'android.widget.ImageButton'),团队信点击返回按钮
+2021/05/06/18:17:44 test_match.py INFO 执行后

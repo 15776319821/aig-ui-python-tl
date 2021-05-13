@@ -98,6 +98,3 @@ class BaseAction:
     #         logger.exception("当前网页截图失败")
     #     else:
     #         logger.info("截取当前网页成功并存储在:{}".format(screenshot_path))
-
-
-
