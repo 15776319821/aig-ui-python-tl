@@ -1,13 +1,6 @@
 # -*- coding:utf-8 -*-
-# @Time     :2019/12/8 13:34
-# @Author   :zdl
-# @Email    :1420500885@qq.com
-# @File     :basepage.py
-# @Software :PyCharm
 import os
 import time
-
-
 from base.base_log import DemeLog
 from datetime import datetime
 from base.createpath import p_path
