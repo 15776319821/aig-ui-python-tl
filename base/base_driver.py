@@ -5,21 +5,25 @@ import time
 import io
 import os
 import sys
+import json
 import urllib.request
-from base.readIphoneData import readIphone, readAppData
+from base.readIphoneData import readIphone,readAppData,apkConfig
 from tomorrow3 import threads
-
+apkConfig=apkConfig()
 class setdriver():
     def desired(self,iphoneData,num):
         sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf8')
         appProjectData=eval(str(iphoneData[num]))
         appname=readAppData(appProjectData['project'])
+        apkpath=apkConfig.getApkPath(appname='FancyU',appbuild='217000')
         desired_caps=dict()
         #手机平台版本，大小写无所谓，对就行
         desired_caps['platformName']='Android'
-        #要测试手机安卓版本（9.1.1可以写9.1 也可以写9都行）
+        #要测试手机安卓版本（9.1.1可以写9.1 也可以写9都行
         #desired_caps['platformVersion']=str(appProjectData['iphoneAndroidNum'])
         desired_caps['platformVersion'] = '10'
+        #安装apk包
+        #desired_caps['app'] = str(apkpath)
         #设备的名字，adb命令：adb devices查看，这个设备号安卓可以随便写，ios必须写对
         desired_caps['deviceName']=str(appProjectData['devices'])
         #要测试的应用的包名
@@ -27,8 +31,8 @@ class setdriver():
         #要启动应用的那个界面，就输入对应页面的activity
         desired_caps['appActivity']=str(appname['appActivity'])
         #加上下面两个配置项，才可以在app上输入中文
-        desired_caps['unicodeKeyboard']=False
-        desired_caps['resetKeyboard']=False
+        # desired_caps['unicodeKeyboard'] = False
+        # desired_caps['resetKeyboard'] = False
         #启动app时不要清楚原有的数据
         desired_caps['noReset']=True
         return desired_caps
@@ -56,10 +60,11 @@ class setdriver():
                 #os.popen("appium -a 127.0.0.1 -p %s -U %s --no-reset" % (appiumPort, desired['deviceName']))
                 return (appiumPort, desired)
 
+
     def runapp(self):
         appiumData=self.startappium()
-        driver = webdriver.Remote('http://127.0.0.1:%s/wd/hub' % appiumData[0], appiumData[1])
-        driver.implicitly_wait(2)
+        driver = webdriver.Remote('http://0.0.0.0:%s/wd/hub' % appiumData[0], appiumData[1])
+        driver.implicitly_wait(20)
         return driver
     def iphone_desired(self):
         iphoneData = readIphone()
@@ -69,7 +74,7 @@ class setdriver():
             appiumPort = 4723 + i
             return desired,appiumPort
 
-    def endappium(self,post_num):
+    def endAppium(self,post_num):
         '''关闭appium服务'''
         pc = sys.platform
         if pc.upper() == 'WINDOWS':

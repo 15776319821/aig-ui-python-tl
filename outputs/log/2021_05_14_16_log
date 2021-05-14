@@ -1,0 +1,42 @@
+2021/05/14/16:02:18 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/btnTabMine')元素，是因为Message: 
+
+2021/05/14/16:02:18 base_action.py INFO 点击元素失败('id', 'com.cuteu.videochat:id/btnTabMine')，是因为'NoneType' object has no attribute 'click':点击我的
+2021/05/14/16:02:40 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/imgSet')元素，是因为Message: 
+
+2021/05/14/16:02:40 base_action.py INFO 点击元素失败('id', 'com.cuteu.videochat:id/imgSet')，是因为'NoneType' object has no attribute 'click':点击设置齿轮角标
+2021/05/14/16:03:01 base_action.py INFO 无法获取('xpath', "//*[@text='关于我们']")元素，是因为Message: 
+
+2021/05/14/16:03:01 base_action.py INFO 点击元素失败('xpath', "//*[@text='关于我们']")，是因为'NoneType' object has no attribute 'click':点击设置页面的关于我们
+2021/05/14/16:03:24 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/toolbar_title')元素，是因为Message: 
+
+2021/05/14/16:03:26 base_action.py INFO 连续点击None，10次
+2021/05/14/16:05:26 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/btnTabMine')元素
+2021/05/14/16:05:26 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/btnTabMine'),点击我的
+2021/05/14/16:05:26 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/imgSet')元素
+2021/05/14/16:05:27 base_action.py INFO 点击元素失败('id', 'com.cuteu.videochat:id/imgSet')，是因为Message: androidx.test.uiautomator.StaleObjectException
+:点击设置齿轮角标
+2021/05/14/16:05:48 base_action.py INFO 无法获取('xpath', "//*[@text='关于我们']")元素，是因为Message: 
+
+2021/05/14/16:05:48 base_action.py INFO 点击元素失败('xpath', "//*[@text='关于我们']")，是因为'NoneType' object has no attribute 'click':点击设置页面的关于我们
+2021/05/14/16:06:11 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/toolbar_title')元素，是因为Message: 
+
+2021/05/14/16:06:13 base_action.py INFO 连续点击None，10次
+2021/05/14/16:06:34 base_action.py INFO 无法获取('class name', 'android.widget.ImageButton')元素，是因为Message: 
+
+2021/05/14/16:06:34 base_action.py INFO 点击元素失败('class name', 'android.widget.ImageButton')，是因为'NoneType' object has no attribute 'click':点击返回
+2021/05/14/16:06:37 base_action.py INFO 发现('class name', 'android.widget.ImageButton')元素
+2021/05/14/16:06:37 base_action.py INFO 点击元素('class name', 'android.widget.ImageButton'),返回到我的页面
+2021/05/14/16:06:37 test_discover.py INFO 非会员点击筛选按钮case开始
+2021/05/14/16:06:38 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/btnTabRecommend')元素
+2021/05/14/16:06:39 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/btnTabRecommend'),点击推荐
+2021/05/14/16:06:42 base_action.py INFO 发现('xpath', '//android.widget.LinearLayout[@content-desc="发现"]/android.view.ViewGroup/android.widget.TextView')元素
+2021/05/14/16:06:42 base_action.py INFO 点击元素('xpath', '//android.widget.LinearLayout[@content-desc="发现"]/android.view.ViewGroup/android.widget.TextView'),点击推荐-发现按钮
+2021/05/14/16:06:45 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/countryTv')元素
+2021/05/14/16:06:45 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/countryTv'),点击推荐-发现-筛选国家按钮
+2021/05/14/16:06:48 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/nameTv')元素
+2021/05/14/16:06:48 base_action.py INFO 点击第1个元素('id', 'com.cuteu.videochat:id/nameTv')失败，是因为'WebElement' object is not iterable:点击第1个国家
+2021/05/14/16:06:51 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/tvTitle')元素，是因为unsupported operand type(s) for +: 'float' and 'str'
+2021/05/14/16:07:15 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/tvClose')元素，是因为Message: 
+
+2021/05/14/16:07:15 base_action.py INFO 点击元素失败('id', 'com.cuteu.videochat:id/tvClose')，是因为'NoneType' object has no attribute 'click':点击关闭会员拦截弹窗
+2021/05/14/16:07:18 test_discover.py INFO 非会员点击筛选按钮case开始结束

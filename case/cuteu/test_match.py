@@ -8,6 +8,12 @@ sys.path.append(os.getcwd())
 from pageproject.cuteu.match_page import MatchPage
 from base.base_log import logger
 
+import os,sys
+sys.path.append(os.getcwd())
+from pageproject.match_page import MatchPage
+from base.base_log import logger
+import time
+import pytest
 
 # @pytest.fixture(scope='class')
 # def init_driver():
@@ -23,12 +29,6 @@ class Testmatch:
         logger.info("执行前")
         MatchPage(init_driver['driver']).match()
         #self.driver.find_element_by_id('com.cuteu.videochat:id/btnTabMessage').click()
-        #MatchPage(init_driver['driver']).msglist(1)
-        MatchPage(init_driver['driver']).msgteam()
+        MatchPage(init_driver['driver']).msglist(1)
         logger.info("执行后")
 
-if __name__ == '__main__':
-    from base.base_driver import setdriver
-    x=setdriver().runapp()
-    w=Testmatch()
-    w.test_msg(init_driver=x)
