@@ -1,0 +1,6 @@
+2021/05/12/18:51:40 test_IMPage.py INFO 开始执行进入IM模块
+2021/05/12/18:51:40 im_page.py INFO 开始执行进入IM模块
+2021/05/12/18:51:40 base_action.py INFO 无法获取('id', 'com.aiglamour.ancho:id/btnTabMessage')元素，是因为unsupported operand type(s) for +: 'float' and 'str'
+2021/05/12/18:51:43 base_action.py INFO 发现('id', 'com.aiglamour.ancho:id/btnTabMessage')元素
+2021/05/12/18:51:43 base_action.py INFO 点击元素('id', 'com.aiglamour.ancho:id/btnTabMessage'),点击消息模块
+2021/05/12/18:51:43 im_page.py INFO 进入消息模块
