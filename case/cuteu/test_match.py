@@ -10,7 +10,7 @@ from base.base_log import logger
 
 import os,sys
 sys.path.append(os.getcwd())
-from pageproject.match_page import MatchPage
+from pageproject.cuteu.match_page import MatchPage
 from base.base_log import logger
 import time
 import pytest

@@ -8,6 +8,7 @@ from selenium.webdriver.common.by import By
 from appium.webdriver.common.touch_action import TouchAction
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.remote.webdriver import WebDriver
 
 logger = DemeLog().log()
 class BaseAction:
@@ -61,7 +62,7 @@ class BaseAction:
         by=loc[0]
         value=loc[1]
         try:
-            findlocs=WebDriverWait(self.driver, time, poll).until(lambda x:x.find_element(by,value))
+            findlocs=WebDriverWait(self.driver, time, poll).until(lambda x: x.find_elements(by, value))
             logger.info("发现{}元素".format(loc))
             return findlocs
         except Exception as error:
@@ -130,7 +131,7 @@ class BaseAction:
 
     def swipeToLeft(self,start_x,end_x):
         #向左滑动
-        size = self.driver.get_windows_size()
+        size=WebDriver.get_window_size(self.driver)
         x = size['width']
         y = size['height']
         start_x = int(x * start_x)
@@ -139,7 +140,7 @@ class BaseAction:
         self.driver.swipe(start_x,y,end_x,y,duration=200)
     def swipeToRight(self,start_x,end_x):
         #向右滑动
-        size = self.driver.get_windows_size()
+        size=WebDriver.get_window_size(self.driver)
         x = size['width']
         y = size['height']
         start_x = int(x * start_x)
@@ -148,7 +149,7 @@ class BaseAction:
         self.driver.swipe(start_x, y, end_x, y, duration=200)
     def swipeToUp(self,start_y,end_y):
         #向上滑动
-        size = self.driver.get_windows_size()
+        size=WebDriver.get_window_size(self.driver)
         x = size['width']
         y = size['height']
         start_y = int(y * start_y)
@@ -157,7 +158,7 @@ class BaseAction:
         self.driver.swipe(x, start_y, x, end_y, duration=200)
     def swipeToDown(self,start_x,start_y,end_x,end_y):
         # 向下滑动
-        size = self.driver.get_windows_size()
+        size=WebDriver.get_window_size(self.driver)
         x = size['width']
         y = size['height']
         start_y = int(y * start_y)
@@ -172,4 +173,3 @@ class BaseAction:
         #获取元素的enabled值
         element=self.find_element(locator)
         return element.is_enabled()
-

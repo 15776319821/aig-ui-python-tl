@@ -3,8 +3,8 @@ from selenium.webdriver.common.by import By
 class ElementLoc:
 
     #会员拦截弹窗
-    vip_intercept_loc = (By.ID, 'com.cuteu.videochat:id/tvTitle')
-    #会员拦截弹窗
+    vip_intercept_loc = (By.ID,"com.cuteu.videochat:id/tvTitle")
+    #会员拦截弹窗关闭按钮
     vip_intercept_close_loc = (By.ID, 'com.cuteu.videochat:id/tvClose')
 
 
