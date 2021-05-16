@@ -8,6 +8,7 @@ from selenium.webdriver.common.by import By
 from appium.webdriver.common.touch_action import TouchAction
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.remote.webdriver import WebDriver
 
 logger = DemeLog().log()
 class BaseAction:
@@ -50,7 +51,7 @@ class BaseAction:
         value=loc[1]
         #return self.driver.find_element(by,value)
         try:
-            findloc=WebDriverWait(self.driver,time,poll).until(EC.presence_of_element_located((by,value)))
+            findloc=WebDriverWait(self.driver,time,poll).until(lambda x:x.find_element(by,value))
             logger.info("发现{}元素".format(loc))
             return findloc
         except Exception as error:
@@ -61,11 +62,12 @@ class BaseAction:
         by=loc[0]
         value=loc[1]
         try:
-            findlocs=WebDriverWait(self.driver, time, poll).until(lambda x:x.find_element(by,value))
+            findlocs=WebDriverWait(self.driver, time, poll).until(lambda x:x.find_elements(by,value))
             logger.info("发现{}元素".format(loc))
             return findlocs
         except Exception as error:
             logger.info("无法获取{}元素，是因为{}".format(loc,error))
+            return None
 
     #获取多元素下标
     def list_elements(self, loc, c):
@@ -126,44 +128,57 @@ class BaseAction:
             if locator[1] in pageSource:
                 self.click_element(locator,locator)
             if "打开权限" in pageSource:
-                self.click_element((By.NAME,"取消"),"关闭权限")
+                self.click_element((By.ID,"android:id/button2"),"关闭权限")
+                break
 
-    def swipeToLeft(self,start_x,end_x):
+    def swipeToLeft(self,start_x,end_x,swipeNum=1):
         #向左滑动
-        size = self.driver.get_windows_size()
+        num=0
+        size=WebDriver.get_window_size(self.driver)
         x = size['width']
         y = size['height']
         start_x = int(x * start_x)
-        end_x = int(x * end_x)
+        end_x = int(x * float(end_x))
         y=int(y*0.5)
-        self.driver.swipe(start_x,y,end_x,y,duration=200)
-    def swipeToRight(self,start_x,end_x):
+        while num <= swipeNum:
+            self.driver.swipe(start_x,y,end_x,y,duration=2000)
+            num += 1
+    def swipeToRight(self,start_x,end_x,swipeNum=1):
         #向右滑动
-        size = self.driver.get_windows_size()
+        num = 0
+        size=WebDriver.get_window_size(self.driver)
         x = size['width']
         y = size['height']
         start_x = int(x * start_x)
         end_x = int(x * end_x)
         y = int(y * 0.5)
-        self.driver.swipe(start_x, y, end_x, y, duration=200)
-    def swipeToUp(self,start_y,end_y):
+        while num <= swipeNum:
+            self.driver.swipe(start_x, y, end_x, y, duration=2000)
+            num += 1
+    def swipeToUp(self,start_y,end_y,swipeNum=1):
         #向上滑动
-        size = self.driver.get_windows_size()
+        num=0
+        size=WebDriver.get_window_size(self.driver)
         x = size['width']
         y = size['height']
         start_y = int(y * start_y)
         end_y = int(y * end_y)
         x = int(x * 0.5)
-        self.driver.swipe(x, start_y, x, end_y, duration=200)
-    def swipeToDown(self,start_x,start_y,end_x,end_y):
+        while num <= swipeNum:
+            self.driver.swipe(x, start_y, x, end_y, duration=2000)
+            num += 1
+    def swipeToDown(self,start_y,end_y,swipeNum=1):
         # 向下滑动
-        size = self.driver.get_windows_size()
+        num=0
+        size=WebDriver.get_window_size(self.driver)
         x = size['width']
         y = size['height']
         start_y = int(y * start_y)
         end_y = int(y * end_y)
         x = int(x * 0.5)
-        self.driver.swipe(x, start_y, x, end_y, duration=200)
+        while num <= swipeNum:
+            self.driver.swipe(x, start_y, x, end_y, duration=2000)
+            num += 1
     def longClick(self,locator,time=1000):
         #点击长按元素
         element=self.find_element(locator)
@@ -172,4 +187,23 @@ class BaseAction:
         #获取元素的enabled值
         element=self.find_element(locator)
         return element.is_enabled()
+    def is_exite(self,locator):
+        #判断元素是否在页面
+        pageSource = self.driver.page_source
+        if locator[1] in pageSource:
+            return True
+    def childSelector(self,locator,locator2):
+        #根据父节点定位子节点
+        driver = WebDriver(self.driver)
+        element = driver.find_element_by_xpath(locator[1]).child(locator2[1])
+        return element
+    def parentSelector(self,locator,locator2):
+        #返回当前节点的父节点
+        driver = WebDriver(self.driver)
+        element = driver.find_element_by_xpath(locator[1]).parent(locator2[1])
+        return element
+    def preceding_sibling(self,locator,locator2):
+        #兄弟节点定位
+        driver = WebDriver(self.driver)
+
 

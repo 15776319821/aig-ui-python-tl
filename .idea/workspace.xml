@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e3af040-e1f6-4d67-a001-fc6e2bd32e50" name="默认的" comment="增加 .gitgnore文件" />
+    <list default="true" id="5e3af040-e1f6-4d67-a001-fc6e2bd32e50" name="默认的" comment="增加 .gitgnore文件">
+      <change afterPath="$PROJECT_DIR$/elementloc/FancyMe/MineInfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/po.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/po.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/base_action.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_action.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/base_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_driver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/FancyMe/test_IMPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/FancyMe/test_IMPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/FancyMe/test_startApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/FancyMe/test_startApp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elementloc/FancyMe/IM.py" beforeDir="false" afterPath="$PROJECT_DIR$/elementloc/FancyMe/IM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pageproject/FancyMe/im_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageproject/FancyMe/im_page.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +45,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Fancyme" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -98,7 +109,9 @@
     <option name="height" value="990" />
   </component>
   <component name="ProjectId" id="1qSbHn7BDj5O7CKFyAufFmj6WJU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -164,7 +177,7 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -175,7 +188,28 @@
       <recent name="D:\po\elementloc\消息" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_IMPage.TestIm.test_clickImPage">
+  <component name="RunManager" selected="Python tests.pytest in test_startApp.py">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="po" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="im_page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="po" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,7 +231,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pictureComparison" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test_startApp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="po" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -205,17 +239,94 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case/FancyMe" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base/pictureComparison.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/FancyMe/test_startApp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="po" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="po" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="po" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="po" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="po" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for test_IMPage.TestIm.test_clickImPage" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -266,20 +377,37 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_startApp.py" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="po" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case/FancyMe" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/FancyMe/test_startApp.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.im_page" />
-      <item itemvalue="Python.pictureComparison" />
       <item itemvalue="Python tests.pytest for test_IMPage.TestIm.test_clickImPage" />
       <item itemvalue="Python tests.pytest in im_page.py" />
       <item itemvalue="Python tests.pytest in test_IMPage.py" />
+      <item itemvalue="Python.test_startApp" />
+      <item itemvalue="Python tests.pytest in test_startApp.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_IMPage.TestIm.test_clickImPage" />
         <item itemvalue="Python tests.pytest in test_IMPage.py" />
+        <item itemvalue="Python tests.pytest for test_IMPage.TestIm.test_clickImPage" />
+        <item itemvalue="Python.test_startApp" />
         <item itemvalue="Python.im_page" />
         <item itemvalue="Python tests.pytest in im_page.py" />
-        <item itemvalue="Python.pictureComparison" />
       </list>
     </recent_temporary>
   </component>
@@ -552,13 +680,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/pageproject/FancyMe/im_page.py</url>
-          <line>51</line>
-          <option name="timeStamp" value="42" />
+          <line>28</line>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/pageproject/FancyMe/im_page.py</url>
-          <line>47</line>
-          <option name="timeStamp" value="43" />
+          <line>66</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/case/FancyMe/test_startApp.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="55" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

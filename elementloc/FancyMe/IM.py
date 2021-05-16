@@ -12,7 +12,15 @@ class ImLoc():
     #Im模块好友按钮
     Im_friedButton=(By.ID,'com.aiglamour.ancho:id/btnRelation')
     #Im模块消息统一处理按钮
-    Im_news_manage_list=(By.ID,'com.aiglamour.ancho:id/btnEdit')
+    Im_news_manage_handleList=(By.ID,'com.aiglamour.ancho:id/btnEdit')
+    #Im模块清理聊天列表
+    Im_news_manage_deleteMessageBtn=(By.ID,'com.aiglamour.ancho:id/btnDelete3Info')
+    #Im模块全部消息已读按钮
+    Im_news_manage_allReadBtn=(By.ID,'com.aiglamour.ancho:id/btnAllRead')
+    #Im模块关闭消息设置弹窗按钮
+    Im_news_manage_closeAlert=(By.ID,'com.aiglamour.ancho:id/btnCancel')
+    #1v1消息列表
+    Im_news_manage_revcelist=(By.ID,'com.aiglamour.ancho:id/rvList')
     #Im模块1v1消息最后时间
     Im_news_lastTime=(By.ID,'com.aiglamour.ancho:id/tvLastTime')
     #Im模块1v1消息用户剩余钻石
@@ -45,6 +53,10 @@ class ImLoc():
     Im_news_1v1messsage_diamond=(By.ID,'com.aiglamour.ancho:id/tvDiamond')
     #1v1消息页面返回按钮
     Im_news_1v1message_returnBtn=(By.CLASS_NAME,'android.widget.ImageButton')
+    #1v1消息页面聊天列表
+    Im_news_1v1message_revceList=(By.ID,'com.aiglamour.ancho:id/rvList')
+    #1v1消息页面列表行
+    Im_news_1v1message_revceMessage=(By.CLASS_NAME,'android.view.ViewGroup')
     #1v1消息页面亲密度按钮
     Im_news_1v1message_relationBtn=(By.ID,'com.aiglamour.ancho:id/btnRelationShip')
     #1v1消息页面对方昵称
@@ -71,4 +83,6 @@ class ImLoc():
     Im_news_1v1message_heartRateLessAlert=(By.ID,'com.aiglamour.ancho:id/clParent')
     #1v1消息亲密度不足弹窗确认按钮
     Im_news_1v1message_heartRateLessAlertCloseBtn=(By.ID,'com.aiglamour.ancho:id/tvSubmit')
+    #1v1消息-好友列表页面
+    Im_news_friedPage_friedList=(By.XPATH,'//android.widget.LinearLayout[@content-desc="亲密"]/android.view.ViewGroup/android.widget.TextView')
 
