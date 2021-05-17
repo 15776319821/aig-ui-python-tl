@@ -8,7 +8,6 @@ class ElementLoc:
     vip_intercept_close_loc = (By.ID, 'com.cuteu.videochat:id/tvClose')
 
 
-
     #一级页面推荐按钮
     recommend_loc = (By.ID, 'com.cuteu.videochat:id/btnTabRecommend')
     #推荐页-发现按钮
@@ -23,3 +22,6 @@ class ElementLoc:
     discover_screen_card_loc = (By.ID, 'com.cuteu.videochat:id/bgView')
     # 推荐页-发现-通话按钮
     discover_screen_call_loc = (By.ID, 'com.cuteu.videochat:id/callView')
+
+    # profile页昵称
+    profile_name= (By.ID, 'com.cuteu.videochat:id/userName')

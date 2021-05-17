@@ -43,9 +43,9 @@ class Testrecommend:
         # 点击推荐-发现
         DiscoverPage(init_driver['driver']).discover()
         # 点击推荐-发现-左滑卡片
-        DiscoverPage(init_driver['driver']).swipeToLeft()
+        DiscoverPage(init_driver['driver']).discover_swipeToLeft()
         # 点击推荐-发现-右滑卡片
-        DiscoverPage(init_driver['driver']).swipeToRight()
+        DiscoverPage(init_driver['driver']).discover_swipeToRight()
 
 
     # 推荐页-发现tab-点击卡片进入profile页
@@ -57,6 +57,8 @@ class Testrecommend:
         DiscoverPage(init_driver['driver']).discover()
         # 点击推荐-发现-点击卡片
         DiscoverPage(init_driver['driver']).discover_screen_card()
+        # profile用户昵称元素是否存在
+        DiscoverPage(init_driver['driver']).profile_name()
 
 
 if __name__ == '__main__':

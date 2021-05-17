@@ -34,11 +34,13 @@ class DiscoverPage(BaseAction):
     def discover_screen_card(self):
         self.click_element(ElementLoc.discover_screen_card_loc, '点击推荐-发现-卡片')
 
+    # 左滑
     def discover_swipeToLeft(self):
         self.swipeToLeft(start_x=0.2,end_x=0.9)
 
+    # 右滑
     def discover_swipeToRight(self):
-        self.swipeToRight(start_x=0.2,end_x=0.9)
+        self.swipeToRight(start_x=0.9,end_x=0.2)
 
     def discover_screen_right_card(self):
         self.click_element(ElementLoc.discover_screen_card_loc, '右滑-卡片')
@@ -46,8 +48,13 @@ class DiscoverPage(BaseAction):
     def discover_screen_call(self):
         self.click_element(ElementLoc.discover_screen_call_loc, '点击推荐-发现-通话按钮')
 
+    # 查找会员拦截弹窗
     def vip_intercept(self):
         self.find_element(ElementLoc.vip_intercept_loc)
 
     def vip_intercept_close(self):
         self.click_element(ElementLoc.vip_intercept_close_loc, '点击关闭会员拦截弹窗')
+
+    # 查找profle页用户昵称元素
+    def profile_name(self):
+        self.find_element(ElementLoc.profile_name)
