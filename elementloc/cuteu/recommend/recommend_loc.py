@@ -7,7 +7,6 @@ class ElementLoc:
     #会员拦截弹窗关闭按钮
     vip_intercept_close_loc = (By.ID, 'com.cuteu.videochat:id/tvClose')
 
-
     #一级页面推荐按钮
     recommend_loc = (By.ID, 'com.cuteu.videochat:id/btnTabRecommend')
     #推荐页-发现按钮
@@ -25,3 +24,11 @@ class ElementLoc:
 
     # profile页昵称
     profile_name= (By.ID, 'com.cuteu.videochat:id/userName')
+
+    # 推荐-推荐tab按钮
+    recommended_tab_loc = (By.XPATH, '//android.widget.LinearLayout[@content-desc="推荐"]/android.view.ViewGroup/android.widget.TextView')
+    # 推荐-更多按钮
+    recommended_more_loc = (By.ID, 'com.cuteu.videochat:id/ivMore')
+    # 推荐-国家tab第二个
+    recommended_ountry_tab_loc = (By.ID, 'com.cuteu.videochat:id/tv_title_2')
+

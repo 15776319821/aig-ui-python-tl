@@ -1,0 +1,70 @@
+2021/05/17/14:34:21 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/btnTabMine')元素
+2021/05/17/14:34:31 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/btnTabMine'),点击我的
+2021/05/17/14:34:52 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/imgSet')元素，是因为Message: 
+
+2021/05/17/14:34:52 base_action.py INFO 点击元素失败('id', 'com.cuteu.videochat:id/imgSet')，是因为'NoneType' object has no attribute 'click':点击设置齿轮角标
+2021/05/17/14:34:52 base_action.py INFO 发现('xpath', "//*[@text='关于我们']")元素
+2021/05/17/14:35:00 base_action.py INFO 点击元素('xpath', "//*[@text='关于我们']"),点击设置页面的关于我们
+2021/05/17/14:35:02 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/toolbar_title')元素
+2021/05/17/14:35:07 base_action.py INFO 连续点击{}失败
+2021/05/17/14:35:07 base_action.py INFO 发现('class name', 'android.widget.ImageButton')元素
+2021/05/17/14:35:17 base_action.py INFO 点击元素('class name', 'android.widget.ImageButton'),点击返回
+2021/05/17/14:35:20 base_action.py INFO 发现('class name', 'android.widget.ImageButton')元素
+2021/05/17/14:35:23 base_action.py INFO 点击元素('class name', 'android.widget.ImageButton'),返回到我的页面
+2021/05/17/14:35:23 test_discover.py INFO 非会员点击筛选按钮case开始
+2021/05/17/14:36:34 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/btnTabMine')元素
+2021/05/17/14:36:44 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/btnTabMine'),点击我的
+2021/05/17/14:37:05 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/imgSet')元素，是因为Message: 
+
+2021/05/17/14:37:05 base_action.py INFO 点击元素失败('id', 'com.cuteu.videochat:id/imgSet')，是因为'NoneType' object has no attribute 'click':点击设置齿轮角标
+2021/05/17/14:37:26 base_action.py INFO 无法获取('xpath', "//*[@text='关于我们']")元素，是因为Message: 
+
+2021/05/17/14:37:26 base_action.py INFO 点击元素失败('xpath', "//*[@text='关于我们']")，是因为'NoneType' object has no attribute 'click':点击设置页面的关于我们
+2021/05/17/14:37:28 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/toolbar_title')元素，是因为Message: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+
+2021/05/17/14:37:28 base_action.py INFO 连续点击{}失败
+2021/05/17/14:37:28 base_action.py INFO 无法获取('class name', 'android.widget.ImageButton')元素，是因为Message: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+
+2021/05/17/14:37:28 base_action.py INFO 点击元素失败('class name', 'android.widget.ImageButton')，是因为'NoneType' object has no attribute 'click':点击返回
+2021/05/17/14:37:32 base_action.py INFO 无法获取('class name', 'android.widget.ImageButton')元素，是因为Message: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+
+2021/05/17/14:37:32 base_action.py INFO 点击元素失败('class name', 'android.widget.ImageButton')，是因为'NoneType' object has no attribute 'click':返回到我的页面
+2021/05/17/14:37:32 test_discover.py INFO 非会员点击筛选按钮case开始
+2021/05/17/14:37:32 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/btnTabRecommend')元素，是因为Message: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+
+2021/05/17/14:37:32 base_action.py INFO 点击元素失败('id', 'com.cuteu.videochat:id/btnTabRecommend')，是因为'NoneType' object has no attribute 'click':点击推荐
+2021/05/17/14:37:35 base_action.py INFO 无法获取('xpath', '//android.widget.LinearLayout[@content-desc="发现"]/android.view.ViewGroup/android.widget.TextView')元素，是因为Message: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+
+2021/05/17/14:37:35 base_action.py INFO 点击元素失败('xpath', '//android.widget.LinearLayout[@content-desc="发现"]/android.view.ViewGroup/android.widget.TextView')，是因为'NoneType' object has no attribute 'click':点击推荐-发现按钮
+2021/05/17/14:37:35 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/countryTv')元素，是因为Message: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+
+2021/05/17/14:37:35 base_action.py INFO 点击元素失败('id', 'com.cuteu.videochat:id/countryTv')，是因为'NoneType' object has no attribute 'click':点击推荐-发现-筛选国家按钮
+2021/05/17/14:37:35 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/nameTv')元素，是因为Message: An unknown server-side error occurred while processing the command. Original error: 'POST /elements' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+
+2021/05/17/14:37:35 base_action.py INFO 点击第1个元素('id', 'com.cuteu.videochat:id/nameTv')失败，是因为'NoneType' object is not iterable:点击第1个国家
+2021/05/17/14:37:35 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/tvTitle')元素，是因为Message: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+
+2021/05/17/14:37:35 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/tvClose')元素，是因为Message: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+
+2021/05/17/14:37:35 base_action.py INFO 点击元素失败('id', 'com.cuteu.videochat:id/tvClose')，是因为'NoneType' object has no attribute 'click':点击关闭会员拦截弹窗
+2021/05/17/14:37:35 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/closeBarView')元素，是因为Message: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+
+2021/05/17/14:37:35 base_action.py INFO 点击元素失败('id', 'com.cuteu.videochat:id/closeBarView')，是因为'NoneType' object has no attribute 'click':点击推荐-发现-筛选国家按钮关闭按钮
+2021/05/17/14:37:35 test_discover.py INFO 非会员点击筛选按钮case开始结束
+2021/05/17/14:37:35 test_discover.py INFO 滑动discover卡片case开始
+2021/05/17/14:37:35 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/btnTabRecommend')元素，是因为Message: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+
+2021/05/17/14:37:35 base_action.py INFO 点击元素失败('id', 'com.cuteu.videochat:id/btnTabRecommend')，是因为'NoneType' object has no attribute 'click':点击推荐
+2021/05/17/14:37:38 base_action.py INFO 无法获取('xpath', '//android.widget.LinearLayout[@content-desc="发现"]/android.view.ViewGroup/android.widget.TextView')元素，是因为Message: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+
+2021/05/17/14:37:38 base_action.py INFO 点击元素失败('xpath', '//android.widget.LinearLayout[@content-desc="发现"]/android.view.ViewGroup/android.widget.TextView')，是因为'NoneType' object has no attribute 'click':点击推荐-发现按钮
+2021/05/17/14:37:38 test_discover.py INFO discover点击卡片进入profile页case开始
+2021/05/17/14:37:38 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/btnTabRecommend')元素，是因为Message: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+
+2021/05/17/14:37:38 base_action.py INFO 点击元素失败('id', 'com.cuteu.videochat:id/btnTabRecommend')，是因为'NoneType' object has no attribute 'click':点击推荐
+2021/05/17/14:37:41 base_action.py INFO 无法获取('xpath', '//android.widget.LinearLayout[@content-desc="发现"]/android.view.ViewGroup/android.widget.TextView')元素，是因为Message: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+
+2021/05/17/14:37:41 base_action.py INFO 点击元素失败('xpath', '//android.widget.LinearLayout[@content-desc="发现"]/android.view.ViewGroup/android.widget.TextView')，是因为'NoneType' object has no attribute 'click':点击推荐-发现按钮
+2021/05/17/14:37:41 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/bgView')元素，是因为Message: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+
+2021/05/17/14:37:41 base_action.py INFO 点击元素失败('id', 'com.cuteu.videochat:id/bgView')，是因为'NoneType' object has no attribute 'click':点击推荐-发现-卡片
