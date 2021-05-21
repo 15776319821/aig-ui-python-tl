@@ -1,10 +1,11 @@
 # -*- coding:utf-8 -*-
+import os
+import sys
 import pytest
 from base.base_driver import setdriver
-import os,sys
-sys.path.append(os.getcwd())
 import time
-from pageproject.aboutus_page import AboutUs
+sys.path.append(os.getcwd())
+from pageproject.cuteu.aboutus_page import AboutUs
 
 # class Testabout():
 #     def test_about(self,init_driver):
@@ -14,10 +15,12 @@ from pageproject.aboutus_page import AboutUs
 
 @pytest.fixture(scope='class')
 def init_driver():
-    driver = setdriver.runapp
-    dri = AboutUs(driver).Us(5)
-    yield {'driver':driver ,'dri':dri}
-    #driver.close_app()
+    driver = setdriver().runapp()
+    #dri = AboutUs(driver).Us(10)
+    yield {'driver':driver}
+    #yield {'driver':driver ,'dri':dri}
+    time.sleep(3)
+    driver.close_app()
     driver.quit()
 # @pytest.fixture(scope='class')
 # def init_drivera():

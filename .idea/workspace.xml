@@ -2,24 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e3af040-e1f6-4d67-a001-fc6e2bd32e50" name="默认的" comment="针对图片比对代码进行优化，与对log日志输出位置进行路径与文件名称进行修改">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/case/cuteu/conftest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/case/cuteu/test_match.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/case/wink/test_msg.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/case/cuteu/common.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elementloc/cuteu/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elementloc/cuteu/login/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elementloc/cuteu/login/login_loc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elementloc/cuteu/match/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elementloc/cuteu/match/match_homepage_loc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/log/2021_04_14_11_log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/log/2021_04_14_13_log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/log/2021_04_14_21_log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/log/2021_04_18_16_log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/log/2021_04_18_17_log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pageproject/cuteu/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pageproject/cuteu/login/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pageproject/cuteu/login/login_page.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/case/atest.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/po.iml" afterPath="$PROJECT_DIR$/.idea/po.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_3_31__11_10____.xml" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_3_31__11_10____.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_3_31__11_10____1.xml" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_3_31__11_10____1.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/base_action.py" afterPath="$PROJECT_DIR$/base/base_action.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/base_driver.py" afterPath="$PROJECT_DIR$/base/base_driver.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/base_log.py" afterPath="$PROJECT_DIR$/base/base_log.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/cuteu/aboutus.py" afterPath="$PROJECT_DIR$/case/cuteu/aboutus.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/cuteu/conftest.py" afterPath="$PROJECT_DIR$/case/cuteu/conftest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/cuteu/test_match.py" afterPath="$PROJECT_DIR$/case/cuteu/test_match.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/appData.yaml" afterPath="$PROJECT_DIR$/data/appData.yaml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/confData/confData.yaml" afterPath="$PROJECT_DIR$/data/confData/confData.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pageproject/match_page.py" afterPath="$PROJECT_DIR$/pageproject/match_page.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pytest.ini" afterPath="$PROJECT_DIR$/pytest.ini" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/case/cuteu/test_matchwink.py" afterPath="$PROJECT_DIR$/case/cuteu/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/case/test_aboutus.py" afterPath="$PROJECT_DIR$/case/cuteu/aboutus.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/1.txt" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/case/test2.py" afterPath="$PROJECT_DIR$/case/cuteu/mach/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/elementloc/aboutus_loc.py" afterPath="$PROJECT_DIR$/elementloc/cuteu/aboutus_loc.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/elementloc/match_loc.py" afterPath="$PROJECT_DIR$/elementloc/cuteu/match_loc.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pageproject/aboutus_page.py" afterPath="$PROJECT_DIR$/pageproject/cuteu/aboutus_page.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pageproject/match_page.py" afterPath="$PROJECT_DIR$/pageproject/cuteu/match_page.py" />
     </list>
     <ignored path="D:\fancyu\aig-ui-python\.idea\shelf/" />
+    <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,13 +45,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/aig_ui_python$py_test_in_test_match_py.coverage" NAME="py.test in test_match.py Coverage Results" MODIFIED="1619611496784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/cuteu" />
     <SUITE FILE_PATH="coverage/po$1111.coverage" NAME="1111 Coverage Results" MODIFIED="1615968371712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/po$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1615719797921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/po$test_mat.coverage" NAME="test_mat Coverage Results" MODIFIED="1614606289302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pro" />
     <SUITE FILE_PATH="coverage/po$atest.coverage" NAME="atest Coverage Results" MODIFIED="1615816654733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/po$base_driver.coverage" NAME="base_driver Coverage Results" MODIFIED="1615380953567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/aig_ui_python$base_driver.coverage" NAME="base_driver Coverage Results" MODIFIED="1618372734785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
     <SUITE FILE_PATH="coverage/po$log.coverage" NAME="log Coverage Results" MODIFIED="1615023058551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/aig_ui_python$test.coverage" NAME="test Coverage Results" MODIFIED="1619943678624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/elementloc/cuteu/login" />
+    <SUITE FILE_PATH="coverage/po$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1615719797921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/aig_ui_python$common__1_.coverage" NAME="common (1) Coverage Results" MODIFIED="1620914124368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/cuteu" />
+    <SUITE FILE_PATH="coverage/aig_ui_python$pictureComparison.coverage" NAME="pictureComparison Coverage Results" MODIFIED="1620460376007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/po$test_mat.coverage" NAME="test_mat Coverage Results" MODIFIED="1614606289302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pro" />
+    <SUITE FILE_PATH="coverage/aig_ui_python$py_test_for_test_match_Testmatch_test_msg.coverage" NAME="py.test for test_match.Testmatch.test_msg Coverage Results" MODIFIED="1618371427245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/cuteu" />
     <SUITE FILE_PATH="coverage/po$test_match.coverage" NAME="test_match Coverage Results" MODIFIED="1616317959038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/aig_ui_python$common.coverage" NAME="common Coverage Results" MODIFIED="1619606768765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/cuteu" />
     <SUITE FILE_PATH="coverage/po$test.coverage" NAME="test Coverage Results" MODIFIED="1615198089803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
   </component>
   <component name="FileEditorManager">
@@ -42,42 +66,74 @@
       <file leaf-file-name="base_action.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base/base_action.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="1815">
+              <caret line="62" column="8" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+              <folding>
+                <element signature="e#147#158#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login_loc.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elementloc/cuteu/login/login_loc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="24" column="72" lean-forward="false" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="72" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base_driver.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base/base_driver.py">
+      <file leaf-file-name="common.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/case/cuteu/common.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            <state relative-caret-position="1122">
+              <caret line="35" column="42" lean-forward="false" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="42" />
               <folding>
-                <element signature="e#24#52#0" expanded="true" />
+                <element signature="e#143#152#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aboutus.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/case/cuteu/aboutus.py">
+      <file leaf-file-name="login_page.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pageproject/cuteu/login/login_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="924">
+              <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="31" />
               <folding>
-                <element signature="e#50#63#0" expanded="true" />
+                <element signature="e#148#157#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pytest.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pytest.ini">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="33">
+              <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_match.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/case/cuteu/test_match.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="match_page.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pageproject/cuteu/match_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="693">
+              <caret line="22" column="74" lean-forward="false" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -86,65 +142,9 @@
       <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/case/cuteu/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-              <folding>
-                <element signature="e#23#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aboutus_page.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pageproject/aboutus_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="495">
+              <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="26" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="match_page.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pageproject/match_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requ.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UIDeskTop/requ.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getGitFile.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/UIDeskTop/getGitFile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base_log.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base/base_log.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="42" column="22" lean-forward="false" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
-              <folding>
-                <element signature="e#146#160#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -177,40 +177,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/de/des.py" />
-        <option value="$PROJECT_DIR$/pro/test_mat.py" />
-        <option value="$PROJECT_DIR$/scripts/test_mat.py" />
-        <option value="$PROJECT_DIR$/page/match_page.py" />
-        <option value="$PROJECT_DIR$/outputs/loggg/__init__.py" />
-        <option value="$PROJECT_DIR$/base/log.py" />
-        <option value="$PROJECT_DIR$/data/dataa.py" />
-        <option value="$PROJECT_DIR$/data/SHOUJI.py" />
-        <option value="$PROJECT_DIR$/data/msg_data.py" />
-        <option value="$PROJECT_DIR$/elementloc/set_about us.py" />
-        <option value="$PROJECT_DIR$/pageproject/set_about us_page.py" />
-        <option value="$PROJECT_DIR$/scripts/test_aboutus.py" />
-        <option value="$PROJECT_DIR$/scripts/test.py" />
-        <option value="$PROJECT_DIR$/elementloc/aboutus_loc.py" />
-        <option value="$PROJECT_DIR$/scripts/test_match.py" />
-        <option value="$PROJECT_DIR$/elementloc/消息/aboutus_loc.py" />
-        <option value="$PROJECT_DIR$/case/1111.py" />
-        <option value="$PROJECT_DIR$/pageproject/aboutus_page.py" />
-        <option value="$PROJECT_DIR$/outputs/log/2021_03_10_21_49_19_log" />
-        <option value="$PROJECT_DIR$/base/createpath.py" />
-        <option value="$PROJECT_DIR$/elementloc/match_loc.py" />
-        <option value="$PROJECT_DIR$/case/test_match.py" />
-        <option value="$PROJECT_DIR$/data/confData/confData.yaml" />
-        <option value="$PROJECT_DIR$/case/test_aboutus.py" />
-        <option value="$PROJECT_DIR$/base/base_driver.py" />
-        <option value="$PROJECT_DIR$/case/cuteu/test_matchwink.py" />
-        <option value="$PROJECT_DIR$/case/wink/conftest.py" />
-        <option value="$PROJECT_DIR$/data/appData.yaml" />
-        <option value="$PROJECT_DIR$/case/wink/match.py" />
-        <option value="$PROJECT_DIR$/base/base_action.py" />
-        <option value="$PROJECT_DIR$/base/base_log.py" />
-        <option value="$PROJECT_DIR$/pytest.ini" />
+        <option value="$PROJECT_DIR$/elementloc/cuteu/match/match_homepage_loc.py" />
+        <option value="$PROJECT_DIR$/pageproject/cuteu/match_page.py" />
+        <option value="$PROJECT_DIR$/pageproject/cuteu/aboutus_page.py" />
         <option value="$PROJECT_DIR$/case/cuteu/conftest.py" />
-        <option value="$PROJECT_DIR$/pageproject/match_page.py" />
+        <option value="$PROJECT_DIR$/data/appData.yaml" />
+        <option value="$PROJECT_DIR$/base/base_log.py" />
+        <option value="$PROJECT_DIR$/elementloc/cuteu/login/test.py" />
+        <option value="$PROJECT_DIR$/pytest.ini" />
+        <option value="$PROJECT_DIR$/case/cuteu/test_match.py" />
+        <option value="$PROJECT_DIR$/elementloc/cuteu/login/login_loc.py" />
+        <option value="$PROJECT_DIR$/case/cuteu/common.py" />
+        <option value="$PROJECT_DIR$/base/base_action.py" />
+        <option value="$PROJECT_DIR$/pageproject/cuteu/login/login_page.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -246,7 +226,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -254,27 +233,12 @@
               <item name="aig-ui-python" type="b2602c69:ProjectViewProjectNode" />
               <item name="aig-ui-python" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="aig-ui-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aig-ui-python" type="462c0819:PsiDirectoryNode" />
-              <item name="case" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aig-ui-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aig-ui-python" type="462c0819:PsiDirectoryNode" />
-              <item name="case" type="462c0819:PsiDirectoryNode" />
-              <item name="cuteu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aig-ui-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aig-ui-python" type="462c0819:PsiDirectoryNode" />
-              <item name="pageproject" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -284,16 +248,19 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/po" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\fancyu\aig-ui-python\case\wink" />
-      <recent name="$PROJECT_DIR$/screenShotImage" />
-      <recent name="D:\po\elementloc" />
-      <recent name="D:\po\elementloc\消息" />
-      <recent name="D:\po\outputs\log" />
+      <recent name="D:\fancyu\aig-ui-python\case\cuteu" />
+      <recent name="D:\fancyu\aig-ui-python\case\cuteu\mach" />
+      <recent name="D:\fancyu\aig-ui-python\case\cuteu\common" />
+      <recent name="D:\fancyu\aig-ui-python\pageproject\cuteu" />
+      <recent name="D:\fancyu\aig-ui-python\elementloc\cuteu" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\fancyu\aig-ui-python\case\cuteu" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -308,44 +275,44 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="base_driver" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.common (1)">
+    <configuration name="common (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case/cuteu" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="po" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base/base_driver.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/cuteu/common.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="base_log" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="common" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case/cuteu" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="po" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base/base_log.py" />
+      <option name="SCRIPT_NAME" value="D:\fancyu\aig-ui-python\case\cuteu\common.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="pictureComparison" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pictureComparison" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -363,63 +330,61 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="readIphoneData" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test in test_match.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case/cuteu" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="po" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base/readIphoneData.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/cuteu/test_match.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="retry" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/elementloc/cuteu/login" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="po" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/elementloc/cuteu/login/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.base_driver" />
-      <item index="1" class="java.lang.String" itemvalue="Python.pictureComparison" />
-      <item index="2" class="java.lang.String" itemvalue="Python.readIphoneData" />
-      <item index="3" class="java.lang.String" itemvalue="Python.retry" />
-      <item index="4" class="java.lang.String" itemvalue="Python.base_log" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_match.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python.common" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test" />
+      <item index="3" class="java.lang.String" itemvalue="Python.pictureComparison" />
+      <item index="4" class="java.lang.String" itemvalue="Python.common (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.base_log" />
-        <item index="1" class="java.lang.String" itemvalue="Python.retry" />
-        <item index="2" class="java.lang.String" itemvalue="Python.readIphoneData" />
-        <item index="3" class="java.lang.String" itemvalue="Python.pictureComparison" />
-        <item index="4" class="java.lang.String" itemvalue="Python.base_driver" />
+        <item index="0" class="java.lang.String" itemvalue="Python.common (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.pictureComparison" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_match.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python.common" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -430,6 +395,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614605978002</updated>
+      <workItem from="1619094404732" duration="30000" />
+      <workItem from="1619094486250" duration="429000" />
+      <workItem from="1619173304899" duration="32000" />
     </task>
     <task id="LOCAL-00001" summary="启动多线程">
       <created>1617162428400</created>
@@ -483,6 +451,20 @@
     <option name="localTasksCounter" value="8" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="py_test_in_test_match_py - 2021.04.28 at 20h 03m 28s.xml">
+      <configuration name="py.test in test_match.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_match_py - 2021.04.28 at 20h 04m 12s.xml">
+      <configuration name="py.test in test_match.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_match_py - 2021.04.28 at 20h 04m 46s.xml">
+      <configuration name="py.test in test_match.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_match_py - 2021.04.28 at 20h 05m 22s.xml">
+      <configuration name="py.test in test_match.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -495,18 +477,18 @@
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27360514" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32081544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.87043583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.71378094" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.614841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -516,22 +498,22 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.614841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3392226" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34603006" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26824033" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -576,6 +558,16 @@
     <MESSAGE value="针对图片比对代码进行优化，与对log日志输出位置进行路径与文件名称进行修改" />
     <option name="LAST_COMMIT_MESSAGE" value="针对图片比对代码进行优化，与对log日志输出位置进行路径与文件名称进行修改" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1619094796943">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1619094796943" />
+    <state x="270" y="56" key="SettingsEditor" timestamp="1619173335144">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1619173335144" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -585,148 +577,246 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/base/pictureComparison.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/UIDeskTop/requ.py</url>
           <line>115</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/case/test_match.py" />
     <entry file="file://$PROJECT_DIR$/pytest.ini">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pageproject/cuteu/aboutus_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/cuteu/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="25" column="57" lean-forward="true" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elementloc/cuteu/login/login_loc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="28" column="50" lean-forward="false" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/base_action.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="31" column="45" lean-forward="false" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pageproject/cuteu/match_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elementloc/cuteu/match_loc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elementloc/cuteu/aboutus_loc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pageproject/cuteu/aboutus_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pageproject/cuteu/login/login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elementloc/cuteu/login/login_loc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="28" column="50" lean-forward="false" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pageproject/cuteu/match_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/base_action.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="31" column="45" lean-forward="true" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elementloc/cuteu/match_loc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elementloc/cuteu/aboutus_loc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pageproject/cuteu/aboutus_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pageproject/cuteu/login/login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elementloc/cuteu/login/login_loc.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/outputs/loggg/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/outputs/log/2021_03_06_19_21_09_log" />
-    <entry file="file://$PROJECT_DIR$/outputs/log/2021_03_06_18_31_25_log" />
-    <entry file="file://D:/python/Lib/logging/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/scripts/adsadasdtest.py" />
-    <entry file="file://$PROJECT_DIR$/outputs/log/2021_03_09_10_28_51_log" />
-    <entry file="file://$PROJECT_DIR$/outputs/log/2021_03_06_18_13_32_log" />
-    <entry file="file://$PROJECT_DIR$/outputs/log/2021_03_09_10_30_41_log" />
-    <entry file="file://$PROJECT_DIR$/data/SHOUJI.py" />
-    <entry file="file://$PROJECT_DIR$/outputs/reports/report.html">
+    <entry file="file://$PROJECT_DIR$/pageproject/cuteu/match_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="47" column="28" lean-forward="false" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+        <state relative-caret-position="66">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/python/Lib/site-packages/appium/webdriver/common/touch_action.py" />
-    <entry file="file://$PROJECT_DIR$/base/11.yml" />
-    <entry file="file://$PROJECT_DIR$/outputs/log/2021_03_14_14_40_15_log" />
-    <entry file="file://D:/python/Lib/site-packages/appium/webdriver/webdriver.py" />
-    <entry file="file://D:/python/Lib/site-packages/selenium/webdriver/remote/webdriver.py" />
-    <entry file="file://D:/python/Lib/site-packages/selenium/webdriver/remote/errorhandler.py" />
-    <entry file="file://$PROJECT_DIR$/elementloc/aboutus_loc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/1111.py" />
-    <entry file="file://$PROJECT_DIR$/outputs/log/2021_03_10_21_49_19_log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/outputs/log/2021_03_21_17_26_15_log">
+    <entry file="file://$PROJECT_DIR$/elementloc/cuteu/match_loc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/outputs/log/2021_03_21_17_37_55_log">
+    <entry file="file://$PROJECT_DIR$/elementloc/cuteu/aboutus_loc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elementloc/match_loc.py">
+    <entry file="file://$PROJECT_DIR$/pageproject/cuteu/aboutus_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="165">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/outputs/log/2021_03_21_18_02_57_log">
+    <entry file="file://$PROJECT_DIR$/pageproject/cuteu/login/login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elementloc/cuteu/match_loc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/cuteu/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/python39/Lib/site-packages/_pytest/_io/terminalwriter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="163" column="0" lean-forward="false" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/cuteu/aboutus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elementloc/cuteu/login/test.py" />
+    <entry file="file://$PROJECT_DIR$/elementloc/cuteu/aboutus_loc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pageproject/cuteu/aboutus_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/base/createpath.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <caret line="21" column="32" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="21" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case/test_match.py" />
-    <entry file="file://$PROJECT_DIR$/base/pictureComparison.py">
+    <entry file="file://$PROJECT_DIR$/outputs/reports/report.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="99">
+          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base/readIphoneData.py">
+    <entry file="file://$PROJECT_DIR$/UIDeskTop/getGitFile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        <state relative-caret-position="66">
+          <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="8" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/atest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/msg_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screenShotImage/小图.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screenShotImage/小图2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/screenShotImage/截屏图.png">
@@ -734,123 +824,135 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/base/pictureComparison.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2046">
+          <caret line="65" column="37" lean-forward="false" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elementloc/cuteu/match/match_homepage_loc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenShotImage/小图2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/confData/confData.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="39" lean-forward="false" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+          <caret line="0" column="49" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UIDeskTop/requ.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/appData.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="39" lean-forward="false" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        <state relative-caret-position="264">
+          <caret line="23" column="15" lean-forward="false" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case/cuteu/test_matchwink.py" />
-    <entry file="file://$PROJECT_DIR$/case/cuteu/test_msg.py" />
-    <entry file="file://$PROJECT_DIR$/case/cuteu/test_match.py">
+    <entry file="file://$PROJECT_DIR$/base/base_driver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/base_log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="42" column="22" lean-forward="false" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
-          <folding>
-            <element signature="e#146#160#0" expanded="true" />
-          </folding>
+          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pytest.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="198">
+          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base/base_action.py">
+    <entry file="file://$PROJECT_DIR$/pageproject/cuteu/match_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="693">
+          <caret line="22" column="74" lean-forward="false" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/case/cuteu/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="e#23#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/base_driver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <element signature="e#24#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/cuteu/aboutus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#50#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pageproject/aboutus_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="495">
+          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pageproject/match_page.py">
+    <entry file="file://$PROJECT_DIR$/base/base_log.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="307">
+          <caret line="39" column="17" lean-forward="false" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/cuteu/test_match.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UIDeskTop/requ.py">
+    <entry file="file://$PROJECT_DIR$/elementloc/cuteu/login/login_loc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="792">
+          <caret line="24" column="72" lean-forward="false" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UIDeskTop/getGitFile.py">
+    <entry file="file://$PROJECT_DIR$/base/base_action.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="1815">
+          <caret line="62" column="8" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#147#158#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/cuteu/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="35" column="42" lean-forward="false" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="42" />
+          <folding>
+            <element signature="e#143#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pageproject/cuteu/login/login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="31" />
+          <folding>
+            <element signature="e#148#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -6,13 +6,13 @@
 # @Software :PyCharm
 
 import time
-
 from selenium.webdriver.support.wait import WebDriverWait
 from base.base_log import logger
 from datetime import datetime
 from base.createpath import p_path
 from appium.webdriver.common.touch_action import TouchAction
-
+from selenium.common.exceptions import NoSuchElementException
+from appium import webdriver
 
 class BaseAction:
     def __init__(self,driver):
@@ -40,14 +40,14 @@ class BaseAction:
             TouchAction(self.driver).tap(el, count=n).perform()
             logger.info("连续点击{}，{}次".format(el,n))
         except Exception as error:
-            logger.info("连续点击{}失败")
+            logger.info("连续点击{}元素{}次失败,是因为{}".format(el,n,error))
     #输入文字
-    def input_text(self,loc,text):
+    def input_text(self,loc,text,img_doc):
         try:
             self.find_element(loc).send_keys(text)
-            logger.info("发现{}元素，且成功输入{}".format(loc,text))
+            logger.info("发现{}元素，且成功输入{},{}".format(loc,text,img_doc))
         except Exception as error:
-            logger.info("无法获取{}元素，并且没有输入{}文本值".format(loc,text))
+            logger.info("无法获取{}元素，并且没有输入{}文本值,是因为{}".format(loc,text,error))
     #寻找单个元素
     def find_element(self, loc,time=20,poll=1):
         by=loc[0]
@@ -78,9 +78,39 @@ class BaseAction:
             list.append(d)
         return list[c]
 
-    #关闭驱动
-    def close(self,driver):
-        self.driver.quit()
+    # 关闭驱动
+    # def close(self,driver):
+    #     self.driver.quit()
+
+    #判断元素是否存在---单个元素
+    def is_elementloc(self,loc):
+        try:
+            self.driver.find_element(*loc)
+            return True
+        except Exception as erro:
+            logger.info('没有这个元素{},报错{}'.format(loc,erro))
+            return False
+
+    #判断元素是否存在---多个元素
+    def is_elmentsloc(self,loc):
+        try:
+            self.driver.find_elements(*loc)
+            return True
+        except Exception as erro:
+            logger.info('查找不到这些元素，报错{}'.format(erro))
+            return False
+
+        # else:
+        #     try:
+        #         if element is None:
+        #             logger.info('else层的日志输出，没有这个元素')
+        #             return True
+        #         else:
+        #             logger.info('==================test test================')
+        #             return False
+        #     except Exception as e:
+        #         logger.info('是不是走到TURE了！！')
+        #         return True
 
     #保存截图到outputs/screenshots需要用到
     # def save_page_screenshot(self, img_dic):
@@ -98,6 +128,8 @@ class BaseAction:
     #         logger.exception("当前网页截图失败")
     #     else:
     #         logger.info("截取当前网页成功并存储在:{}".format(screenshot_path))
+
+    #断言方法a
 
 
 
