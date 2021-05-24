@@ -50,6 +50,3 @@ logger=DemeLog().log()
         Logger.error('error信息')
         Logger.critical('critical msg')
 """
-
-
-

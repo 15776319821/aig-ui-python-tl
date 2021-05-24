@@ -2,7 +2,6 @@
 
 import os
 import sys
-
 sys.path.append(os.getcwd())
 import time
 from elementloc.cuteu.match_loc import ElementLoc

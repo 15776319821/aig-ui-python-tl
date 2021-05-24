@@ -21,9 +21,9 @@ class setdriver():
         desired_caps['platformName']='Android'
         #要测试手机安卓版本（9.1.1可以写9.1 也可以写9都行
         #desired_caps['platformVersion']=str(appProjectData['iphoneAndroidNum'])
-        desired_caps['platformVersion'] = '10'
         #安装apk包
         #desired_caps['app'] = str(apkpath)
+        desired_caps['platformVersion'] = '9'
         #设备的名字，adb命令：adb devices查看，这个设备号安卓可以随便写，ios必须写对
         desired_caps['deviceName']=str(appProjectData['devices'])
         #要测试的应用的包名
@@ -50,7 +50,7 @@ class setdriver():
             iphoneData[i]=eval(iphoneData[i])
             desired = self.desired(iphoneData,i)
             appiumPort= 4723 + i
-            status=os.popen("netstat -an | grep %s" % appiumPort)
+            status=os.popen("netstat -an | findstr %s" % appiumPort)
             time.sleep(2)
             t1 = status.read()
             if "LISTENING" in t1:
@@ -60,10 +60,9 @@ class setdriver():
                 #os.popen("appium -a 127.0.0.1 -p %s -U %s --no-reset" % (appiumPort, desired['deviceName']))
                 return (appiumPort, desired)
 
-
     def runapp(self):
         appiumData=self.startappium()
-        driver = webdriver.Remote('http://0.0.0.0:%s/wd/hub' % appiumData[0], appiumData[1])
+        driver = webdriver.Remote('http://127.0.0.1:%s/wd/hub' % appiumData[0], appiumData[1])
         driver.implicitly_wait(20)
         return driver
     def iphone_desired(self):
@@ -95,3 +94,4 @@ class setdriver():
 
 if __name__ == '__main__':
     x =setdriver().runapp()
+

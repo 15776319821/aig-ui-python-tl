@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2021/05/14/16:02:18 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/btnTabMine')元素，是因为Message: 
 
 2021/05/14/16:02:18 base_action.py INFO 点击元素失败('id', 'com.cuteu.videochat:id/btnTabMine')，是因为'NoneType' object has no attribute 'click':点击我的
@@ -116,3 +117,69 @@
 2021/05/14/16:57:21 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/tvClose')元素
 2021/05/14/16:57:21 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/tvClose'),点击关闭会员拦截弹窗
 2021/05/14/16:57:21 test_discover.py INFO 非会员点击筛选按钮case开始结束
+=======
+2021/05/14/16:31:40 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/tv_fast_register')元素
+2021/05/14/16:31:41 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/tv_fast_register'),点击快速注册
+2021/05/14/16:31:42 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/maleTv')元素
+2021/05/14/16:31:42 base_action.py INFO ==================test test================
+2021/05/14/16:31:42 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/maleTv')元素
+2021/05/14/16:31:42 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/maleTv'),性别：男
+2021/05/14/16:31:43 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/next')元素
+2021/05/14/16:31:43 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/next'),性别页面下一步
+2021/05/14/16:31:43 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/next')元素
+2021/05/14/16:31:44 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/next'),昵称页面下一步
+2021/05/14/16:31:44 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/next')元素
+2021/05/14/16:31:45 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/next'),生日下一步
+2021/05/14/16:31:45 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/next')元素
+2021/05/14/16:31:46 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/next'),上传头像页下一步
+2021/05/14/16:31:47 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/next')元素
+2021/05/14/16:31:47 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/next'),交友目的-下一步
+2021/05/14/16:32:07 base_action.py INFO 无法获取('id', 'com.android.packageinstaller:id/permission_allow_button')元素，是因为Message: 
+
+2021/05/14/16:32:07 base_action.py INFO else层的日志输出，没有这个元素
+2021/05/14/16:32:28 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/okBtn')元素，是因为Message: 
+
+2021/05/14/16:32:28 base_action.py INFO 点击元素失败('id', 'com.cuteu.videochat:id/okBtn')，是因为'NoneType' object has no attribute 'click':点击我知道了
+2021/05/14/16:32:28 test_match.py INFO 执行前
+2021/05/14/16:32:43 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/btnTabMessage')元素
+2021/05/14/16:32:43 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/btnTabMessage'),点击消息列表
+2021/05/14/16:32:47 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/linearLayout2')元素
+2021/05/14/16:32:47 base_action.py INFO 点击第1个元素('id', 'com.cuteu.videochat:id/linearLayout2')失败，是因为list index out of range:点击第1个元素
+2021/05/14/16:32:47 test_match.py INFO 执行后
+2021/05/14/16:34:50 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/tv_fast_register')元素，是因为Message: 
+
+2021/05/14/16:34:50 base_action.py INFO 点击元素失败('id', 'com.cuteu.videochat:id/tv_fast_register')，是因为'NoneType' object has no attribute 'click':点击快速注册
+2021/05/14/16:35:36 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/tv_fast_register')元素
+2021/05/14/16:35:36 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/tv_fast_register'),点击快速注册
+2021/05/14/16:35:37 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/maleTv')元素
+2021/05/14/16:35:37 base_action.py INFO ==================test test================
+2021/05/14/16:35:37 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/maleTv')元素
+2021/05/14/16:35:37 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/maleTv'),性别：男
+2021/05/14/16:35:38 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/next')元素
+2021/05/14/16:35:38 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/next'),性别页面下一步
+2021/05/14/16:35:38 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/next')元素
+2021/05/14/16:35:39 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/next'),昵称页面下一步
+2021/05/14/16:35:39 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/next')元素
+2021/05/14/16:35:40 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/next'),生日下一步
+2021/05/14/16:35:40 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/next')元素
+2021/05/14/16:35:41 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/next'),上传头像页下一步
+2021/05/14/16:35:42 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/next')元素
+2021/05/14/16:35:42 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/next'),交友目的-下一步
+2021/05/14/16:36:05 base_action.py INFO 无法获取('id', 'com.android.packageinstaller:id/permission_allow_button')元素，是因为Message: 
+
+2021/05/14/16:36:05 base_action.py INFO else层的日志输出，没有这个元素
+2021/05/14/16:36:25 base_action.py INFO 无法获取('id', 'com.android.packageinstaller:id/permission_allow_button')元素，是因为Message: 
+
+2021/05/14/16:36:25 base_action.py INFO 点击元素失败('id', 'com.android.packageinstaller:id/permission_allow_button')，是因为'NoneType' object has no attribute 'click':录音授权
+2021/05/14/16:36:48 base_action.py INFO 无法获取('id', 'com.android.packageinstaller:id/permission_allow_button')元素，是因为Message: 
+
+2021/05/14/16:36:48 base_action.py INFO 点击元素失败('id', 'com.android.packageinstaller:id/permission_allow_button')，是因为'NoneType' object has no attribute 'click':摄像头授权
+2021/05/14/16:36:48 test_match.py INFO 执行前
+2021/05/14/16:37:13 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/btnTabMessage')元素，是因为Message: 
+
+2021/05/14/16:37:13 base_action.py INFO 点击元素失败('id', 'com.cuteu.videochat:id/btnTabMessage')，是因为'NoneType' object has no attribute 'click':点击消息列表
+2021/05/14/16:37:27 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/linearLayout2')元素，是因为Message: 
+
+2021/05/14/16:37:27 base_action.py INFO 点击第1个元素('id', 'com.cuteu.videochat:id/linearLayout2')失败，是因为'NoneType' object is not iterable:点击第1个元素
+2021/05/14/16:37:27 test_match.py INFO 执行后
+>>>>>>> FancyU
