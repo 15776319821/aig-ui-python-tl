@@ -112,3 +112,5 @@ dmypy.json
 idea/
 outputs/
 venv/
+.pytest_cache/
+pytest_cache/
