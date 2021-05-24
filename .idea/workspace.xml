@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e3af040-e1f6-4d67-a001-fc6e2bd32e50" name="默认的" comment="针对图片比对代码进行优化，与对log日志输出位置进行路径与文件名称进行修改">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/case/cuteu/common.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elementloc/cuteu/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elementloc/cuteu/login/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elementloc/cuteu/login/login_loc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elementloc/cuteu/match/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elementloc/cuteu/match/match_homepage_loc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/log/2021_04_14_11_log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/log/2021_04_14_13_log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/log/2021_04_14_21_log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/log/2021_04_18_16_log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/log/2021_04_18_17_log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pageproject/cuteu/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pageproject/cuteu/login/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pageproject/cuteu/login/login_page.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/case/atest.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/po.iml" afterPath="$PROJECT_DIR$/.idea/po.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/base_action.py" afterPath="$PROJECT_DIR$/base/base_action.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/base_driver.py" afterPath="$PROJECT_DIR$/base/base_driver.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/base_log.py" afterPath="$PROJECT_DIR$/base/base_log.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/cuteu/aboutus.py" afterPath="$PROJECT_DIR$/case/cuteu/aboutus.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/cuteu/conftest.py" afterPath="$PROJECT_DIR$/case/cuteu/conftest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/cuteu/test_match.py" afterPath="$PROJECT_DIR$/case/cuteu/test_match.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/appData.yaml" afterPath="$PROJECT_DIR$/data/appData.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/confData/confData.yaml" afterPath="$PROJECT_DIR$/data/confData/confData.yaml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/1.txt" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/case/test2.py" afterPath="$PROJECT_DIR$/case/cuteu/mach/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/elementloc/aboutus_loc.py" afterPath="$PROJECT_DIR$/elementloc/cuteu/aboutus_loc.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/elementloc/match_loc.py" afterPath="$PROJECT_DIR$/elementloc/cuteu/match_loc.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pageproject/aboutus_page.py" afterPath="$PROJECT_DIR$/pageproject/cuteu/aboutus_page.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pageproject/match_page.py" afterPath="$PROJECT_DIR$/pageproject/cuteu/match_page.py" />
     </list>
     <ignored path="D:\fancyu\aig-ui-python\.idea\shelf/" />
     <ignored path="$PROJECT_DIR$/venv/" />
@@ -75,24 +44,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login_loc.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/elementloc/cuteu/login/login_loc.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="24" column="72" lean-forward="false" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="common.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/case/cuteu/common.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="35" column="42" lean-forward="false" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="42" />
-              <folding>
-                <element signature="e#143#152#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="595">
+              <caret line="71" column="31" lean-forward="true" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,16 +57,14 @@
       <file leaf-file-name="login_page.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pageproject/cuteu/login/login_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="31" />
-              <folding>
-                <element signature="e#148#157#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="727">
+              <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="33">
@@ -122,8 +77,8 @@
       <file leaf-file-name="test_match.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/case/cuteu/test_match.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+            <state relative-caret-position="627">
+              <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -142,9 +97,12 @@
       <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/case/cuteu/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="528">
+              <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+              <folding>
+                <marker date="1621582692614" expanded="false" signature="23:30" ph="import ..." />
+                <marker date="1621582692614" expanded="true" signature="482:575" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -188,9 +146,9 @@
         <option value="$PROJECT_DIR$/case/cuteu/test_match.py" />
         <option value="$PROJECT_DIR$/elementloc/cuteu/login/login_loc.py" />
         <option value="$PROJECT_DIR$/case/cuteu/common.py" />
-        <option value="$PROJECT_DIR$/base/base_action.py" />
         <option value="$PROJECT_DIR$/pageproject/cuteu/login/login_page.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/base/base_action.py" />
       </list>
     </option>
   </component>
@@ -226,6 +184,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,12 +193,44 @@
               <item name="aig-ui-python" type="b2602c69:ProjectViewProjectNode" />
               <item name="aig-ui-python" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="aig-ui-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aig-ui-python" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aig-ui-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aig-ui-python" type="462c0819:PsiDirectoryNode" />
+              <item name="case" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aig-ui-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aig-ui-python" type="462c0819:PsiDirectoryNode" />
+              <item name="case" type="462c0819:PsiDirectoryNode" />
+              <item name="cuteu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aig-ui-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aig-ui-python" type="462c0819:PsiDirectoryNode" />
+              <item name="pageproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aig-ui-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aig-ui-python" type="462c0819:PsiDirectoryNode" />
+              <item name="pageproject" type="462c0819:PsiDirectoryNode" />
+              <item name="cuteu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aig-ui-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aig-ui-python" type="462c0819:PsiDirectoryNode" />
+              <item name="pageproject" type="462c0819:PsiDirectoryNode" />
+              <item name="cuteu" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -477,7 +469,7 @@
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32081544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3251073" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -889,9 +881,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/case/cuteu/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="528">
+          <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding>
+            <marker date="1621582692614" expanded="false" signature="23:30" ph="import ..." />
+            <marker date="1621582692614" expanded="true" signature="482:575" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -899,13 +894,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="39" column="17" lean-forward="false" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/case/cuteu/test_match.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        <state relative-caret-position="627">
+          <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -914,6 +910,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
           <caret line="24" column="72" lean-forward="false" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -928,30 +932,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case/cuteu/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="35" column="42" lean-forward="false" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="42" />
-          <folding>
-            <element signature="e#143#152#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pageproject/cuteu/login/login_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="31" />
-          <folding>
-            <element signature="e#148#157#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="727">
+          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/case/cuteu/common.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        <state relative-caret-position="595">
+          <caret line="71" column="31" lean-forward="true" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
           <folding />
         </state>
       </provider>
