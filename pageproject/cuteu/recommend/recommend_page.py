@@ -58,3 +58,16 @@ class DiscoverPage(BaseAction):
     # 查找profle页用户昵称元素
     def profile_name(self):
         self.find_element(ElementLoc.profile_name)
+
+    def recommend_tab(self):
+        self.click_element(ElementLoc.recommended_tab_loc, '点击推荐tab')
+
+    def recommend_more(self):
+        self.click_element(ElementLoc.recommended_more_loc, '点击推荐国家更多按钮')
+
+    def recommend_country_tab(self):
+        self.click_element(ElementLoc.recommended_country_tab_loc, '点击国家tab第二个')
+
+    def recommend_list(self,type):
+        self.click_elements(ElementLoc.recommend_list_loc, '点击推荐列表的第一个主播'.format(type))
+

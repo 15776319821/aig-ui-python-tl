@@ -30,5 +30,8 @@ class ElementLoc:
     # 推荐-更多按钮
     recommended_more_loc = (By.ID, 'com.cuteu.videochat:id/ivMore')
     # 推荐-国家tab第二个
-    recommended_ountry_tab_loc = (By.ID, 'com.cuteu.videochat:id/tv_title_2')
-
+    recommended_country_tab_loc = (By.ID, 'com.cuteu.videochat:id/tv_title_2')
+    # 推荐-banner
+    recommend_banner_loc = (By.ID, 'com.cuteu.videochat:id/bannerLayout')
+    # 推荐-列表
+    recommend_list_loc = (By.ID, 'com.cuteu.videochat:id/bgView')
