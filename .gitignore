@@ -109,6 +109,6 @@ venv.bak/
 .dmypy.json
 dmypy.json
 .idea/
-.outputs/log/
-.pytest.ini
-.venv/
+idea/
+outputs/
+venv/
