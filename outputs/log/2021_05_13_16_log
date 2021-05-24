@@ -1,0 +1,14 @@
+2021/05/13/16:50:29 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/tv_fast_register')元素
+2021/05/13/16:50:29 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/tv_fast_register'),点击快速注册
+2021/05/13/16:50:51 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/maleTv')元素，是因为Message: 
+
+2021/05/13/16:50:51 base_action.py INFO None存在
+2021/05/13/16:51:11 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/maleTv')元素，是因为Message: 
+
+2021/05/13/16:51:11 base_action.py INFO 点击元素失败('id', 'com.cuteu.videochat:id/maleTv')，是因为'NoneType' object has no attribute 'click':性别：男
+2021/05/13/16:51:33 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/next')元素，是因为Message: 
+
+2021/05/13/16:51:33 base_action.py INFO 点击元素失败('id', 'com.cuteu.videochat:id/next')，是因为'NoneType' object has no attribute 'click':性别页面下一步
+2021/05/13/16:51:54 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/next')元素，是因为Message: 
+
+2021/05/13/16:51:54 base_action.py INFO 点击元素失败('id', 'com.cuteu.videochat:id/next')，是因为'NoneType' object has no attribute 'click':昵称页面下一步

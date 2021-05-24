@@ -1,0 +1,8 @@
+2021/04/29/18:04:56 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/tv_fast_register')元素
+2021/04/29/18:04:56 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/tv_fast_register'),点击快速注册
+2021/04/29/18:12:20 test_match.py INFO 执行前
+2021/04/29/18:12:26 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/btnTabMessage')元素
+2021/04/29/18:12:27 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/btnTabMessage'),点击消息列表
+2021/04/29/18:12:32 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/linearLayout2')元素
+2021/04/29/18:12:33 base_action.py INFO 点击第1个元素,('id', 'com.cuteu.videochat:id/linearLayout2')
+2021/04/29/18:12:33 test_match.py INFO 执行后

@@ -1,0 +1,62 @@
+2021/05/02/17:21:11 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/tv_fast_register')元素
+2021/05/02/17:21:11 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/tv_fast_register'),点击快速注册
+2021/05/02/17:21:11 test_match.py INFO 执行前
+2021/05/02/17:21:14 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/btnTabMessage')元素
+2021/05/02/17:21:15 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/btnTabMessage'),点击消息列表
+2021/05/02/17:21:20 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/linearLayout2')元素
+2021/05/02/17:21:20 base_action.py INFO 点击第1个元素,('id', 'com.cuteu.videochat:id/linearLayout2')
+2021/05/02/17:21:20 test_match.py INFO 执行后
+2021/05/02/17:24:15 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/tv_fast_register')元素
+2021/05/02/17:24:15 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/tv_fast_register'),点击快速注册
+2021/05/02/17:24:15 test_match.py INFO 执行前
+2021/05/02/17:24:36 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/btnTabMessage')元素，是因为Message: 
+
+2021/05/02/17:24:36 base_action.py INFO 点击元素失败('id', 'com.cuteu.videochat:id/btnTabMessage')，是因为'NoneType' object has no attribute 'click':点击消息列表
+2021/05/02/17:24:43 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/linearLayout2')元素，是因为Message: 
+
+2021/05/02/17:24:43 base_action.py INFO 点击第1个元素('id', 'com.cuteu.videochat:id/linearLayout2')失败，是因为'NoneType' object is not iterable:点击第1个元素
+2021/05/02/17:24:43 test_match.py INFO 执行后
+2021/05/02/17:27:32 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/tv_fast_register')元素，是因为Message: 
+
+2021/05/02/17:27:32 base_action.py INFO 点击元素失败('id', 'com.cuteu.videochat:id/tv_fast_register')，是因为'NoneType' object has no attribute 'click':点击快速注册
+2021/05/02/17:44:05 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/tv_fast_register')元素，是因为Message: 
+
+2021/05/02/17:44:05 base_action.py INFO 点击元素失败('id', 'com.cuteu.videochat:id/tv_fast_register')，是因为'NoneType' object has no attribute 'click':点击快速注册
+2021/05/02/17:44:05 test_match.py INFO 执行前
+2021/05/02/17:44:26 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/btnTabMessage')元素，是因为Message: 
+
+2021/05/02/17:44:26 base_action.py INFO 点击元素失败('id', 'com.cuteu.videochat:id/btnTabMessage')，是因为'NoneType' object has no attribute 'click':点击消息列表
+2021/05/02/17:44:32 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/linearLayout2')元素，是因为Message: 
+
+2021/05/02/17:44:32 base_action.py INFO 点击第1个元素('id', 'com.cuteu.videochat:id/linearLayout2')失败，是因为'NoneType' object is not iterable:点击第1个元素
+2021/05/02/17:44:32 test_match.py INFO 执行后
+2021/05/02/17:47:30 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/tv_fast_register')元素
+2021/05/02/17:47:30 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/tv_fast_register'),点击快速注册
+2021/05/02/17:47:30 test_match.py INFO 执行前
+2021/05/02/17:47:51 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/btnTabMessage')元素，是因为Message: 
+
+2021/05/02/17:47:51 base_action.py INFO 点击元素失败('id', 'com.cuteu.videochat:id/btnTabMessage')，是因为'NoneType' object has no attribute 'click':点击消息列表
+2021/05/02/17:47:57 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/linearLayout2')元素，是因为Message: 
+
+2021/05/02/17:47:57 base_action.py INFO 点击第1个元素('id', 'com.cuteu.videochat:id/linearLayout2')失败，是因为'NoneType' object is not iterable:点击第1个元素
+2021/05/02/17:47:57 test_match.py INFO 执行后
+2021/05/02/17:53:45 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/tv_fast_register')元素，是因为Message: 
+
+2021/05/02/17:53:45 base_action.py INFO 点击元素失败('id', 'com.cuteu.videochat:id/tv_fast_register')，是因为'NoneType' object has no attribute 'click':点击快速注册
+2021/05/02/17:53:45 test_match.py INFO 执行前
+2021/05/02/17:53:45 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/btnTabMessage')元素
+2021/05/02/17:53:45 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/btnTabMessage'),点击消息列表
+2021/05/02/17:53:52 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/linearLayout2')元素，是因为Message: 
+
+2021/05/02/17:53:52 base_action.py INFO 点击第1个元素('id', 'com.cuteu.videochat:id/linearLayout2')失败，是因为'NoneType' object is not iterable:点击第1个元素
+2021/05/02/17:53:52 test_match.py INFO 执行后
+2021/05/02/17:55:25 base_action.py INFO 发现('id', 'com.cuteu.videochat:id/tv_fast_register')元素
+2021/05/02/17:55:25 base_action.py INFO 点击元素('id', 'com.cuteu.videochat:id/tv_fast_register'),点击快速注册
+2021/05/02/17:55:25 test_match.py INFO 执行前
+2021/05/02/17:55:48 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/btnTabMessage')元素，是因为Message: 
+
+2021/05/02/17:55:48 base_action.py INFO 点击元素失败('id', 'com.cuteu.videochat:id/btnTabMessage')，是因为'NoneType' object has no attribute 'click':点击消息列表
+2021/05/02/17:55:55 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/linearLayout2')元素，是因为Message: 
+
+2021/05/02/17:55:55 base_action.py INFO 点击第1个元素('id', 'com.cuteu.videochat:id/linearLayout2')失败，是因为'NoneType' object is not iterable:点击第1个元素
+2021/05/02/17:55:55 test_match.py INFO 执行后

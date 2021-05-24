@@ -2,9 +2,7 @@
 
 import os
 import sys
-
 sys.path.append(os.getcwd())
-import sys
 sys.setrecursionlimit(100000)
 import time
 from base.base_action import BaseAction
