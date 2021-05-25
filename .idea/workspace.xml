@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e3af040-e1f6-4d67-a001-fc6e2bd32e50" name="默认的" comment="修改">
-      <change afterPath="$PROJECT_DIR$/case/FancyMe/test_Intimacy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case/FancyMe/test_mineSetting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pageproject/FancyMe/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pageproject/FancyMe/mine_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_5_13,_7_22_下午_[默认的]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_5_13,_7_43_下午_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_5_13,_7_44_下午_[默认的]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_5_13__7_22____.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_5_13__7_43___Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_5_13__7_44____.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/base_action.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_action.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/base_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_driver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/readIphoneData.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/readIphoneData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/FancyMe/test_IMPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/FancyMe/test_IMPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/FancyMe/test_startApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/FancyMe/test_startApp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elementloc/FancyMe/IM.py" beforeDir="false" afterPath="$PROJECT_DIR$/elementloc/FancyMe/IM.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elementloc/FancyMe/MineInfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/elementloc/FancyMe/MineInfo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageproject/FancyMe/im_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageproject/FancyMe/im_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -401,10 +385,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest for test_IMPage.TestIm.test_clickImPage" />
-      <item itemvalue="Python tests.pytest in test_IMPage.py" />
       <item itemvalue="Python.test_startApp" />
       <item itemvalue="Python tests.pytest in test_startApp.py" />
+      <item itemvalue="Python tests.pytest for test_IMPage.TestIm.test_clickImPage" />
+      <item itemvalue="Python tests.pytest in test_IMPage.py" />
       <item itemvalue="Python tests.pytest in test_Intimacy.py" />
       <item itemvalue="Python tests.pytest in test_mineSetting.py" />
     </list>
