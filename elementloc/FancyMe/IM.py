@@ -27,6 +27,8 @@ class ImLoc():
     Im_news_diamond=(By.ID,'com.aiglamour.ancho:id/tv_diamond')
     #1v1消息页面对方信息设置
     Im_news_1v1message_moreInfo=(By.ID,'com.aiglamour.ancho:id/btnMoreInfo')
+    #1v1消息页面亲密度查询按钮
+    Im_news_1v1message_intimacyBtn = (By.ID,'com.aiglamour.ancho:id/btnRelationShip')
     #1V1消息切换语音文字按钮
     Im_news_1v1message_changeInput=(By.ID,'com.aiglamour.ancho:id/btnChangeInputType')
     #1v1消息输入框
@@ -69,6 +71,8 @@ class ImLoc():
     Im_news_1v1message_heartRateNum=(By.ID,'com.aiglamour.ancho:id/tvCurrentIntimacy')
     #1v1消息距离下一级需要亲密值
     Im_news_1v1message_nextHeartLevelNum=(By.ID,'com.aiglamour.ancho:id/tvCurrentIntimacy')
+    #1v1亲密度详情关闭按钮
+    Im_news_1v1message_heartRateAlertCloseBtn = (By.ID,'com.aiglamour.ancho:id/ivClose')
     #1v1消息-对方用户设置-用户信息页
     Im_news_1v1message_moreInfo_userInfoBtn=(By.ID,'com.aiglamour.ancho:id/btnUserInfo')
     # 1v1消息-对方用户设置-屏蔽按钮
@@ -80,7 +84,7 @@ class ImLoc():
     # 1v1消息-对方用户设置-举报按钮
     Im_news_1v1message_moreInfo_followBtn=(By.ID,'com.aiglamour.ancho:id/btnFollow')
     #1v1消息亲密度不足弹窗
-    Im_news_1v1message_heartRateLessAlert=(By.ID,'com.aiglamour.ancho:id/clParent')
+    Im_news_1v1message_heartRateLessAlert=(By.ID,'com.aiglamour.ancho:id/tvContent')
     #1v1消息亲密度不足弹窗确认按钮
     Im_news_1v1message_heartRateLessAlertCloseBtn=(By.ID,'com.aiglamour.ancho:id/tvSubmit')
     #1v1消息-好友列表页面

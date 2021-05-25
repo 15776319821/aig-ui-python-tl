@@ -7,6 +7,7 @@ import os
 import sys
 import json
 import urllib.request
+import threading
 from base.readIphoneData import readIphone,readAppData,apkConfig
 from tomorrow3 import threads
 apkConfig=apkConfig()
@@ -59,6 +60,23 @@ class setdriver():
             else:
                 #os.popen("appium -a 127.0.0.1 -p %s -U %s --no-reset" % (appiumPort, desired['deviceName']))
                 return (appiumPort, desired)
+    def threaline(self,data):
+        threads=[]
+        appiumPortList=[]
+        iphoneData = readIphone()
+        threadNum=len(iphoneData)
+        for i in range(0,threadNum):
+            appiumPort = 4723 + i
+            appiumPortList.append(appiumPort)
+            iphoneData[i] = eval(iphoneData[i])
+            desired = self.desired(iphoneData, i)
+            driver = webdriver.Remote('http://0.0.0.0:%s/wd/hub' % appiumPort, desired)
+            time.sleep(20)
+            t1 = threading.Thread(target=driver)
+            threads.append(t1)
+
+
+
 
 
     def runapp(self):

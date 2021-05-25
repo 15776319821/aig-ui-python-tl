@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e3af040-e1f6-4d67-a001-fc6e2bd32e50" name="默认的" comment="增加 .gitgnore文件">
-      <change afterPath="$PROJECT_DIR$/elementloc/FancyMe/MineInfo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/po.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/po.iml" afterDir="false" />
+    <list default="true" id="5e3af040-e1f6-4d67-a001-fc6e2bd32e50" name="默认的" comment="修改">
+      <change afterPath="$PROJECT_DIR$/case/FancyMe/test_Intimacy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case/FancyMe/test_mineSetting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageproject/FancyMe/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageproject/FancyMe/mine_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_5_13,_7_22_下午_[默认的]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_5_13,_7_43_下午_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_5_13,_7_44_下午_[默认的]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_5_13__7_22____.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_5_13__7_43___Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_5_13__7_44____.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/base_action.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_action.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/base_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_driver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/readIphoneData.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/readIphoneData.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/case/FancyMe/test_IMPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/FancyMe/test_IMPage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/case/FancyMe/test_startApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/FancyMe/test_startApp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/elementloc/FancyMe/IM.py" beforeDir="false" afterPath="$PROJECT_DIR$/elementloc/FancyMe/IM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elementloc/FancyMe/MineInfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/elementloc/FancyMe/MineInfo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pageproject/FancyMe/im_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageproject/FancyMe/im_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,10 +185,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/case/FancyMe" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/case/FancyMe" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/elementloc" />
       <recent name="$PROJECT_DIR$/data/appPackage" />
@@ -188,7 +200,7 @@
       <recent name="D:\po\elementloc\消息" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_startApp.py">
+  <component name="RunManager" selected="Python tests.pytest in test_mineSetting.py">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="po" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -202,27 +214,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="im_page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="po" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pageproject/FancyMe" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pageproject/FancyMe/im_page.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -345,22 +336,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in im_page.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="po" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pageproject/FancyMe" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/pageproject/FancyMe/im_page.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest in test_IMPage.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="po" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -374,6 +349,38 @@
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/case/FancyMe/test_IMPage.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_Intimacy.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="po" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case/FancyMe" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/FancyMe/test_Intimacy.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_mineSetting.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="po" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case/FancyMe" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/FancyMe/test_mineSetting.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -394,20 +401,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.im_page" />
       <item itemvalue="Python tests.pytest for test_IMPage.TestIm.test_clickImPage" />
-      <item itemvalue="Python tests.pytest in im_page.py" />
       <item itemvalue="Python tests.pytest in test_IMPage.py" />
       <item itemvalue="Python.test_startApp" />
       <item itemvalue="Python tests.pytest in test_startApp.py" />
+      <item itemvalue="Python tests.pytest in test_Intimacy.py" />
+      <item itemvalue="Python tests.pytest in test_mineSetting.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_mineSetting.py" />
+        <item itemvalue="Python tests.pytest in test_Intimacy.py" />
         <item itemvalue="Python tests.pytest in test_IMPage.py" />
         <item itemvalue="Python tests.pytest for test_IMPage.TestIm.test_clickImPage" />
         <item itemvalue="Python.test_startApp" />
-        <item itemvalue="Python.im_page" />
-        <item itemvalue="Python tests.pytest in im_page.py" />
       </list>
     </recent_temporary>
   </component>
@@ -521,7 +528,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620907376335</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="修改">
+      <created>1621182772701</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1621182772701</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -586,6 +600,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -658,7 +682,8 @@
     <MESSAGE value="默认的" />
     <MESSAGE value="增加iM元素与一些基础方法" />
     <MESSAGE value="增加 .gitgnore文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加 .gitgnore文件" />
+    <MESSAGE value="修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -669,29 +694,39 @@
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/debug_code.py</url>
-          <line>4</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/debug_code.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/pageproject/FancyMe/im_page.py</url>
           <line>28</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/pageproject/FancyMe/im_page.py</url>
-          <line>66</line>
+          <line>97</line>
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/base/base_action.py</url>
+          <line>234</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pageproject/FancyMe/mine_page.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/case/FancyMe/test_startApp.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="55" />
+          <line>19</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pageproject/FancyMe/mine_page.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/case/FancyMe/test_mineSetting.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="69" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

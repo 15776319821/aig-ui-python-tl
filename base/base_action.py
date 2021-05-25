@@ -9,6 +9,8 @@ from appium.webdriver.common.touch_action import TouchAction
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.remote.webdriver import WebDriver
+from selenium.common.exceptions import ElementNotVisibleException
+from selenium.common.exceptions import TimeoutException
 
 logger = DemeLog().log()
 class BaseAction:
@@ -20,8 +22,10 @@ class BaseAction:
         try:
             self.find_element(loc).click()
             logger.info("点击元素{},{}".format(loc,img_doc))
+            return True
         except Exception as error:
             logger.info("点击元素失败{}，是因为{}:{}".format(loc,error,img_doc))
+            return None
 
     #点击多个元素中的第c个下标那个
     def click_elements(self,loc,c,img_doc):
@@ -51,23 +55,23 @@ class BaseAction:
         value=loc[1]
         #return self.driver.find_element(by,value)
         try:
-            findloc=WebDriverWait(self.driver,time,poll).until(lambda x:x.find_element(by,value))
+            findloc=WebDriverWait(self.driver,time,poll).until(EC.presence_of_element_located(loc))
             logger.info("发现{}元素".format(loc))
             return findloc
         except Exception as error:
-            logger.info("无法获取{}元素，是因为{}".format(loc,error))
-            return None
+            raise ElementNotVisibleException("无法获取{}元素，是因为{}".format(loc,error))
+
     #寻找多个元素
     def find_elements(self, loc,time=20,poll=1):
         by=loc[0]
         value=loc[1]
         try:
-            findlocs=WebDriverWait(self.driver, time, poll).until(lambda x:x.find_elements(by,value))
+            findlocs=WebDriverWait(self.driver, time, poll).until(EC.presence_of_all_elements_located(loc))
             logger.info("发现{}元素".format(loc))
             return findlocs
         except Exception as error:
-            logger.info("无法获取{}元素，是因为{}".format(loc,error))
-            return None
+            raise ElementNotVisibleException("无法获取{}元素，是因为{}".format(loc,error))
+
 
     #获取多元素下标
     def list_elements(self, loc, c):
@@ -181,13 +185,20 @@ class BaseAction:
             num += 1
     def longClick(self,locator,time=1000):
         #点击长按元素
-        element=self.find_element(locator)
+        if locator[0] == 'id':
+            element = self.driver.find_element_by_id(locator[1])
+        elif locator[0] == 'xpath':
+            element = self.driver.find_element_by_xpath(locator[1])
+
         TouchAction(self.driver).long_press(element,duration=time)
     def getElementEnabled(self,locator):
         #获取元素的enabled值
-        element=self.find_element(locator)
-        return element.is_enabled()
-    def is_exite(self,locator):
+        try:
+            element=self.find_element(locator)
+            return element.is_enabled()
+        except TimeoutException:
+            raise ElementNotVisibleException("元素未找到 %s" % locator)
+    def is_exite_sys(self,locator):
         #判断元素是否在页面
         pageSource = self.driver.page_source
         if locator[1] in pageSource:
@@ -199,11 +210,78 @@ class BaseAction:
         return element
     def parentSelector(self,locator,locator2):
         #返回当前节点的父节点
-        driver = WebDriver(self.driver)
-        element = driver.find_element_by_xpath(locator[1]).parent(locator2[1])
+        element = self.driver.find_element_by_xpath(locator[1]).parent(locator2[1])
         return element
     def preceding_sibling(self,locator,locator2):
         #兄弟节点定位
         driver = WebDriver(self.driver)
+    def getElementText(self,loc):
+        method=loc[0]
+        element=loc[1]
+        try:
+            if method == 'id':
+                ele = self.driver.find_element_by_id(element).text
+                return ele
+            if method == 'xpath':
+                ele = self.driver.find_element_by_xpath(element).text()
+                return ele
+        except:
+            raise ElementNotVisibleException("无法获取元素文本，查询是否元素出错 ", element)
+
+    def find_ele(self,loc):
+
+        try:
+            if loc[0] == 'id':
+                ele = self.driver.find_element_by_id(loc[1])
+                return ele
+        except:
+            raise ElementNotVisibleException("无法寻找到该元素")
+    def click_ele(self,loc):
+        try:
+            ele=self.find_ele(loc)
+            ele.click()
+        except:
+            raise ElementNotVisibleException('无法点击元素！')
+    def find_element_xpath(self,loc):
+        method=loc[0]
+        element=loc[1]
+        if method == 'id':
+            try:
+                ele = self.driver.find_element_by_xpath("//input[@id= %s]" % element)
+                return ele
+            except:
+                raise ElementNotVisibleException("无法寻找到该元素")
+    def is_title(self,title=''):
+        try:
+            result = WebDriverWait(self.driver, timeout=10).until(EC.title_is(title))
+            return result
+        except:
+            return False
+
+    def is_value_in_element(self, locator, value=''):
+        """返回bool值，value为空字符串，返回False"""
+        try:
+            result = WebDriverWait(self.driver, timeout=20).until(
+                EC.text_to_be_present_in_element_value(locator, value))
+            return result
+        except:
+            return False
+    def is_exit(self,loc):
+        try:
+            self.find_element(loc)
+            return True
+        except:
+            return False
+    def is_alert(self, timeout=3,t=0.5):
+        try:
+            result = WebDriverWait(self.driver, timeout,t).until(EC.alert_is_present())
+            return result
+        except:
+            return False
+
+
+
+
+
 
 
