@@ -37,7 +37,6 @@ class Testdiscover:
         logger.info("非会员点击筛选按钮case开始结束")
 
         # 推荐页-发现tab-滑动开卡片
-
     def test_sliding(self, init_driver):
         logger.info("滑动discover卡片case开始")
         # 点击推荐按钮

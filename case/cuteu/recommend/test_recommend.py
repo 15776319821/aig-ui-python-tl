@@ -17,13 +17,43 @@ from base.base_action import BaseAction
 #     driver.quit()
 #@pytest.mark.usefixtures("init_drivera")
 class Testrecommend:
-    def test_discover(self,init_driver):
+    # 推荐列表-点击banner
+    def test_recommend_banner(self,init_driver):
+        logger.info("推荐列表点击banner")
+        # 点击推荐按钮
+        DiscoverPage(init_driver['driver']).recommend()
+        # 点击推荐-推荐tab
+        DiscoverPage(init_driver['driver']).recommend_tab()
+        # 点击推荐-推荐-banner
+        DiscoverPage(init_driver['driver']).recommend_banner()
+    # 推荐列表-切换国家
+    def test_recommend_screen(self,init_driver):
         logger.info("非会员点击筛选按钮case开始")
         # 点击推荐按钮
         DiscoverPage(init_driver['driver']).recommend()
-        # 点击推荐-发现
-        DiscoverPage(init_driver['driver']).re
-        # 点击推荐-发现-筛选
+        # 点击推荐-推荐tab
+        DiscoverPage(init_driver['driver']).recommend_tab()
+        # 点击列表第二个国家
+        DiscoverPage(init_driver['driver']).recommend_country_tab()
+        # 断言出现会员拦截弹窗
+        DiscoverPage(init_driver['driver']).vip_intercept()
+        # 关闭会员拦截弹窗
+        DiscoverPage(init_driver['driver']).vip_intercept_close()
+        # 关闭关闭筛选框
+        DiscoverPage(init_driver['driver']).discover_screen_close()
+        logger.info("非会员点击筛选按钮case开始结束")
+
+    def test_recommend_profile(self,init_driver):
+        logger.info("非会员点击筛选按钮case开始")
+        # 点击推荐按钮
+        DiscoverPage(init_driver['driver']).recommend()
+        # 点击推荐-推荐tab
+        DiscoverPage(init_driver['driver']).recommend_tab()
+        # 点击推荐列表第一个主播
+        DiscoverPage(init_driver['driver']).recommend_list(1)
+        # profile用户昵称元素是否存在
+        DiscoverPage(init_driver['driver']).profile_name()
+
 
 
 
