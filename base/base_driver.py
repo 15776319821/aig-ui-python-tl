@@ -24,6 +24,7 @@ class setdriver():
         desired_caps['platformVersion'] = '10'
         #安装apk包
         #desired_caps['app'] = str(apkpath)
+        desired_caps['platformVersion'] = '9'
         #设备的名字，adb命令：adb devices查看，这个设备号安卓可以随便写，ios必须写对
         desired_caps['deviceName']=str(appProjectData['devices'])
         #要测试的应用的包名
@@ -50,7 +51,7 @@ class setdriver():
             iphoneData[i]=eval(iphoneData[i])
             desired = self.desired(iphoneData,i)
             appiumPort= 4723 + i
-            status=os.popen("netstat -an | grep %s" % appiumPort)
+            status=os.popen("netstat -an | findstr %s" % appiumPort)
             time.sleep(2)
             t1 = status.read()
             if "LISTENING" in t1:
@@ -59,7 +60,6 @@ class setdriver():
             else:
                 #os.popen("appium -a 127.0.0.1 -p %s -U %s --no-reset" % (appiumPort, desired['deviceName']))
                 return (appiumPort, desired)
-
 
     def runapp(self):
         appiumData=self.startappium()
