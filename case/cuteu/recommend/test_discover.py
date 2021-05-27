@@ -3,7 +3,6 @@
 import os
 import sys
 import time
-
 sys.path.append(os.getcwd())
 from pageproject.cuteu.recommend.recommend_page import RecommendPage
 from base.base_log import logger
@@ -60,11 +59,3 @@ class Testdiscover:
         RecommendPage(init_driver['driver']).discover_screen_card()
         # profile用户昵称元素是否存在
         RecommendPage(init_driver['driver']).profile_name()
-
-
-if __name__ == '__main__':
-    from base.base_driver import setdriver
-
-    x = setdriver().runapp()
-    w = Testdiscover()
-    w.test_msg(init_driver=x)
