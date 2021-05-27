@@ -8,7 +8,7 @@ import time
 from elementloc.cuteu.recommend.recommend_loc import ElementLoc
 from base.base_action import BaseAction
 
-class DiscoverPage(BaseAction):
+class RecommendPage(BaseAction):
     #
     # def __init__(self,driver):
     #     BaseAction.__init__(self,driver)

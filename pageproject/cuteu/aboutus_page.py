@@ -20,7 +20,7 @@ class AboutUs(BaseAction):
         self.click_element(AboutUsLoc.set_aboutloc,"点击设置页面的关于我们")
         time.sleep(2)
         self.continuous_click(self.find_element(AboutUsLoc.aboutus_loc),n)
-        #self.click_element(AboutUsLoc.aboutus_loc,"点击顶部的关于我们")
+        self.click_element(AboutUsLoc.aboutus_loc,"点击顶部的关于我们")
         self.click_element(AboutUsLoc.backset_loc, "点击返回")
         time.sleep(3)
         self.click_element(AboutUsLoc.backset_loc1, "返回到我的页面")
