@@ -14,12 +14,9 @@ class RecommendPage(BaseAction):
     # def __init__(self,driver):
     #     BaseAction.__init__(self,driver)
     def recommend(self):
-        #q=self.driver.find_elemen
-        # t(By.ID,'com.cuteu.videochat:id/btnTabMessage')
-        #self.find_element(ElementLoc.match_loc1).click()
-        self.click_element(ElementLoc.recommend_loc,"点击推荐")
+        self.click_element(ElementLoc.recommend_loc, "点击推荐")
         # print("页面级方法1")
-        time.sleep(3)
+
     def discover(self):
         self.click_element(ElementLoc.discover_loc, '点击推荐-发现按钮')
 
@@ -100,16 +97,18 @@ class RecommendPage(BaseAction):
         return self.is_exist(ElementLoc.profile_name)
 
     def recommend_tab(self):
-        self.click_element(ElementLoc.recommended_tab_loc, '点击推荐tab')
+        self.click_element(ElementLoc.recommend_tab_loc, '点击推荐tab')
 
     def recommend_more(self):
-        self.click_element(ElementLoc.recommended_more_loc, '点击推荐国家更多按钮')
+        self.click_element(ElementLoc.recommend_more_loc, '点击推荐国家更多按钮')
 
     def recommend_country_tab(self):
-        self.click_element(ElementLoc.recommended_country_tab_loc, '点击国家tab第二个国家')
+        self.click_element(ElementLoc.recommend_country_tab_loc, '点击国家tab第二个国家')
 
     def recommend_list(self, type):
         self.click_elements(ElementLoc.recommend_list_loc,type, '点击推荐列表的第{}个主播'.format(type))
+        return self.is_exist(ElementLoc.recommend_nearby_list_loc)
+
     def recommend_banner(self):
         return self.is_exist(ElementLoc.recommend_banner_loc)
 
@@ -117,5 +116,15 @@ class RecommendPage(BaseAction):
         if self.is_exist(ElementLoc.profile_returnBtn_loc):
             self.click_element(ElementLoc.profile_returnBtn_loc, '返回按钮')
             logger.info("点击profile页返回按钮")
+            
+    def nearby_tab(self):
+        self.click_element(ElementLoc.recommend_nearby_loc, '点击同城tab')
+            
+    def nearby_list(self,type):
+        if self.is_exist(ElementLoc.recommend_nearby_list_loc):
+            self.click_elements(ElementLoc.recommend_nearby_list_loc, type, '点击推荐列表的第{}个主播'.format(type))
+            return self.is_exist(ElementLoc.profile_name)
+        else:
+            return False
 
 

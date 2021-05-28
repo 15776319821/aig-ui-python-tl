@@ -62,7 +62,7 @@ class setdriver():
 
     def runapp(self):
         appiumData=self.startappium()
-        driver = webdriver.Remote('http://0.0.0.0:%s/wd/hub' % appiumData[0], appiumData[1])
+        driver = webdriver.Remote('http://127.0.0.1:%s/wd/hub' % appiumData[0], appiumData[1])
         driver.implicitly_wait(20)
         return driver
     def iphone_desired(self):

@@ -28,12 +28,17 @@ class ElementLoc:
     profile_name= (By.ID, 'com.cuteu.videochat:id/userName')
 
     # 推荐-推荐tab按钮
-    recommended_tab_loc = (By.XPATH, '//android.widget.LinearLayout[@content-desc="推荐"]/android.view.ViewGroup/android.widget.TextView')
+    recommend_tab_loc = (By.XPATH, '//android.widget.LinearLayout[@content-desc="推荐"]/android.view.ViewGroup/android.widget.TextView')
     # 推荐-更多按钮
-    recommended_more_loc = (By.ID, 'com.cuteu.videochat:id/ivMore')
+    recommend_more_loc = (By.ID, 'com.cuteu.videochat:id/ivMore')
     # 推荐-国家tab第二个
-    recommended_country_tab_loc = (By.ID, 'com.cuteu.videochat:id/tv_title_2')
+    recommend_country_tab_loc = (By.ID, 'com.cuteu.videochat:id/tv_title_2')
     # 推荐-banner
     recommend_banner_loc = (By.ID, 'com.cuteu.videochat:id/appBarLayout')
     # 推荐-列表
     recommend_list_loc = (By.ID, 'com.cuteu.videochat:id/bgView')
+
+    # 同城
+    recommend_nearby_loc = (By.XPATH, '//android.widget.LinearLayout[@content-desc="同城"]/android.view.ViewGroup/android.widget.TextView')
+    # 同城列表
+    recommend_nearby_list_loc = (By.ID, 'com.cuteu.videochat:id/ivHead')
