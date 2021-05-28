@@ -296,7 +296,7 @@ class BaseAction:
             return result
         except:
             return False
-    def is_exit(self,loc):
+    def is_exist(self,loc):
         try:
             self.find_element(loc)
             return True

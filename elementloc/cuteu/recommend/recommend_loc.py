@@ -6,6 +6,8 @@ class ElementLoc:
     vip_intercept_loc = (By.ID,"com.cuteu.videochat:id/tvTitle")
     #会员拦截弹窗关闭按钮
     vip_intercept_close_loc = (By.ID, 'com.cuteu.videochat:id/tvClose')
+    #profile页返回按钮
+    profile_returnBtn_loc = (By.ID, 'com.cuteu.videochat:id/topBackView')
 
     #一级页面推荐按钮
     recommend_loc = (By.ID, 'com.cuteu.videochat:id/btnTabRecommend')
@@ -32,6 +34,6 @@ class ElementLoc:
     # 推荐-国家tab第二个
     recommended_country_tab_loc = (By.ID, 'com.cuteu.videochat:id/tv_title_2')
     # 推荐-banner
-    recommend_banner_loc = (By.ID, 'com.cuteu.videochat:id/bannerLayout')
+    recommend_banner_loc = (By.ID, 'com.cuteu.videochat:id/appBarLayout')
     # 推荐-列表
     recommend_list_loc = (By.ID, 'com.cuteu.videochat:id/bgView')

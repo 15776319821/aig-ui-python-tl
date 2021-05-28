@@ -15,7 +15,7 @@ class setdriver():
         sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf8')
         appProjectData=eval(str(iphoneData[num]))
         appname=readAppData(appProjectData['project'])
-        apkpath=apkConfig.getApkPath(appname='FancyU',appbuild='217000')
+        # apkpath=apkConfig.getApkPath(appname='FancyU',appbuild='217000')
         desired_caps=dict()
         #手机平台版本，大小写无所谓，对就行
         desired_caps['platformName']='Android'
@@ -24,7 +24,6 @@ class setdriver():
         desired_caps['platformVersion'] = '10'
         #安装apk包
         #desired_caps['app'] = str(apkpath)
-        desired_caps['platformVersion'] = '9'
         #设备的名字，adb命令：adb devices查看，这个设备号安卓可以随便写，ios必须写对
         desired_caps['deviceName']=str(appProjectData['devices'])
         #要测试的应用的包名
@@ -51,7 +50,7 @@ class setdriver():
             iphoneData[i]=eval(iphoneData[i])
             desired = self.desired(iphoneData,i)
             appiumPort= 4723 + i
-            status=os.popen("netstat -an | findstr %s" % appiumPort)
+            status=os.popen("netstat -an | grep %s" % appiumPort)
             time.sleep(2)
             t1 = status.read()
             if "LISTENING" in t1:
