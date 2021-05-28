@@ -115,8 +115,5 @@ venv/
 .pytest_cache/
 pytest_cache/
 .idea
-.idea
-.idea
-.idea
-.idea
-.idea
+__pycache__
+.idea/workspace.xml
