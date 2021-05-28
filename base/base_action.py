@@ -9,6 +9,8 @@ from appium.webdriver.common.touch_action import TouchAction
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.remote.webdriver import WebDriver
+from selenium.common.exceptions import ElementNotVisibleException
+from selenium.common.exceptions import TimeoutException
 
 logger = DemeLog().log()
 
@@ -21,8 +23,10 @@ class BaseAction:
         try:
             self.find_element(loc).click()
             logger.info("点击元素{},{}".format(loc,img_doc))
+            return True
         except Exception as error:
             logger.info("点击元素失败{}，是因为{}:{}".format(loc,error,img_doc))
+            return None
 
     #点击多个元素中的第c个下标那个
     def click_elements(self,loc,c,img_doc):
@@ -158,49 +162,156 @@ class BaseAction:
             if locator[1] in pageSource:
                 self.click_element(locator,locator)
             if "打开权限" in pageSource:
-                self.click_element((By.NAME,"取消"),"关闭权限")
+                self.click_element((By.ID,"android:id/button2"),"关闭权限")
+                break
 
-    def swipeToLeft(self,start_x,end_x):
+    def swipeToLeft(self,start_x,end_x,swipeNum=1):
         #向左滑动
+        num=0
         size=WebDriver.get_window_size(self.driver)
         x = size['width']
         y = size['height']
         start_x = int(x * start_x)
-        end_x = int(x * end_x)
+        end_x = int(x * float(end_x))
         y=int(y*0.5)
-        self.driver.swipe(start_x,y,end_x,y,duration=200)
-    def swipeToRight(self,start_x,end_x):
+        while num <= swipeNum:
+            self.driver.swipe(start_x,y,end_x,y,duration=2000)
+            num += 1
+    def swipeToRight(self,start_x,end_x,swipeNum=1):
         #向右滑动
+        num = 0
         size=WebDriver.get_window_size(self.driver)
         x = size['width']
         y = size['height']
         start_x = int(x * start_x)
         end_x = int(x * end_x)
         y = int(y * 0.5)
-        self.driver.swipe(start_x, y, end_x, y, duration=200)
-    def swipeToUp(self,start_y,end_y):
+        while num <= swipeNum:
+            self.driver.swipe(start_x, y, end_x, y, duration=2000)
+            num += 1
+    def swipeToUp(self,start_y,end_y,swipeNum=1):
         #向上滑动
+        num=0
         size=WebDriver.get_window_size(self.driver)
         x = size['width']
         y = size['height']
         start_y = int(y * start_y)
         end_y = int(y * end_y)
         x = int(x * 0.5)
-        self.driver.swipe(x, start_y, x, end_y, duration=200)
-    def swipeToDown(self,start_x,start_y,end_x,end_y):
+        while num <= swipeNum:
+            self.driver.swipe(x, start_y, x, end_y, duration=2000)
+            num += 1
+    def swipeToDown(self,start_y,end_y,swipeNum=1):
         # 向下滑动
+        num=0
         size=WebDriver.get_window_size(self.driver)
         x = size['width']
         y = size['height']
         start_y = int(y * start_y)
         end_y = int(y * end_y)
         x = int(x * 0.5)
-        self.driver.swipe(x, start_y, x, end_y, duration=200)
+        while num <= swipeNum:
+            self.driver.swipe(x, start_y, x, end_y, duration=2000)
+            num += 1
     def longClick(self,locator,time=1000):
         #点击长按元素
-        element=self.find_element(locator)
+        if locator[0] == 'id':
+            element = self.driver.find_element_by_id(locator[1])
+        elif locator[0] == 'xpath':
+            element = self.driver.find_element_by_xpath(locator[1])
+
         TouchAction(self.driver).long_press(element,duration=time)
     def getElementEnabled(self,locator):
         #获取元素的enabled值
-        element=self.find_element(locator)
-        return element.is_enabled()
+        try:
+            element=self.find_element(locator)
+            return element.is_enabled()
+        except TimeoutException:
+            raise ElementNotVisibleException("元素未找到 %s" % locator)
+    def is_exite_sys(self,locator):
+        #判断元素是否在页面
+        pageSource = self.driver.page_source
+        if locator[1] in pageSource:
+            return True
+    def childSelector(self,locator,locator2):
+        #根据父节点定位子节点
+        driver = WebDriver(self.driver)
+        element = driver.find_element_by_xpath(locator[1]).child(locator2[1])
+        return element
+    def parentSelector(self,locator,locator2):
+        #返回当前节点的父节点
+        element = self.driver.find_element_by_xpath(locator[1]).parent(locator2[1])
+        return element
+    def preceding_sibling(self,locator,locator2):
+        #兄弟节点定位
+        driver = WebDriver(self.driver)
+    def getElementText(self,loc):
+        method=loc[0]
+        element=loc[1]
+        try:
+            if method == 'id':
+                ele = self.driver.find_element_by_id(element).text
+                return ele
+            if method == 'xpath':
+                ele = self.driver.find_element_by_xpath(element).text()
+                return ele
+        except:
+            raise ElementNotVisibleException("无法获取元素文本，查询是否元素出错 ", element)
+
+    def find_ele(self,loc):
+
+        try:
+            if loc[0] == 'id':
+                ele = self.driver.find_element_by_id(loc[1])
+                return ele
+        except:
+            raise ElementNotVisibleException("无法寻找到该元素")
+    def click_ele(self,loc):
+        try:
+            ele=self.find_ele(loc)
+            ele.click()
+        except:
+            raise ElementNotVisibleException('无法点击元素！')
+    def find_element_xpath(self,loc):
+        method=loc[0]
+        element=loc[1]
+        if method == 'id':
+            try:
+                ele = self.driver.find_element_by_xpath("//input[@id= %s]" % element)
+                return ele
+            except:
+                raise ElementNotVisibleException("无法寻找到该元素")
+    def is_title(self,title=''):
+        try:
+            result = WebDriverWait(self.driver, timeout=10).until(EC.title_is(title))
+            return result
+        except:
+            return False
+
+    def is_value_in_element(self, locator, value=''):
+        """返回bool值，value为空字符串，返回False"""
+        try:
+            result = WebDriverWait(self.driver, timeout=20).until(
+                EC.text_to_be_present_in_element_value(locator, value))
+            return result
+        except:
+            return False
+    def is_exist(self,loc):
+        try:
+            self.find_element(loc)
+            return True
+        except:
+            return False
+    def is_alert(self, timeout=3,t=0.5):
+        try:
+            result = WebDriverWait(self.driver, timeout,t).until(EC.alert_is_present())
+            return result
+        except:
+            return False
+
+
+
+
+
+
+

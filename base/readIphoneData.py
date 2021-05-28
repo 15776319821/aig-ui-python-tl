@@ -33,15 +33,27 @@ class apkConfig:
     def getApkName(self,appname='FancyU',appbuild='217000'):
         appNameList=[]
         '''获取apkPath文件下apk文件,查询符合查询逻辑的app名称'''
-        for i in os.listdir(self.apkPath):
-            appNameList.append(i)
-        for apkname in appNameList:
-            if apkname.find(appname) >=0 and apkname.find(appbuild) >=0:
-                    return apkname
+        try:
+            if os.listdir(self.apkPath) >= 1:
+                for i in os.listdir(self.apkPath):
+                    appNameList.append(i)
+                for apkname in appNameList:
+                    if apkname.find(appname) >=0 and apkname.find(appbuild) >=0:
+                            return apkname
+            else:
+                log.info("文件夹为空！")
+                return None
+        except:
+            log.info("无法获取apkName！")
+            return None
     def getApkPath(self,appname='FancyU',appbuild='217000'):
         '''获取到符合逻辑的apk名称后，添加完整路径'''
         apkName=self.getApkName(appname,appbuild)
-        return os.path.join(self.apkPath +'/' +apkName)
+        if apkName:
+            return os.path.join(self.apkPath +'/' +apkName)
+        else:
+            log.info("apk路径无法获取！")
+            return None
     def delApk(self,appname='FancyU',appbuild='217000'):
         '''删除指定项目下指定build的apk包'''
         try:

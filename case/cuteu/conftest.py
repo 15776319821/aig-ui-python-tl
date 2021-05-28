@@ -19,7 +19,7 @@ def init_driver():
     #dri = AboutUs(driver).Us(10)
     yield {'driver':driver}
     #yield {'driver':driver ,'dri':dri}
-    time.sleep(3)
+    time.sleep(5)
     driver.close_app()
     driver.quit()
 # @pytest.fixture(scope='class')
