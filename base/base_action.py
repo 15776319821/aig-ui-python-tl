@@ -155,7 +155,7 @@ class BaseAction:
                 self.click_element((By.ID,"android:id/button2"),"关闭权限")
                 break
 
-    def swipeToLeft(self,start_x,end_x,swipeNum=1):
+    def swipeToLeft(self,start_x,end_x,y1=0.5,swipeNum=1):
         #向左滑动
         num=0
         size=WebDriver.get_window_size(self.driver)
@@ -163,11 +163,11 @@ class BaseAction:
         y = size['height']
         start_x = int(x * start_x)
         end_x = int(x * float(end_x))
-        y=int(y*0.3)
+        y=int(y*y1)
         while num <= swipeNum:
             self.driver.swipe(start_x,y,end_x,y,duration=2000)
             num += 1
-    def swipeToRight(self,start_x,end_x,swipeNum=1):
+    def swipeToRight(self,start_x,end_x,y1=0.5,swipeNum=1):
         #向右滑动
         num = 0
         size=WebDriver.get_window_size(self.driver)
@@ -175,11 +175,11 @@ class BaseAction:
         y = size['height']
         start_x = int(x * start_x)
         end_x = int(x * end_x)
-        y = int(y * 0.3)
+        y = int(y * y1)
         while num <= swipeNum:
             self.driver.swipe(start_x, y, end_x, y, duration=2000)
             num += 1
-    def swipeToUp(self,start_y,end_y,swipeNum=1):
+    def swipeToUp(self,start_y,end_y,x1=0.5,swipeNum=1):
         #向上滑动
         num=0
         size=WebDriver.get_window_size(self.driver)
@@ -187,11 +187,11 @@ class BaseAction:
         y = size['height']
         start_y = int(y * start_y)
         end_y = int(y * end_y)
-        x = int(x * 0.5)
+        x = int(x * x1)
         while num <= swipeNum:
             self.driver.swipe(x, start_y, x, end_y, duration=2000)
             num += 1
-    def swipeToDown(self,start_y,end_y,swipeNum=1):
+    def swipeToDown(self,start_y,end_y,x1=0.5,swipeNum=1):
         # 向下滑动
         num=0
         size=WebDriver.get_window_size(self.driver)
@@ -199,7 +199,7 @@ class BaseAction:
         y = size['height']
         start_y = int(y * start_y)
         end_y = int(y * end_y)
-        x = int(x * 0.5)
+        x = int(x * x1)
         while num <= swipeNum:
             self.driver.swipe(x, start_y, x, end_y, duration=2000)
             num += 1
@@ -325,13 +325,4 @@ class BaseAction:
         x = self.driver.get_window_size()['width']
         y = self.driver.get_window_size()['height']
         return (x,y)
-
-    #
-
-
-
-
-
-
-
-
+    

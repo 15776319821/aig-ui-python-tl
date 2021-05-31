@@ -1,5 +1,0 @@
-2021/04/02/16:32:07 pictureComparison.py INFO 文件夹中无原图！
-2021/04/02/16:32:11 pictureComparison.py INFO 123
-2021/04/02/16:32:40 pictureComparison.py INFO 文件夹中无原图！
-2021/04/02/16:32:40 pictureComparison.py INFO 123
-2021/04/02/16:32:40 pictureComparison.py ERROR 图片比对结束，比对图片与截屏原图不符，比对图片：%s,底图%s

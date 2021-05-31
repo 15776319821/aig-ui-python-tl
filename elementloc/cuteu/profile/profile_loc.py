@@ -24,7 +24,7 @@ class ProfileLoc():
     #Show视频·
     show_video = (By.ID,"com.cuteu.videochat:id/ivHead")
     #邀请完善资料
-    invite_loc = (By.ID,"com.cuteu.videochat:id/notMore")
+    invite_loc = (By.ID,"com.cuteu.videochat:id/inviteCompleteInfo")
     #邀请完善身高
     height_loc = (By.XPATH,"//android.widget.CheckBox[@text='身高']")
     #邀请确定

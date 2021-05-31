@@ -55,17 +55,18 @@ class ProfilePage(BaseAction):
     # 左滑
     def profile_swipeToLeft(self):
         logger.info('左滑')
-        self.swipeToLeft(0.2,0.9)
+        self.swipeToLeft(0.2,0.9,y1=0.3)
     # 右滑
     def profile_swipeToRight(self):
         logger.info('右滑')
         self.swipeToRight(0.9,0.2)
     #上滑
     def profile_swipeToUP(self):
-        self.swipeToUp(start_y=0.9,end_y=0.3)
+        self.swipeToUp(start_y=0.6,end_y=0.3)
     #下滑
     def profile_swipeToDown(self):
-        self.swipeToDown(start_y=0.3,end_y=0.9)
+        time.sleep(2)
+        self.swipeToDown(start_y=0.3,end_y=0.6)
 
     '''消息页签下的操作'''
     def switch_information(self):
@@ -85,4 +86,5 @@ class ProfilePage(BaseAction):
 
     def show_voice(self):
         self.click_element(ProfileLoc.show_video,'播放show视频')
+        time.sleep(3)
         self.back()
