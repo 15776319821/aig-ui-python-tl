@@ -51,7 +51,7 @@ class BaseAction:
         except Exception as error:
             logger.info("无法获取{}元素，并且没有输入{}文本值,是因为{}".format(loc,text,error))
     #寻找单个元素
-    def find_element(self, loc,time=20,poll=1):
+    def find_element(self, loc,time=10,poll=1):
         by=loc[0]
         value=loc[1]
         #return self.driver.find_element(by,value)
@@ -63,7 +63,7 @@ class BaseAction:
             logger.info("无法获取{}元素，是因为{}".format(loc,error))
             return None
     #寻找多个元素
-    def find_elements(self, loc,time=20,poll=1):
+    def find_elements(self, loc,time=10,poll=1):
         by=loc[0]
         value=loc[1]
         try:
@@ -91,18 +91,8 @@ class BaseAction:
             self.driver.find_element(*loc)
             return True
         except Exception as erro:
-            logger.info('没有这个元素{},报错{}'.format(loc,erro))
+            logger.info('没有这个元素:{}'.format(loc))
             return False
-
-    #判断元素是否存在---多个元素
-    def is_elmentsloc(self,loc):
-        try:
-            self.driver.find_elements(*loc)
-            return True
-        except Exception as erro:
-            logger.info('查找不到这些元素，报错{}'.format(erro))
-            return False
-
         # else:
         #     try:
         #         if element is None:
@@ -173,7 +163,7 @@ class BaseAction:
         y = size['height']
         start_x = int(x * start_x)
         end_x = int(x * float(end_x))
-        y=int(y*0.5)
+        y=int(y*0.3)
         while num <= swipeNum:
             self.driver.swipe(start_x,y,end_x,y,duration=2000)
             num += 1
@@ -185,7 +175,7 @@ class BaseAction:
         y = size['height']
         start_x = int(x * start_x)
         end_x = int(x * end_x)
-        y = int(y * 0.5)
+        y = int(y * 0.3)
         while num <= swipeNum:
             self.driver.swipe(start_x, y, end_x, y, duration=2000)
             num += 1
@@ -213,8 +203,8 @@ class BaseAction:
         while num <= swipeNum:
             self.driver.swipe(x, start_y, x, end_y, duration=2000)
             num += 1
-    def longClick(self,locator,time=1000):
-        #点击长按元素
+    def longClick(self,locator,element,time=1000):
+        #点击长按元素---这里我多加了一个element形参
         if locator[0] == 'id':
             element = self.driver.find_element_by_id(locator[1])
         elif locator[0] == 'xpath':
@@ -308,6 +298,36 @@ class BaseAction:
             return result
         except:
             return False
+
+    '''
+        模拟各种手机按键
+        KEYCODE_CALL 拨号键 5
+        KEYCODE_ENDCALL 挂机键 6
+        KEYCODE_HOME 按键Home 3
+        KEYCODE_MENU 菜单键 82
+        KEYCODE_BACK 返回键 4
+        KEYCODE_SEARCH 搜索键 84
+        KEYCODE_CAMERA 拍照键 27
+        KEYCODE_FOCUS 拍照对焦键 80
+        KEYCODE_POWER 电源键 26
+        KEYCODE_NOTIFICATION 通知键 83
+        KEYCODE_MUTE 话筒静音键 91
+        KEYCODE_VOLUME_MUTE 扬声器静音键 164
+        KEYCODE_VOLUME_UP 音量增加键 24
+        KEYCODE_VOLUME_DOWN 音量减小键 25
+    '''
+    #模拟各种手机按键
+    def back(self):
+        self.driver.keyevent(4)
+
+    #获取手机长宽
+    def getsize(self):
+        x = self.driver.get_window_size()['width']
+        y = self.driver.get_window_size()['height']
+        return (x,y)
+
+    #
+
 
 
 
