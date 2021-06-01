@@ -64,7 +64,7 @@ class Publicservice:
             LoginPage(init_driver).first_install_warrant()
         else:
             logger.info('没有开屏授权的弹窗')
-        LoginPage(init_driver).mobile_phone()
+        LoginPage(init_driver).mobile_phone(18910884620)
         a = BaseAction(init_driver).is_elementloc(LoginLoc.male_loc)
         if a:
             LoginPage(init_driver).perfect_information()
