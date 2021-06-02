@@ -11,8 +11,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.common.exceptions import ElementNotVisibleException
 from selenium.common.exceptions import TimeoutException
-
-logger = DemeLog().log()
+from base.base_log import logger
 
 class BaseAction:
     _blacklist=[(By.ID,"tips"),(By.ID,"iamge_cannel")]
