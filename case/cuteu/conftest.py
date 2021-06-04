@@ -1,11 +1,14 @@
 # -*- coding:utf-8 -*-
 import os
 import sys
-import pytest
-from base.base_driver import setdriver
 import time
+
+import pytest
+
+from base.base_driver import setdriver
+
 sys.path.append(os.getcwd())
-from pageproject.cuteu.aboutus_page import AboutUs
+
 
 # class Testabout():
 #     def test_about(self,init_driver):

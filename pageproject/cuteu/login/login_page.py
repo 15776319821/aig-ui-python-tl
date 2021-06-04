@@ -45,13 +45,17 @@ class LoginPage(BaseAction):
         else:
             logger.info('这条case不是绑定facebook账号的流程')
     #选择手机号登录方式
-    def mobile_phone(self):
+    def mobile_phone(self,number):
         self.click_element(LoginLoc.mobile_phone_loc,"点击手机号登录")
         self.click_element(LoginLoc.input_phone_loc,"点击手机号输入框")
-        self.input_text(LoginLoc.input_phone_loc,18910884620,"手机号输入框中输入大陆手机号")
+        self.input_text(LoginLoc.input_phone_loc,number,"手机号输入框中输入大陆手机号")
+        time.sleep(1)
+        self.back()
         self.click_element(LoginLoc.send_number_loc,"点击发送验证码")
         self.click_element(LoginLoc.input_number_loc,"点击验证码的输入框")
         self.input_text(LoginLoc.input_number_loc,123456,"验证码输入框输入固定验证码")
+        time.sleep(1)
+        self.back()
         self.click_element(LoginLoc.phone_next_loc,"点击下一步")
         a = self.is_elementloc(LoginLoc.confirm_loc)
         if a :

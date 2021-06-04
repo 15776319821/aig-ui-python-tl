@@ -16,7 +16,7 @@ from case.cuteu.common import Publicservice
 class Testmatch:
     def test_msg(self,init_driver):
         #Publicservice().first_install_warrant(init_driver['driver'])
-        Publicservice().google_login(init_driver['driver'])
+        Publicservice().mobile_phone(init_driver['driver'])
         #点击消息按钮
         logger.info("执行前")
         MatchPage(init_driver['driver']).match()
