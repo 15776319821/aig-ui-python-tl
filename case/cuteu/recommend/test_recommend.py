@@ -17,6 +17,7 @@ from base.base_action import BaseAction
 #     yield {"driver":driver,"match_page":match_page}
 #     driver.quit()
 #@pytest.mark.usefixtures("init_drivera")
+@allure.feature("推荐页面")
 class Testrecommend():
     @allure.title("进入推荐页")
     def test_discover_vip(self, init_driver):

@@ -5,6 +5,7 @@ import sys
 sys.path.append(os.getcwd())
 from pageproject.cuteu.match_page import MatchPage
 from base.base_log import logger
+import allure
 from case.cuteu.common import Publicservice
 # @pytest.fixture(scope='class')
 # def init_driver():
@@ -16,7 +17,7 @@ from case.cuteu.common import Publicservice
 class Testmatch:
     def test_msg(self,init_driver):
         #Publicservice().first_install_warrant(init_driver['driver'])
-        Publicservice().mobile_phone(init_driver['driver'])
+        # Publicservice().mobile_phone(init_driver['driver'])
         #点击消息按钮
         logger.info("执行前")
         MatchPage(init_driver['driver']).match()
