@@ -134,5 +134,3 @@ elementloc/
 pageproject/
 pytest.ini
 screenShotImage/
-base/__pycache__/base_driver.cpython-39.pyc
-elementloc/cuteu/recommend/__pycache__/recommend_loc.cpython-39.pyc
