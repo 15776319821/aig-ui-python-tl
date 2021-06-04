@@ -5,6 +5,8 @@ __pycache__/
 
 # C extensions
 *.so
+base/__pycache__/base_driver.cpython-39.pyc
+elementloc/cuteu/recommend/__pycache__/recommend_loc.cpython-39.pyc
 
 # Distribution / packaging
 .Python
