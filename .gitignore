@@ -125,3 +125,12 @@ base/__pycache__
 *.iml
 /target/
 .DS_Store
+UIDeskTop/
+base/
+case/
+conftest.py
+data/
+elementloc/
+pageproject/
+pytest.ini
+screenShotImage/
