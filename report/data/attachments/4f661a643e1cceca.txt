@@ -1,6 +1,0 @@
-[32mINFO    [0m logger:test_recommend.py:43 滑动discover卡片case开始
-[32mINFO    [0m logger:base_action.py:60 发现('id', 'com.cuteu.videochat:id/btnTabRecommend')元素
-[32mINFO    [0m logger:base_action.py:25 点击元素('id', 'com.cuteu.videochat:id/btnTabRecommend'),点击推荐
-[32mINFO    [0m logger:base_action.py:60 发现('xpath', '//android.widget.LinearLayout[@content-desc="发现"]/android.view.ViewGroup/android.widget.TextView')元素
-[32mINFO    [0m logger:base_action.py:25 点击元素('xpath', '//android.widget.LinearLayout[@content-desc="发现"]/android.view.ViewGroup/android.widget.TextView'),点击推荐-发现按钮
-[32mINFO    [0m logger:test_recommend.py:52 滑动discover卡片case结束
