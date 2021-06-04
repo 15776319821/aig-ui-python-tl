@@ -124,3 +124,4 @@ base/__pycache__
 .idea/**
 *.iml
 /target/
+.DS_Store
