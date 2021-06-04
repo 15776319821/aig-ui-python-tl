@@ -1,2 +1,0 @@
-2021/05/08/15:52:56 pictureComparison.py ERROR 图片比对代码运行出现错误，错误原因： OpenCV(4.5.2) C:\Users\runneradmin\AppData\Local\Temp\pip-req-build-m8us58q4\opencv\modules\imgproc\src\resize.cpp:4051: error: (-215:Assertion failed) !ssize.empty() in function 'cv::resize'
-

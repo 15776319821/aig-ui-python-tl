@@ -126,4 +126,12 @@ class RecommendPage(BaseAction):
         else:
             return False
 
+    def discover_guide(self):
+        if self.is_exist(ElementLoc.discover_guide):
+            self.click_element(ElementLoc.discover_guide, 'discover页点击新手引导')
+
+    def phone_binding(self):
+        if self.is_exist(ElementLoc.recommend_phone_binding):
+            self.click_element(ElementLoc.recommend_cancel_binding, '点击绑定手机号取消按钮')
+
 

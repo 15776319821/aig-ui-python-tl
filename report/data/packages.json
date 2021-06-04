@@ -1,0 +1,100 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "case.cuteu.recommend.test_recommend",
+    "children" : [ {
+      "name" : "test_discover_vip",
+      "uid" : "a02a01147cbb27a8",
+      "parentUid" : "4806a6b7e91957dfbb3d70970ac515fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622632037262,
+        "stop" : 1622632047414,
+        "duration" : 10152
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "discover页会员点击筛选按钮",
+      "uid" : "a7694437572e22f2",
+      "parentUid" : "4806a6b7e91957dfbb3d70970ac515fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622632047418,
+        "stop" : 1622632055368,
+        "duration" : 7950
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "滑动discover卡片",
+      "uid" : "386fb91a34a349ca",
+      "parentUid" : "4806a6b7e91957dfbb3d70970ac515fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622632055371,
+        "stop" : 1622632059810,
+        "duration" : 4439
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "滑动discover点卡片进入profile页",
+      "uid" : "65e952572d586e9",
+      "parentUid" : "4806a6b7e91957dfbb3d70970ac515fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622632059816,
+        "stop" : 1622632082997,
+        "duration" : 23181
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "推荐列表查看banner是否存在",
+      "uid" : "5d91c1602c418676",
+      "parentUid" : "4806a6b7e91957dfbb3d70970ac515fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622632083027,
+        "stop" : 1622632085017,
+        "duration" : 1990
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "会员点击筛选按钮",
+      "uid" : "9a15e4979333a108",
+      "parentUid" : "4806a6b7e91957dfbb3d70970ac515fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622632085029,
+        "stop" : 1622632090553,
+        "duration" : 5524
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "点击推荐列表第一个主播",
+      "uid" : "53014675b300527d",
+      "parentUid" : "4806a6b7e91957dfbb3d70970ac515fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622632090561,
+        "stop" : 1622632095435,
+        "duration" : 4874
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "case.cuteu.recommend.test_recommend"
+  } ]
+}

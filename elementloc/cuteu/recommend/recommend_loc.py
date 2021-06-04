@@ -23,6 +23,8 @@ class ElementLoc:
     discover_screen_card_loc = (By.ID, 'com.cuteu.videochat:id/bgView')
     # 推荐页-发现-通话按钮
     discover_screen_call_loc = (By.ID, 'com.cuteu.videochat:id/callView')
+    # discover新手引导
+    discover_guide = (By.ID, 'com.cuteu.videochat:id/callView')
 
     # profile页昵称
     profile_name= (By.ID, 'com.cuteu.videochat:id/userName')
@@ -42,3 +44,7 @@ class ElementLoc:
     recommend_nearby_loc = (By.XPATH, '//android.widget.LinearLayout[@content-desc="同城"]/android.view.ViewGroup/android.widget.TextView')
     # 同城列表
     recommend_nearby_list_loc = (By.ID, 'com.cuteu.videochat:id/ivHead')
+    # 手机号绑定
+    recommend_phone_binding= (By.ID, 'com.cuteu.videochat:id/action_bar_root')
+    # 手机号取消绑定按钮
+    recommend_cancel_binding = (By.ID, 'android:id/button2')

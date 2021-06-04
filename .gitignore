@@ -117,3 +117,4 @@ pytest_cache/
 .idea
 __pycache__
 .idea/workspace.xml
+*/__pycache__/

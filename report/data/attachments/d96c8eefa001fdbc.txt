@@ -1,0 +1,10 @@
+[32mINFO    [0m logger:test_recommend.py:25 会员点击筛选按钮case开始
+[32mINFO    [0m logger:base_action.py:60 发现('id', 'com.cuteu.videochat:id/btnTabRecommend')元素
+[32mINFO    [0m logger:base_action.py:25 点击元素('id', 'com.cuteu.videochat:id/btnTabRecommend'),点击推荐
+[32mINFO    [0m logger:base_action.py:60 发现('xpath', '//android.widget.LinearLayout[@content-desc="发现"]/android.view.ViewGroup/android.widget.TextView')元素
+[32mINFO    [0m logger:base_action.py:25 点击元素('xpath', '//android.widget.LinearLayout[@content-desc="发现"]/android.view.ViewGroup/android.widget.TextView'),点击推荐-发现按钮
+[32mINFO    [0m logger:base_action.py:60 发现('id', 'com.cuteu.videochat:id/countryTv')元素
+[32mINFO    [0m logger:base_action.py:25 点击元素('id', 'com.cuteu.videochat:id/countryTv'),点击推荐-发现-筛选国家按钮
+[32mINFO    [0m logger:base_action.py:71 发现('id', 'com.cuteu.videochat:id/nameTv')元素
+[32mINFO    [0m logger:base_action.py:35 点击第2个元素,('id', 'com.cuteu.videochat:id/nameTv')
+[32mINFO    [0m logger:test_recommend.py:32 会员点击筛选按钮case开始结束

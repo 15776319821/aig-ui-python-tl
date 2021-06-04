@@ -1,0 +1,13 @@
+[32mINFO    [0m logger:test_recommend.py:108 点击推荐列表第一个主播case开始
+[32mINFO    [0m logger:base_action.py:60 发现('id', 'com.cuteu.videochat:id/btnTabRecommend')元素
+[32mINFO    [0m logger:base_action.py:25 点击元素('id', 'com.cuteu.videochat:id/btnTabRecommend'),点击推荐
+[32mINFO    [0m logger:base_action.py:60 发现('xpath', '//android.widget.LinearLayout[@content-desc="推荐"]/android.view.ViewGroup/android.widget.TextView')元素
+[32mINFO    [0m logger:base_action.py:25 点击元素('xpath', '//android.widget.LinearLayout[@content-desc="推荐"]/android.view.ViewGroup/android.widget.TextView'),点击推荐tab
+[32mINFO    [0m logger:base_action.py:71 发现('id', 'com.cuteu.videochat:id/bgView')元素
+[32mINFO    [0m logger:base_action.py:35 点击第1个元素,('id', 'com.cuteu.videochat:id/bgView')
+[32mINFO    [0m logger:base_action.py:60 发现('id', 'com.cuteu.videochat:id/ivHead')元素
+[32mINFO    [0m logger:base_action.py:60 发现('id', 'com.cuteu.videochat:id/topBackView')元素
+[32mINFO    [0m logger:base_action.py:60 发现('id', 'com.cuteu.videochat:id/topBackView')元素
+[32mINFO    [0m logger:base_action.py:25 点击元素('id', 'com.cuteu.videochat:id/topBackView'),返回按钮
+[32mINFO    [0m logger:recommend_page.py:117 点击profile页返回按钮
+[32mINFO    [0m logger:test_recommend.py:116 点击推荐列表第一个主播case结束

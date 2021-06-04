@@ -1,9 +1,0 @@
-2021/04/28/18:30:26 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/btnTabMine')元素，是因为Message: 
-
-2021/04/28/18:30:26 base_action.py INFO 点击元素失败('id', 'com.cuteu.videochat:id/btnTabMine')，是因为'NoneType' object has no attribute 'click':点击我的
-2021/04/28/18:30:47 base_action.py INFO 无法获取('id', 'com.cuteu.videochat:id/imgSet')元素，是因为Message: 
-
-2021/04/28/18:30:47 base_action.py INFO 点击元素失败('id', 'com.cuteu.videochat:id/imgSet')，是因为'NoneType' object has no attribute 'click':点击设置齿轮角标
-2021/04/28/18:31:10 base_action.py INFO 无法获取('xpath', "//*[@text='关于我们']")元素，是因为Message: 
-
-2021/04/28/18:31:10 base_action.py INFO 点击元素失败('xpath', "//*[@text='关于我们']")，是因为'NoneType' object has no attribute 'click':点击设置页面的关于我们
