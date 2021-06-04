@@ -51,4 +51,3 @@ if __name__ == '__main__':
 
     x = setdriver().runapp()
     w = Testrecommend()
-    w.test_msg(init_driver=x)

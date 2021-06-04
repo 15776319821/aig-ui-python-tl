@@ -10,7 +10,7 @@ class MsgLoc():
     news_clear = (By.ID,"com.cuteu.videochat:id/tv_right") #互动按钮内的清空按钮
     news_clear_yes =(By.ID,"android:id/button1") #确认清空
     news_clear_no = (By.ID,"android:id/button2") #取消清空
-    news_head = (By.ID,"com.cuteu.videochat:id/sdvAvatar") #用户头像
+    news_head = (By.XPATH,"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.ImageView[2]") #用户头像
     news_understand = (By.ID,"com.cuteu.videochat:id/tvMessage") #想了解XXX文字
 
     ''' CuteU团队信按钮 '''
@@ -18,13 +18,12 @@ class MsgLoc():
 
     ''' 客服中心及客服中心内元素'''
     CuteU_help = (By.ID,"com.cuteu.videochat:id/ivHelp") #客服中心按钮
-    help_name = (By.NAME,"帮助中心") #客服中心-帮助中心文字是否存在
 
     ''' 消息页面内更多及更多内按钮 '''
     CuteU_more = (By.ID,"com.cuteu.videochat:id/btnEdit") #更多按钮
     more_allread = (By.ID,"com.cuteu.videochat:id/btnAllRead") #全部已读按钮
     more_clear = (By.ID,"com.cuteu.videochat:id/btnDelete3Info") #清理聊天列表
-    more_cancel = (By.ID,"com.cuteu.videochat:id/btnCancel") #取消按钮
+    more_cancel = (By.XPATH,"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.TextView[2]") #取消按钮
     more_save = (By.ID,"com.cuteu.videochat:id/tvSave")#确认按钮
 
     ''' 聊天页面及聊天页面内元素 '''
@@ -36,14 +35,16 @@ class MsgLoc():
     user_msg = (By.ID,"com.cuteu.videochat:id/etInputText") #聊天框
     user_send = (By.ID,"com.cuteu.videochat:id/button") #发送按钮
     user_img = (By.ID,"com.cuteu.videochat:id/btnToSelectedImage") #图片按钮
-    user_secret = (By.ID,"com.cuteu.videochat:id/tvSetPrivate") #设为小秘密
-    img_send = (By.ID,"com.cuteu.videochat:id/tv_right") #图片发送
+    # 设为小秘密
+    user_secret = (By.XPATH,"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup")
+    # 图片发送
+    img_send = (By.XPATH,"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.view.ViewGroup/android.widget.TextView[2]")
     user_video = (By.ID,"com.cuteu.videochat:id/btnToPhoneCell") #视频聊天
     user_call = (By.ID,"com.cuteu.videochat:id/btnToPhoneCellAudioOnly") #语音聊天
     user_red = (By.ID,"com.cuteu.videochat:id/btnOpenVideoGift") #红包按钮
     user_gift = (By.ID,"com.cuteu.videochat:id/btnToSelectedImage") #礼物按钮
     user_more = (By.ID,"com.cuteu.videochat:id/btnMoreInfo") #更多
-
+    user_photo = (By.XPATH,"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/android.widget.FrameLayout/android.widget.ImageView")
     video_cancel = (By.ID,"com.cuteu.videochat:id/btnHangup") #发起视频后挂断
     call_cancel = (By.ID,"com.cuteu.videochat:id/btnHangup") #发起语音后挂断
 
@@ -70,11 +71,17 @@ class MsgLoc():
     report_submit = (By.ID,"com.cuteu.videochat:id/btnSend") #提交举报
     report_ok = (By.ID,"com.cuteu.videochat:id/tvOK")#点击知道了按钮
 
+    close_vip = (By.XPATH,"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ImageView")#关闭VIP弹窗
+    #返回按钮
+    return_page = (By.XPATH,"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.view.ViewGroup/android.widget.ImageButton")
+   #个人主页返回按钮
+    user_return_page = (By.XPATH,"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.ImageView")
 
+    #钻石弹窗拦截
+    no_damond = (By.XPATH,"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.widget.TextView")
 
+    #会员弹窗拦截
+    no_vip = (By.XPATH,"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.TextView[2]")
 
-
-
-
-
-
+    #帮助中心
+    help_name = (By.XPATH,"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[1]/android.view.View/android.widget.TextView")

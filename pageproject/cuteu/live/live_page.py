@@ -1,10 +1,12 @@
 import os
 import sys
 
+from case.cuteu.conftest import init_driver
 from elementloc.cuteu.live.live_loc import LiveLoc
 sys.path.append(os.getcwd())
 import time
-from base.base_action import BaseAction
+from base.base_action import BaseAction, logger
+
 
 class LivePage(BaseAction):
     '''直播页面一级页面操作'''
@@ -15,10 +17,18 @@ class LivePage(BaseAction):
     def top_follow(self):
         self.click_element(LiveLoc.top_follow, "关注")
     def user_live(self):
-        self.click_element(LiveLoc.user_live, "第一个直播主播")
+        NoUser = self.click_element(LiveLoc.user_live, "第一个直播主播")
+        if NoUser == None:
+            logger.info("无正在直播主播")
+        else:
+            self.click_element(LiveLoc.user_live, "第一个直播主播")
     '''二级页面'''
     def room_username(self):
-        self.click_element(LiveLoc.room_username, "主播名字")
+        NoUser = self.is_elementloc(LiveLoc.room_username)
+        if NoUser == None:
+            logger.info("加载时间过长")
+        else:
+            self.click_element(LiveLoc.room_username, "主播名字")
     def username_head(self):
         self.click_element(LiveLoc.username_head, "点击主播头像")
     def username_report(self):
@@ -29,12 +39,16 @@ class LivePage(BaseAction):
         self.click_element(LiveLoc.username_close, "点击关闭主播个人信息")
     def room_damond(self):
         self.click_element(LiveLoc.room_damond, "钻石按钮")
-    def room_user(self):
-        self.click_element(LiveLoc.room_user, "贡献榜")
-    def room_follow(self):
-        self.click_element(LiveLoc.room_follow, "关注")
+    def room_user(self,init_driver):
+        a = self.is_elementloc(LiveLoc.room_user)
+        if a == True:
+            self.click_element(LiveLoc.room_user, "贡献榜")
+            BaseAction(init_driver['driver']).back()
+        else:
+            logger.info("无贡献榜")
     def room_msg(self):
         self.click_element(LiveLoc.room_msg, "发送消息")
+        self.click_element(LiveLoc.room_sendmsg, "点击发送")
     def room_notice(self):
         self.click_element(LiveLoc.room_notice, "公告")
     def room_gift(self):
@@ -51,4 +65,14 @@ class LivePage(BaseAction):
         self.click_element(LiveLoc.room_gift_send, "发送礼物")
     def room_gift_recharge(self):
         self.click_element(LiveLoc.room_gift_recharge, "充值钻石")
+    #直播间加载
+    def room_loading(self,init_driver):
+        time.sleep(15)
+        loadiong = self.is_elementloc(LiveLoc.room_loading)
+        if loadiong == True:
+            BaseAction(init_driver['driver']).back()
+            logger.info("加载时间过长，结束")
+        else:
+            return False
+
 
