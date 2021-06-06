@@ -30,9 +30,11 @@ class Testmsg():
         BaseAction(init_driver['driver']).back()
         #点击互动通知第一条消息 点击返回
         MsgPage(init_driver['driver']).newspage_understand()
+        assert MsgPage(init_driver['driver']).newspage_understand_assert()
         BaseAction(init_driver['driver']).back()
         # 点击清空按钮 点击取消
         MsgPage(init_driver['driver']).newspage_clear()
+        assert MsgPage(init_driver['driver']).newspage_clear_assert()
         MsgPage(init_driver['driver']).newspage_clear_no()
         # 点击清空按钮 点击确认
         MsgPage(init_driver['driver']).newspage_clear()

@@ -18,22 +18,20 @@ class MsgPage(BaseAction):
         self.click_element(MsgLoc.interact_news,"点击互动消息按钮")
     def news_jump_assert(self):
         return self.is_exist(MsgLoc.news_clear)
+    def newspage_head(self):
+        self.click_element(MsgLoc.news_head,"互动通知用户头像")
+    def newspage_understand(self):
+        self.click_element(MsgLoc.news_understand,"互动通知第一条消息")
+    def newspage_understand_assert(self):
+        return self.is_exist(MsgLoc.newspage_understand_assert)
     def newspage_clear(self):
         self.click_element(MsgLoc.news_clear,"互动通知清空按钮")
+    def newspage_clear_assert(self):
+        return self.is_exist(MsgLoc.news_clear_yes)
     def newspage_clear_yes(self):
         self.click_element(MsgLoc.news_clear_yes,"确认清空互动消息")
     def newspage_clear_no(self):
         self.click_element(MsgLoc.news_clear_no, "取消清空互动消息")
-    def newspage_head(self):
-        a = self.is_elementloc(MsgLoc.news_head)
-        if a == True:
-            self.click_element(MsgLoc.news_head,"互动通知用户头像")
-            return True
-        else:
-            logger.info("无互动通知")
-    def newspage_understand(self):
-        self.click_element(MsgLoc.news_understand,"互动通知第一条消息")
-
 
     '''点击CuteU团队按钮'''
     def CuteUTeam_jump(self):
@@ -179,9 +177,13 @@ class MsgPage(BaseAction):
     '''非会员或钻石不足场景使用'''
     def close_vip(self):
         self.click_element(MsgLoc.close_vip,"关闭VIP弹窗")
-    def return_page(self):
-        self.click_element(MsgLoc.return_page,"返回按钮")
-    def user_return_page(self):
-        self.click_element(MsgLoc.user_return_page,"个人主页返回按钮")
+    def close_vip_assert(self):
+        return self.is_exist(MsgLoc.close_vip)
+    def close_diamond_assert(self):
+        return self.is_exist(MsgLoc.close_diamond)
+    def gitf_close_diamond_assert(self):
+        return self.is_exist(MsgLoc.gift_diamond_close)
+
+
 
 
