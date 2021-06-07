@@ -15,16 +15,20 @@ class ProfileLoc():
     information_loc = (By.ID,"com.cuteu.videochat:id/information_title")
     #切换到tab Show
     show_loc = (By.ID,"com.cuteu.videochat:id/show_title")
+    #Show 标题
+    show_title_loc = (By.ID, "com.cuteu.videochat:id/titleTv")
     #切换查看照片
     photo_loc = (By.ID,"com.cuteu.videochat:id/photo_img")
     #私照的锁标识
     icon_loc = (By.ID,"com.cuteu.videochat:id/unLockView")
     #返回按键
     back_loc = (By.ID,"com.cuteu.videochat:id/topBackView")
-    #Show视频·
+    #Show视频
     show_video = (By.ID,"com.cuteu.videochat:id/ivHead")
     #邀请完善资料
     invite_loc = (By.ID,"com.cuteu.videochat:id/inviteCompleteInfo")
+    #邀请的完善资料的标题
+    invite_title_loc = (By.ID, "com.cuteu.videochat:id/textView28")
     #邀请完善身高
     height_loc = (By.XPATH,"//android.widget.CheckBox[@text='身高']")
     #邀请确定
@@ -41,4 +45,10 @@ class ProfileLoc():
     recording_loc = (By.ID,"com.android.packageinstaller:id/permission_allow_button")
     #请求摄像头权限
     camera_loc = (By.ID,"com.android.packageinstaller:id/permission_allow_button")
+    #会员拦截弹窗—会员拦截标题
+    vip_intercept_loc = (By.ID, "com.cuteu.videochat:id/tvTitle")
+    #会员拦截关闭按钮
+    vip_close_loc = (By.ID, "com.cuteu.videochat:id/tvClose")
+    #用户的姓名
+    username_loc = (By.ID, "com.cuteu.videochat:id/userName")
 
