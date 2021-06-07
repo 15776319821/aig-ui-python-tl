@@ -113,4 +113,3 @@ def returnBtn(self):
             break
 def startScreenShot(dirver):
     pass
-
