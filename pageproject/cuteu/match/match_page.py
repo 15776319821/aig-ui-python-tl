@@ -31,19 +31,19 @@ class MatchPage(BaseAction):
         self.click_element(ElementLoc.match_pairing,'点击配对列表')
 
     def match_pairingid(self):
-        self.find_element(ElementLoc.match_pairingid,'检查ID是否存在')
+        return self.is_exist(ElementLoc.match_pairingid)
 
     def match_return(self):
         self.click_element(ElementLoc.match_return,'点击返回')
 
     def match_saihi(self):
-        self.find_element(ElementLoc.match_saihi,'检查打招呼按钮')
+        return self.is_exist(ElementLoc.match_saihi)
 
     def match_carousel(self):
         self.click_element(ElementLoc.match_carousel,'点击轮播图跳转个人空间页')
 
     def match_video(self):
-        self.find_element(ElementLoc.match_video,'检查拨打视频按钮')
+        return self.is_exist(ElementLoc.match_video)
 
     def match_carouselid(self):
         self.click_element(ElementLoc.match_carouselid,'点击轮播图跳转个人空间页')
@@ -55,7 +55,7 @@ class MatchPage(BaseAction):
         self.click_element(ElementLoc.match_quickmatch,'点击快速匹配')
 
     def match_matchongoing(self):
-        self.find_element(ElementLoc.match_ongoing,'检查匹配进行中')
+        return self.is_exist(ElementLoc.match_ongoing)
 
     def match_matchclose(self):
         self.click_element(ElementLoc.match_close,'关闭匹配功能')
@@ -67,4 +67,4 @@ class MatchPage(BaseAction):
         self.click_element(ElementLoc.match_nexting,'点击匹配下一个')
 
     def match_success(self):
-        self.click_element(ElementLoc.match_success,'检查匹配成功')
+        return self.is_exist(ElementLoc.match_success)
