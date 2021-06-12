@@ -35,18 +35,28 @@ class ProfilePage(BaseAction):
     #点击个人语音介绍
     def voice(self):
         self.click_element(ProfileLoc.voice_loc,'点击播放个人语音')
-    #点击下方的语音邀请
-    def phone(self):
+    #点击下方的语音邀请--会员的情况
+    def phone_vip(self):
         self.click_element(ProfileLoc.phone_loc,'邀请语音聊天')
+        self.click_element(ProfileLoc.phone_end,'挂断语音聊天')
+    #点击下方的语音邀请--非会员的情况
+    def phone_novip(self):
+        self.click_element(ProfileLoc.phone_loc, '邀请语音聊天')
+        self.click_element(ProfileLoc.vip_close_loc, '这个账号还不是会员呢，没有办法进行语音邀请')
+    '''
+    #这是未作会员非会员处理的语音邀请
+    def phone(self):
+        self.click_element(ProfileLoc.phone_loc, '邀请语音聊天')
         a = self.is_elementloc(ProfileLoc.recording_loc)
         b = self.ele_text(ProfileLoc.vip_intercept_loc)
         if a:
-            self.click_element(ProfileLoc.recording_loc,'允许录音权限开启')
-        elif b =='成为会员':
-            self.click_element(ProfileLoc.vip_close_loc,'这个账号还不是会员呢，没有办法进行语音邀请')
+            self.click_element(ProfileLoc.recording_loc, '允许录音权限开启')
+        elif b == '成为会员':
+            self.click_element(ProfileLoc.vip_close_loc, '这个账号还不是会员呢，没有办法进行语音邀请')
         else:
-            self.click_element(ProfileLoc.phone_end,'挂断语音聊天')
-    # 点击下方的视频邀请
+            self.click_element(ProfileLoc.phone_end, '挂断语音聊天')
+    
+    #这是未作会员非会员处理的视频邀请
     def call_video(self):
         self.click_element(ProfileLoc.call_video_loc,'邀请视频聊天')
         a = self.is_elementloc(ProfileLoc.camera_loc)
@@ -57,6 +67,15 @@ class ProfilePage(BaseAction):
             self.click_element(ProfileLoc.vip_close_loc,'这个账号还不是会员，不能进行视频邀请')
         else:
             self.click_element(ProfileLoc.call_video_end,'挂断视频聊天')
+    '''
+    #点击下方的语音邀请--会员的情况
+    def call_video_vip(self):
+        self.click_element(ProfileLoc.call_video_loc,'邀请视频聊天')
+        self.click_element(ProfileLoc.call_video_end,'挂断视频聊天')
+    #点击下方的语音邀请 - -非会员的情况
+    def call_video_novip(self):
+        self.click_element(ProfileLoc.call_video_loc,'邀请视频聊天')
+        self.click_element(ProfileLoc.vip_close_loc, '这个账号还不是会员，不能进行视频邀请')
     #查看照片
     def select_photo(self):
         self.click_elements(ProfileLoc.photo_loc,2,'查看第二张照片')

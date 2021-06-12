@@ -6,7 +6,7 @@ import time
 import pytest
 
 from base.base_driver import setdriver
-
+from pageproject.cuteu.loginout.loginout_page import LoginoutPage
 sys.path.append(os.getcwd())
 
 
@@ -19,10 +19,11 @@ sys.path.append(os.getcwd())
 @pytest.fixture(scope='class')
 def init_driver():
     driver = setdriver().runapp()
-    #dri = AboutUs(driver).Us(10)
+    # dri = LoginoutPage(driver).loginout()
     yield {'driver':driver}
-    #yield {'driver':driver ,'dri':dri}
-    time.sleep(5)
+    # yield {'driver':driver ,'dri':dri}
+    dri = LoginoutPage(driver).loginout()
+    time.sleep(3)
     driver.close_app()
     driver.quit()
 # @pytest.fixture(scope='class')

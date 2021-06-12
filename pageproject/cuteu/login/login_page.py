@@ -71,7 +71,6 @@ class LoginPage(BaseAction):
         self.click_element(LoginLoc.purpose_next_loc,"交友目的-下一步")
         a = self.is_elementloc(LoginLoc.recording_loc)
         if a is True:
-            #
             self.click_element(LoginLoc.recording_loc,"录音授权")
             self.click_element(LoginLoc.camera_loc,"摄像头授权")
             self.click_element(LoginLoc.iknow_loc, "点击我知道了")
