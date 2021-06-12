@@ -28,7 +28,7 @@ class Testmatch:
         #点击配对列表
         MatchPage(init_driver['driver']).match_pairing()
         #断言元素是否存在
-        MatchPage(init_driver['driver']).match_pairingid()
+        assert MatchPage(init_driver['driver']).match_pairingid()
         #返回上一页
         MatchPage(init_driver['driver']).match_return()
         logger.info("执行结束")
@@ -40,7 +40,7 @@ class Testmatch:
         #点击匹配历史按钮
         MatchPage(init_driver['driver']).match_history()
         #断言元素是否存在
-        MatchPage(init_driver['driver']).match_saihi()
+        assert MatchPage(init_driver['driver']).match_saihi()
         #返回上一页
         MatchPage(init_driver['driver']).match_return()
         logger.info("执行结束")
@@ -52,7 +52,7 @@ class Testmatch:
         #点击轮播图
         MatchPage(init_driver['driver']).match_carouselid()
         #断言元素是否存在
-        MatchPage(init_driver['driver']).match_video()
+        assert MatchPage(init_driver['driver']).match_video()
         #返回上一页
         MatchPage(init_driver['driver']).match_carouselreturn()
         logger.info("执行结束")
@@ -63,7 +63,7 @@ class Testmatch:
         #点击匹配
         MatchPage(init_driver['driver']).match_quickmatch()
         #检查匹配进行中
-        MatchPage(init_driver['driver']).match_matchongoing()
+        assert MatchPage(init_driver['driver']).match_matchongoing()
         #关闭匹配
         MatchPage(init_driver['driver']).match_matchclose()
         #关闭页面
@@ -77,13 +77,13 @@ class Testmatch:
         #点击匹配
         MatchPage(init_driver['driver']).match_quickmatch()
         #检查匹配进行中
-        MatchPage(init_driver['driver']).match_matchongoing()
+        assert MatchPage(init_driver['driver']).match_matchongoing()
         #点击下一个匹配
         MatchPage(init_driver['driver']).match_nextmatch()
         #检查匹配进行中
-        MatchPage(init_driver['driver']).match_matchongoing()
+        assert MatchPage(init_driver['driver']).match_matchongoing()
         #检查匹配成功
-        MatchPage(init_driver['driver']).match_success()
+        assert MatchPage(init_driver['driver']).match_success()
 
         #MatchPage(init_driver['driver']).match_matchclose()
         #关闭页面
