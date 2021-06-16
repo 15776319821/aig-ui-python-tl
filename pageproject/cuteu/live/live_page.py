@@ -28,12 +28,9 @@ class LivePage(BaseAction):
                 return True
         else:
             return False
+
     def user_live(self):
-        if self.user_live_assert():
             self.click_element(LiveLoc.user_live, "第一个直播主播")
-        else:
-            logger.info("无正在直播的主播")
-            return False
 
     '''直播间内元素'''
     def room_username(self):
@@ -71,10 +68,11 @@ class LivePage(BaseAction):
     def room_notice_assert(self):
         return self.is_exist(LiveLoc.room_notice_assert)
 
-    def room_msg(self,init_driver):
+    def room_msg(self):
         self.click_element(LiveLoc.room_msg, "发送消息")
+        # self.input_text(LiveLoc.room_msg,"你好啊","发送消息")
         self.click_element(LiveLoc.room_sendmsg, "点击发送")
-        BaseAction(init_driver['driver']).back()
+
 
     def room_gift(self):
         self.click_element(LiveLoc.room_gift, "礼物")
@@ -91,15 +89,12 @@ class LivePage(BaseAction):
     def room_exit(self):
         self.click_element(LiveLoc.room_exit, "关闭直播间")
 
-
-#暂时未使用
     def room_user(self,init_driver):
-        a = self.is_elementloc(LiveLoc.room_user)
-        if a == True:
             self.click_element(LiveLoc.room_user, "贡献榜")
             BaseAction(init_driver['driver']).back()
-        else:
-            logger.info("无贡献榜")
+
+#暂时未使用
+
     def room_sendgift(self):
         self.click_element(LiveLoc.room_sendgift, "提示赠送礼物")
     #直播间加载
