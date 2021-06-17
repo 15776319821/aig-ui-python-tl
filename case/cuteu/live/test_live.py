@@ -9,75 +9,98 @@ sys.path.append(os.getcwd())
 from base.base_log import logger
 
 class Testmsg:
-    def test_live(self,init_driver):
-        logger.info("进入直播页面，点击一级页面元素")
-        #进入直播页面
+    logger.info("进入直播页面元素caes开始")
+    logger.info("进入直播页面元素caes结束")
+    def test_live_page(self,init_driver):
+        #导航栏进入直播页面
+        print("1")
         LivePage(init_driver['driver']).live_loc()
-        #点击直播-关注
+
+    def test_live_follow(self,init_driver):
+        #点击关注
+        print("2")
         LivePage(init_driver['driver']).top_follow()
+
+    def test_live(self,init_driver):
+        #点击直播
+        print("3")
         LivePage(init_driver['driver']).top_live()
-        logger.info("进入直播页面元素caes结束")
+        assert LivePage(init_driver['driver']).top_live_assert()
+
 
     def test_user_live(self,init_driver):
-        logger.info("进入主播直播间cese开始")
-        #进入第一个主播直播间
-        # NoUser = LivePage(init_driver['driver']).user_live()
-        # if NoUser == None:
-        #     logger.info("进入直播间时间过长，跳过")
-        # else:
-       # 进入第一个主播直播间
+        # 点击正在直播的主播
         LivePage(init_driver['driver']).user_live()
 
-        # 判断是否加载时间过长
-        a = LivePage(init_driver['driver']).room_loading(init_driver)
-        if a==False:
-            #直播间操作
-            #主播名字
-            LivePage(init_driver['driver']).room_username()
-            #关注
-            LivePage(init_driver['driver']).username_follow()
-            #举报
-            LivePage(init_driver['driver']).username_report()
-            BaseAction(init_driver['driver']).back()
-            #点击主播头像
-            LivePage(init_driver['driver']).username_head()
-            BaseAction(init_driver['driver']).back()
-            #点击主播名字
-            LivePage(init_driver['driver']).room_username()
-            LivePage(init_driver['driver']).username_close()
+        #直播间内操作
+        #主播名字
+    def test_username(self,init_driver):
+        LivePage(init_driver['driver']).room_username()
+        assert LivePage(init_driver['driver']).room_username_assert()
 
-            #点击钻石按钮，奖池
-            LivePage(init_driver['driver']).room_damond()
-            LivePage(init_driver['driver']).room_damond()
+    def test_username_follow(self,init_driver):
+        #关注
+        LivePage(init_driver['driver']).room_username()
+        LivePage(init_driver['driver']).username_follow()
+        assert LivePage(init_driver['driver']).username_follow_assert()
 
-            #点击公告
-            LivePage(init_driver['driver']).room_notice()
-            BaseAction(init_driver['driver']).back()
+    def test_username_report(self,init_driver):
+        #举报
+        LivePage(init_driver['driver']).username_report()
+        BaseAction(init_driver['driver']).back()
+        assert LivePage(init_driver['driver']).username_report_assert()
+
+    def test_username_head(self,init_driver):
+        #点击主播头像
+        LivePage(init_driver['driver']).username_head()
+        time.sleep(5)
+        BaseAction(init_driver['driver']).back()
+        assert LivePage(init_driver['driver']).username_head_assert()
+
+    def test_room_damond(self,init_driver):
+        #点击钻石按钮，奖池
+        LivePage(init_driver['driver']).room_damond()
+        time.sleep(6)
+        assert LivePage(init_driver['driver']).room_damond_assert()
+
+    def test_room_notice(self,init_driver):
+        #点击公告
+        LivePage(init_driver['driver']).room_notice()
+        assert LivePage(init_driver['driver']).room_notice_assert()
+        BaseAction(init_driver['driver']).back()
+
+    def test_room_msg(self,init_driver):
+        #发送消息
+        LivePage(init_driver['driver']).room_msg()
+        BaseAction(init_driver['driver']).back()
+
+    def test_room_gift(self,init_driver):
+        #有钻石送礼物操作
+        #送礼物操作
+        LivePage(init_driver['driver']).room_gift()
+            #选择礼物
+        LivePage(init_driver['driver']).room_gift_choose()
+            #发送礼物
+        LivePage(init_driver['driver']).room_gift_send()
+        time.sleep(6)
+
+    def test_room_recharge(self,init_driver):
+        #充值钻石
+        LivePage(init_driver['driver']).room_gift()
+        LivePage(init_driver['driver']).room_gift_recharge()
+        BaseAction(init_driver['driver']).back()
+        BaseAction(init_driver['driver']).back()
+
+    def test_room_user(self, init_driver):
+        # 贡献榜
+        LivePage(init_driver['driver']).room_user(init_driver)
+
+    def test_room_exit(self,init_driver):
+        #关闭直播间
+        LivePage(init_driver['driver']).room_exit()
+        logger.info("进入主播直播间cese结束")
 
 
-            #贡献榜
-            LivePage(init_driver['driver']).room_user(init_driver)
-
-            #发送消息
-            LivePage(init_driver['driver']).room_msg()
-
-            #送礼物操作
-            LivePage(init_driver['driver']).room_gift()
-                #选择礼物
-            LivePage(init_driver['driver']).room_gift_choose()
-                #发送礼物
-            LivePage(init_driver['driver']).room_gift_send()
-            BaseAction(init_driver['driver']).back()
-            #充值钻石
-            LivePage(init_driver['driver']).room_gift_recharge()
-            BaseAction(init_driver['driver']).back()
-            BaseAction(init_driver['driver']).back()
-
-            #关闭直播间
-            LivePage(init_driver['driver']).room_exit()
-            logger.info("进入主播直播间cese结束")
-        else:
-            logger.info("无法进入直播间")
 
 if __name__ == '__main__':
     x=setdriver().runapp()

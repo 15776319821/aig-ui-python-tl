@@ -12,7 +12,6 @@ from tomorrow3 import threads
 apkConfig=apkConfig()
 class setdriver():
     def desired(self,iphoneData,num):
-        sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf8')
         appProjectData=eval(str(iphoneData[num]))
         appname=readAppData(appProjectData['project'])
         # apkpath=apkConfig.getApkPath(appname='FancyU',appbuild='217000')
@@ -73,24 +72,24 @@ class setdriver():
             appiumPort = 4723 + i
             return desired,appiumPort
 
-    def endAppium(self,post_num):
-        '''关闭appium服务'''
-        pc = sys.platform
-        if pc.upper() == 'WINDOWS':
-            p = os.popen('netstat  -aon|findstr {}'.format(post_num))
-            p0 = p.read().strip()
-            if p0 != '' and 'LISTENING' in p0:
-                p1 = int(p0.split('LISTENING')[1].strip()[0:4])   # 获取进程号
-                os.popen('taskkill /F /PID {}'.format(p1))   # 结束进程
-                print('appium server已结束')
-        elif pc == 'darwin':
-            p = os.popen('lsof -i:{}'.format(post_num))
-            p0 = p.read()
-            print(p0)
-            if p0.strip() != '':
-                p1 = int(p0.split('\n')[1].split()[1])  # 获取进程号
-                os.popen('kill {}'.format(p1))  # 结束进程
-                print('appium server已结束')
+    # def endAppium(self,post_num):
+    #     '''关闭appium服务'''
+    #     pc = sys.platform
+    #     if pc.upper() == 'WINDOWS':
+    #         p = os.popen('netstat  -aon|findstr {}'.format(post_num))
+    #         p0 = p.read().strip()
+    #         if p0 != '' and 'LISTENING' in p0:
+    #             p1 = int(p0.split('LISTENING')[1].strip()[0:4])   # 获取进程号
+    #             os.popen('taskkill /F /PID {}'.format(p1))   # 结束进程
+    #             print('appium server已结束')
+    #     elif pc == 'darwin':
+    #         p = os.popen('lsof -i:{}'.format(post_num))
+    #         p0 = p.read()
+    #         print(p0)
+    #         if p0.strip() != '':
+    #             p1 = int(p0.split('\n')[1].split()[1])  # 获取进程号
+    #             os.popen('kill {}'.format(p1))  # 结束进程
+    #             print('appium server已结束')
 
 if __name__ == '__main__':
     x =setdriver().runapp()

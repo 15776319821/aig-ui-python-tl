@@ -1,8 +1,0 @@
-[32mINFO    [0m logger:test_recommend.py:79 推荐列表查看banner是否存在case开始
-[32mINFO    [0m logger:base_action.py:60 发现('id', 'com.cuteu.videochat:id/btnTabRecommend')元素
-[32mINFO    [0m logger:base_action.py:25 点击元素('id', 'com.cuteu.videochat:id/btnTabRecommend'),点击推荐
-[32mINFO    [0m logger:base_action.py:60 发现('xpath', '//android.widget.LinearLayout[@content-desc="推荐"]/android.view.ViewGroup/android.widget.TextView')元素
-[32mINFO    [0m logger:base_action.py:25 点击元素('xpath', '//android.widget.LinearLayout[@content-desc="推荐"]/android.view.ViewGroup/android.widget.TextView'),点击推荐tab
-[32mINFO    [0m logger:base_action.py:63 无法获取('id', 'com.cuteu.videochat:id/appBarLayout')元素，是因为Message: 
-
-[32mINFO    [0m logger:test_recommend.py:86 推荐列表查看banner是否存在case结束

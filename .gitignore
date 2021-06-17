@@ -30,7 +30,7 @@ MANIFEST
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
-
+screenShotImage/
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
@@ -123,3 +123,6 @@ base/__pycache__
 .idea/**
 *.iml
 /target/
+report/
+elementloc/cuteu/recommend/__pycache__/recommend_loc.cpython-39.pyc
+base/__pycache__/base_driver.cpython-39.pyc

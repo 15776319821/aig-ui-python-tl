@@ -11,7 +11,7 @@ class ProjectPath:
     # reports路径
     REPORTS_PATH = os.path.join(OUTPUTS_PATH, 'reports')
     # 日志路径
-    LOGS_PATH = os.path.join(OUTPUTS_PATH, 'logs')
+    LOGS_PATH = os.path.join(OUTPUTS_PATH, 'log')
     # 截图路径
     SCREENSHOTS_PATH = os.path.join(OUTPUTS_PATH, 'screenshots')
 
