@@ -8,7 +8,6 @@ def test_user_msg(self, init_driver):
     MsgPage(init_driver['driver']).user_msg()
     MsgPage(init_driver['driver']).user_send()
 
-
 def test_user_voice(self, init_driver):
     # 发送语音消息
     MsgPage(init_driver['driver']).user_voice()
