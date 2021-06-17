@@ -41,8 +41,8 @@ class MsgLoc():
     img_send = (By.XPATH,"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.view.ViewGroup/android.widget.TextView[2]")
     user_video = (By.ID,"com.cuteu.videochat:id/btnToPhoneCell") #视频聊天
     user_call = (By.ID,"com.cuteu.videochat:id/btnToPhoneCellAudioOnly") #语音聊天
-    user_red = (By.ID,"com.cuteu.videochat:id/btnOpenVideoGift") #红包按钮
-    user_gift = (By.ID,"com.cuteu.videochat:id/btnToSelectedImage") #礼物按钮
+    user_red = (By.XPATH,"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.ImageView[4]") #红包按钮
+    user_gift = (By.XPATH,"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.ImageView[5]") #礼物按钮
     user_more = (By.ID,"com.cuteu.videochat:id/btnMoreInfo") #更多
     user_photo = (By.XPATH,"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/android.widget.FrameLayout/android.widget.ImageView")
     video_cancel = (By.ID,"com.cuteu.videochat:id/btnHangup") #发起视频后挂断
