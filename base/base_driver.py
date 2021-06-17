@@ -49,7 +49,7 @@ class setdriver():
             iphoneData[i]=eval(iphoneData[i])
             desired = self.desired(iphoneData,i)
             appiumPort= 4723 + i
-            status=os.popen("netstat -an | findstr %s" % appiumPort)
+            status=os.popen("netstat -an | grep %s" % appiumPort)
             time.sleep(2)
             t1 = status.read()
             if "LISTENING" in t1:

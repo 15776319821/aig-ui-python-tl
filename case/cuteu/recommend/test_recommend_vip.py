@@ -6,6 +6,7 @@ import time
 sys.path.append(os.getcwd())
 from pageproject.cuteu.recommend.recommend_page import RecommendPage
 from base.base_log import logger
+from case.cuteu.common import Publicservice as login
 import allure
 from base.base_action import BaseAction
 
@@ -22,6 +23,8 @@ class Testrecommend():
     @allure.feature("进入推荐页")
     @allure.story("测试")
     def test_discover_vip(self, init_driver):
+        login.mobile_phone(mobile='008613100000005')
+
         logger.info("会员点击筛选按钮case开始")
         # 点击推荐按钮
         RecommendPage(init_driver['driver']).recommend()
@@ -31,7 +34,7 @@ class Testrecommend():
         RecommendPage(init_driver['driver']).phone_binding()
         # 新手引导
         RecommendPage(init_driver['driver']).discover_guide()
-        # 非会员点击筛选
+        # 点击筛选
         assert RecommendPage(init_driver['driver']).discover_screen_vip(2)
         logger.info("会员点击筛选按钮case开始结束")
 

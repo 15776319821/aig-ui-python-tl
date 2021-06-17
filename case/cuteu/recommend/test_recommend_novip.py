@@ -7,6 +7,7 @@ import time
 sys.path.append(os.getcwd())
 from pageproject.cuteu.recommend.recommend_page import RecommendPage
 from base.base_log import logger
+from case.cuteu.common import Publicservice as login
 from base.base_action import BaseAction
 
 
@@ -20,11 +21,16 @@ from base.base_action import BaseAction
 class Testrecommend():
     # 推荐列表切换国家—非VIP
     def test_discover(self, init_driver):
+        login.mobile_phone(mobile='008613100000004')
         logger.info("非会员点击筛选按钮case开始")
         # 点击推荐按钮
         RecommendPage(init_driver['driver']).recommend()
         # 点击推荐-发现
         RecommendPage(init_driver['driver']).discover()
+        # 关闭手机绑定提示弹窗
+        RecommendPage(init_driver['driver']).phone_binding()
+        # 新手引导
+        RecommendPage(init_driver['driver']).discover_guide()
         # 非会员点击筛选
         assert RecommendPage(init_driver['driver']).discover_screen(2)
         logger.info("非会员点击筛选按钮case开始结束")

@@ -6,10 +6,17 @@ from base.base_action import BaseAction
 from base.base_driver import setdriver
 sys.path.append(os.getcwd())
 from pageproject.cuteu.message.msg_page import MsgPage
+from case.cuteu.common import Publicservice as login
 from base.base_log import logger
-
+"""
+008613100000002  非会员无钻
+008613100000003   会员无钻
+008613100000004   非会员500000钻
+008613100000005   会员500000钻
+"""
 class Testmsg():
     def test_msg(self,init_driver):
+        login().mobile_phone(init_driver['driver'], 13100000005)
         #进入消息页面
         logger.info("进入消息页面，点击一级页面元素")
         MsgPage(init_driver['driver']).msg_jump()
@@ -130,7 +137,7 @@ class Testmsg():
         MsgPage(init_driver['driver']).red_recharge()
         BaseAction(init_driver['driver']).back()
         MsgPage(init_driver['driver']).red_send()
-        BaseAction(init_driver['driver']).back()
+        # BaseAction(init_driver['driver']).back()
 
     def test_user_more(self, init_driver):
         # 点击右上角三个点
@@ -164,6 +171,7 @@ class Testmsg():
     def test_help_name(self,init_driver):
         logger.info("帮助中心case开始")
         MsgPage(init_driver['driver']).CuteU_help()
+        BaseAction(init_driver['driver']).back()
         assert MsgPage(init_driver['driver']).CuteU_help_assert()
         logger.info("帮助中心case结束")
 
