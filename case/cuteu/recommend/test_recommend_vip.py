@@ -31,7 +31,7 @@ class Testrecommend():
         RecommendPage(init_driver['driver']).phone_binding()
         # 新手引导
         RecommendPage(init_driver['driver']).discover_guide()
-        # 非会员点击筛选
+        # 点击筛选
         assert RecommendPage(init_driver['driver']).discover_screen_vip(2)
         logger.info("会员点击筛选按钮case开始结束")
 
