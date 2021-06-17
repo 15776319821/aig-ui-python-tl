@@ -13,6 +13,7 @@ from base.base_log import logger
 from elementloc.cuteu.login.login_loc import LoginLoc
 from base.base_action import BaseAction
 from pageproject.cuteu.loginout.loginout_page import LoginoutPage
+
 class Publicservice:
 
     def fast_register(self,init_driver):

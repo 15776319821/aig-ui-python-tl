@@ -14,6 +14,8 @@ from case.cuteu.common import Publicservice
 
 class Testprofile():
     def test_profile_top(self,init_driver):
+        a = Publicservice()
+        a.mobile_phone(init_driver['driver'],13100000002)
         '''这是个人空间页顶部位置的所有操作'''
         ProfilePage(init_driver['driver']).into_profile()
         ProfilePage(init_driver['driver']).heart()
