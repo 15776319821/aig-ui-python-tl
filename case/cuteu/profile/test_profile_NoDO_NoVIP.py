@@ -2,7 +2,7 @@
 # @Time     :2021/6/9 20:12
 # @Author   :wjl
 # @Email    :753538091@qq.com
-# @File     :test_profile_novip.py
+# @File     :test_profile_NoDO_NoVIP.py
 # @Software :PyCharm
 
 import os

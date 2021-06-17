@@ -2,7 +2,7 @@
 # @Time     :2021/6/9 20:12
 # @Author   :wjl
 # @Email    :753538091@qq.com
-# @File     :test_profile_vip.py
+# @File     :test_profile_DO_VIP.py
 # @Software :PyCharm
 
 import os
