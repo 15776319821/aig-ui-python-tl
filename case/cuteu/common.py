@@ -15,7 +15,6 @@ from base.base_action import BaseAction
 from pageproject.cuteu.loginout.loginout_page import LoginoutPage
 
 class Publicservice:
-
     def fast_register(self,init_driver):
         '''快速注册按钮'''
         b = BaseAction(init_driver).is_elementloc(LoginLoc.submit_loc)
