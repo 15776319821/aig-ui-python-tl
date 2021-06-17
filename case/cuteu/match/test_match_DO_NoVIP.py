@@ -6,6 +6,7 @@ import pytest
 sys.path.append(os.getcwd())
 from pageproject.cuteu.match.match_page import MatchPage
 from base.base_log import logger
+from pageproject.cuteu.login import login_page
 
 
 # @pytest.fixture(scope='class')
