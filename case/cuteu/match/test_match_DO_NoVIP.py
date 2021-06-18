@@ -18,7 +18,7 @@ from case.cuteu.common import Publicservice as login
 class Testmatch:
     #检查匹配记录配对页
     def test_match(self,init_driver):
-        login.mobile_phone(mobile='13100000002')
+        login().mobile_phone(init_driver['driver'], 13100000002)
 
     def test_pair(self,init_driver):
         logger.info("开始执行")
