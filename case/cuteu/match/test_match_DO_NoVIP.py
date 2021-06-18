@@ -6,7 +6,7 @@ import pytest
 sys.path.append(os.getcwd())
 from pageproject.cuteu.match.match_page import MatchPage
 from base.base_log import logger
-
+from case.cuteu.common import Publicservice as login
 
 # @pytest.fixture(scope='class')
 # def init_driver():
@@ -17,6 +17,9 @@ from base.base_log import logger
 #@pytest.mark.usefixtures("init_drivera")
 class Testmatch:
     #检查匹配记录配对页
+    def test_match(self,init_driver):
+        login.mobile_phone(mobile='13100000002')
+
     def test_pair(self,init_driver):
         logger.info("开始执行")
         #driver=init_driver['driver']
