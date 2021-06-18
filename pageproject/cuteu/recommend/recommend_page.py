@@ -50,12 +50,15 @@ class RecommendPage(BaseAction):
         self.click_element(ElementLoc.discover_screen_close_loc, '点击推荐-发现-筛选国家按钮关闭按钮')
 
     def discover_screen_card(self):
-        self.click_element(ElementLoc.discover_screen_card_loc, '点击discover卡片')
-        if self.profile_name():
-            logger.info("进入profile页成功")
-            return True
+        if self.is_exist(ElementLoc.discover_screen_card_loc)==True:
+            self.click_element(ElementLoc.discover_screen_card_loc, '点击discover卡片')
+            if self.profile_name():
+                logger.info("进入profile页成功")
+                return True
+            else:
+                logger.info("进入profile页失败")
+                return False
         else:
-            logger.info("进入profile页失败")
             return False
 
     # 左滑
@@ -102,7 +105,11 @@ class RecommendPage(BaseAction):
         self.click_element(ElementLoc.recommend_more_loc, '点击推荐国家更多按钮')
 
     def recommend_country_tab(self):
-        self.click_element(ElementLoc.recommend_country_tab_loc, '点击国家tab第二个国家')
+        if self.is_exist(ElementLoc.recommend_country_tab_loc):
+            self.click_element(ElementLoc.recommend_country_tab_loc, '点击国家tab第二个国家')
+            return True
+        else:
+            return False
 
     def recommend_list(self, type):
         self.click_elements(ElementLoc.recommend_list_loc,type, '点击推荐列表的第{}个主播'.format(type))

@@ -287,8 +287,8 @@ class BaseAction:
             return False
     def is_exist(self,loc):
         try:
-            self.find_element(loc)
-            return True
+            if self.find_element(loc)!=None:
+                return True
         except:
             return False
     def is_alert(self, timeout=3,t=0.5):

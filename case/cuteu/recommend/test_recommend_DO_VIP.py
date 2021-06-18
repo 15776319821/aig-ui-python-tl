@@ -22,9 +22,46 @@ from base.base_action import BaseAction
 class Testrecommend():
     @allure.feature("进入推荐页")
     @allure.story("测试")
-    def test_discover_vip(self, init_driver):
+    # 推荐页-discover-点击卡片进入profile页
+    def test_profile(self, init_driver):
         login().mobile_phone(init_driver['driver'], 13100000005)
+        logger.info("discover点击卡片进入profile页case开始")
+        # 点击推荐按钮
+        RecommendPage(init_driver['driver']).recommend()
+        # 点击推荐-发现
+        RecommendPage(init_driver['driver']).discover()
+        # 点击推荐-发现-点击卡片
+        assert RecommendPage(init_driver['driver']).discover_screen_card()
+        # 连续返回
+        RecommendPage(init_driver['driver']).profileReturnBtn()
+        logger.info("discover点击卡片进入profile页case结束")
 
+    @allure.title("滑动discover点卡片进入profile页")
+    @allure.step("1、进入推荐页"
+                 "2、点击discover按钮"
+                 "3、点击卡片"
+                 "4、profile页返回")
+
+     # 推荐页-发现tab-滑动开卡片
+    def test_sliding(self, init_driver):
+        logger.info("滑动discover卡片case开始")
+        # 点击推荐按钮
+        RecommendPage(init_driver['driver']).recommend()
+        # 点击推荐-发现
+        RecommendPage(init_driver['driver']).discover()
+        # 点击推荐-发现-左滑卡片
+        RecommendPage(init_driver['driver']).discover_swipeToLeft()
+        # 点击推荐-发现-右滑卡片
+        RecommendPage(init_driver['driver']).discover_swipeToRight()
+        logger.info("滑动discover卡片case结束")
+    @allure.title("滑动discover卡片")
+    @allure.step("1、进入推荐页"
+                 "2、点击discover按钮"
+                 "3、左滑卡片"
+                 "4、右滑卡片")
+
+
+    def test_discover_vip(self, init_driver):
         logger.info("会员点击筛选按钮case开始")
         # 点击推荐按钮
         RecommendPage(init_driver['driver']).recommend()
@@ -45,41 +82,9 @@ class Testrecommend():
                  "2、点击discover按钮"
                  "3、点击筛选按钮")
 
-        # 推荐页-发现tab-滑动开卡片
-    def test_sliding(self, init_driver):
-        logger.info("滑动discover卡片case开始")
-        # 点击推荐按钮
-        RecommendPage(init_driver['driver']).recommend()
-        # 点击推荐-发现
-        RecommendPage(init_driver['driver']).discover()
-        # 点击推荐-发现-左滑卡片
-        RecommendPage(init_driver['driver']).discover_swipeToLeft()
-        # 点击推荐-发现-右滑卡片
-        RecommendPage(init_driver['driver']).discover_swipeToRight()
-        logger.info("滑动discover卡片case结束")
-    @allure.title("滑动discover卡片")
-    @allure.step("1、进入推荐页"
-                 "2、点击discover按钮"
-                 "3、左滑卡片"
-                 "4、右滑卡片")
 
-    # 推荐页-discover-点击卡片进入profile页
-    def test_profile(self, init_driver):
-        logger.info("discover点击卡片进入profile页case开始")
-        # 点击推荐按钮
-        RecommendPage(init_driver['driver']).recommend()
-        # 点击推荐-发现
-        RecommendPage(init_driver['driver']).discover()
-        # 点击推荐-发现-点击卡片
-        assert RecommendPage(init_driver['driver']).discover_screen_card()
-        # 连续返回
-        RecommendPage(init_driver['driver']).profileReturnBtn()
-        logger.info("discover点击卡片进入profile页case结束")
-    @allure.title("滑动discover点卡片进入profile页")
-    @allure.step("1、进入推荐页"
-                 "2、点击discover按钮"
-                 "3、点击卡片"
-                 "4、profile页返回")
+
+
 
     # 推荐列表-点击banner
     def test_recommend_banner(self,init_driver):
@@ -104,7 +109,7 @@ class Testrecommend():
         # 点击推荐-推荐tab
         RecommendPage(init_driver['driver']).recommend_tab()
         # 点击列表第二个国家
-        RecommendPage(init_driver['driver']).recommend_country_tab()
+        assert RecommendPage(init_driver['driver']).recommend_country_tab()
     @allure.title("会员点击筛选按钮")
     @allure.step("1、进入推荐页"
                  "2、点击discover按钮"
