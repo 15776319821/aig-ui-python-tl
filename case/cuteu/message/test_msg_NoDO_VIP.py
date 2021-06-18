@@ -1,3 +1,4 @@
+# -*- coding:utf-8 -*-
 '''消息页面，会员无钻场景拆解'''
 from base.base_action import BaseAction
 from base.base_driver import setdriver

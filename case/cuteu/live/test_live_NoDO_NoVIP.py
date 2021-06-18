@@ -1,4 +1,4 @@
-
+# -*- coding:utf-8 -*-
 
 #无钻石送礼物操作
 from base.base_action import BaseAction
