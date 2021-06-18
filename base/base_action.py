@@ -50,7 +50,7 @@ class BaseAction:
         except Exception as error:
             logger.info("无法获取{}元素，并且没有输入{}文本值,是因为{}".format(loc,text,error))
     #寻找单个元素
-    def find_element(self, loc,time=8,poll=1):
+    def find_element(self, loc,time=5,poll=1):
         by=loc[0]
         value=loc[1]
         #return self.driver.find_element(by,value)
@@ -62,7 +62,7 @@ class BaseAction:
             logger.info("无法获取{}元素，是因为{}".format(loc,error))
             return None
     #寻找多个元素
-    def find_elements(self, loc,time=8,poll=1):
+    def find_elements(self, loc,time=5,poll=1):
         by=loc[0]
         value=loc[1]
         try:

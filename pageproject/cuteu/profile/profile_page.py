@@ -21,7 +21,7 @@ class ProfilePage(BaseAction):
         self.click_element(AboutUsLoc.set_loc,'设置')
         self.click_element(AboutUsLoc.set_aboutloc,'关于我们')
         time.sleep(2)
-        self.continuous_click(self.find_element(AboutUsLoc.aboutus_loc),10)
+        self.continuous_click(self.find_element(AboutUsLoc.aboutus_loc),20)
         self.click_element(AboutUsLoc.backset_loc1,'返回')
         time.sleep(1)
         self.input_text(AboutUsLoc.uid_loc,10051549,'搜索对应主播')
@@ -105,9 +105,9 @@ class ProfilePage(BaseAction):
         # assert d == '身高' , '没有唤醒邀请完善资料页面'
         self.click_element(ProfileLoc.height_loc,'邀请完善身高')
         self.click_element(ProfileLoc.sure_loc,'确定')
-        time.sleep(1)
+        time.sleep(2)
         self.back()
-        time.sleep(1)
+        time.sleep(2)
         self.back()
     '''show页面下的操作'''
     def switch_show(self):

@@ -26,7 +26,7 @@ class Testprofile():
         ProfilePage(init_driver['driver']).phone_novip()
         ProfilePage(init_driver['driver']).call_video_novip()
     def test_profile_show(self,init_driver):
-        '''这是消息页签下的所有操作'''
+        '''这是show签下的所有操作'''
         ProfilePage(init_driver['driver']).switch_show()
         ProfilePage(init_driver['driver']).profile_swipeToUP()
         ProfilePage(init_driver['driver']).show_voice()
