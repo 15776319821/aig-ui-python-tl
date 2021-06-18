@@ -21,7 +21,7 @@ from base.base_action import BaseAction
 class Testrecommend():
     # 推荐列表切换国家—非VIP
     def test_discover(self, init_driver):
-        login.mobile_phone(mobile='008613100000004')
+        login().mobile_phone(init_driver['driver'], 13100000004)
         logger.info("非会员点击筛选按钮case开始")
         # 点击推荐按钮
         RecommendPage(init_driver['driver']).recommend()

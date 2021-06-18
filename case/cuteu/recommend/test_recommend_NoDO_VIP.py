@@ -23,7 +23,7 @@ class Testrecommend():
     @allure.feature("进入推荐页")
     @allure.story("测试")
     def test_discover_vip(self, init_driver):
-        login.mobile_phone(mobile='008613100000005')
+        login().mobile_phone(init_driver['driver'], 13100000005)
 
         logger.info("会员点击筛选按钮case开始")
         # 点击推荐按钮
