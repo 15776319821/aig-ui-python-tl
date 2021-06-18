@@ -105,6 +105,10 @@ class ProfilePage(BaseAction):
         # assert d == '身高' , '没有唤醒邀请完善资料页面'
         self.click_element(ProfileLoc.height_loc,'邀请完善身高')
         self.click_element(ProfileLoc.sure_loc,'确定')
+        time.sleep(1)
+        self.back()
+        time.sleep(1)
+        self.back()
     '''show页面下的操作'''
     def switch_show(self):
         self.click_element(ProfileLoc.show_loc,'切换到show tab页')
