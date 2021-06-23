@@ -30,9 +30,9 @@ class ElementLoc:
     #快速匹配
     match_quickmatch=(By.ID,'com.cuteu.videochat:id/tvStartHeart')
     #匹配进行中
-    match_ongoing=(By.ID,'com.cuteu.videochat:id/locationVideo')
+    match_ongoing=(By.ID,'com.cuteu.videochat:id/ivMatchAsk')
     #关闭快递匹配
-    match_close=(By.XPATH,'/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.ImageView[1]')
+    match_close=(By.ID,'com.cuteu.videochat:id/ivBack')
     #快速匹配成功
     match_success=(By.ID,'com.cuteu.videochat:id/svQuestion')
     #关闭页面

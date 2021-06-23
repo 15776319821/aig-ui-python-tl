@@ -17,6 +17,7 @@ from case.cuteu.common import Publicservice as login
 #@pytest.mark.usefixtures("init_drivera")
 class Testmatch:
     #检查匹配记录配对页
+
     def test_match(self,init_driver):
         login().mobile_phone(init_driver['driver'], 13100000004)
 
@@ -70,10 +71,11 @@ class Testmatch:
         #关闭匹配
         MatchPage(init_driver['driver']).match_matchclose()
         #关闭页面
-        MatchPage(init_driver['driver']).match_closeView()
+        #MatchPage(init_driver['driver']).match_closeView()
         logger.info("执行结束")
 
-    #匹配下一个
+
+
 
     def test_nextmatch(self,init_driver):
         logger.info("开始执行")
@@ -86,10 +88,9 @@ class Testmatch:
         #检查匹配进行中
         assert MatchPage(init_driver['driver']).match_matchongoing()
         #检查匹配成功
-        assert MatchPage(init_driver['driver']).match_success()
-
-        #MatchPage(init_driver['driver']).match_matchclose()
+        #assert MatchPage(init_driver['driver']).match_success()
+        MatchPage(init_driver['driver']).match_matchclose()
         #关闭页面
-        MatchPage(init_driver['driver']).match_closeView()
+        #MatchPage(init_driver['driver']).match_closeView()
         logger.info("执行结束")
 
