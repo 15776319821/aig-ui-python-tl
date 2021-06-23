@@ -113,7 +113,7 @@ class RecommendPage(BaseAction):
 
     def recommend_list(self, type):
         self.click_elements(ElementLoc.recommend_list_loc,type, '点击推荐列表的第{}个主播'.format(type))
-        return self.is_exist(ElementLoc.recommend_nearby_list_loc)
+        return self.profile_name()
 
     def recommend_banner(self):
         return self.is_exist(ElementLoc.recommend_banner_loc)

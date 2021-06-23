@@ -164,7 +164,7 @@ class BaseAction:
         end_x = int(x * float(end_x))
         y=int(y*y1)
         while num <= swipeNum:
-            self.driver.swipe(start_x,y,end_x,y,duration=2000)
+            self.driver.swipe(start_x,y,end_x,y,duration=1000)
             num += 1
     def swipeToRight(self,start_x,end_x,y1=0.5,swipeNum=1):
         #向右滑动
@@ -176,7 +176,7 @@ class BaseAction:
         end_x = int(x * end_x)
         y = int(y * y1)
         while num <= swipeNum:
-            self.driver.swipe(start_x, y, end_x, y, duration=2000)
+            self.driver.swipe(start_x, y, end_x, y, duration=1000)
             num += 1
     def swipeToUp(self,start_y,end_y,x1=0.5,swipeNum=1):
         #向上滑动

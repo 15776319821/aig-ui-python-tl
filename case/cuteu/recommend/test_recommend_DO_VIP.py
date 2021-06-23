@@ -30,6 +30,10 @@ class Testrecommend():
         RecommendPage(init_driver['driver']).recommend()
         # 点击推荐-发现
         RecommendPage(init_driver['driver']).discover()
+        # 关闭手机绑定提示弹窗
+        # RecommendPage(init_driver['driver']).phone_binding()
+        # # 新手引导
+        # RecommendPage(init_driver['driver']).discover_swipeToLeft()
         # 点击推荐-发现-点击卡片
         assert RecommendPage(init_driver['driver']).discover_screen_card()
         # 连续返回
@@ -67,10 +71,7 @@ class Testrecommend():
         RecommendPage(init_driver['driver']).recommend()
         # 点击推荐-发现
         RecommendPage(init_driver['driver']).discover()
-        # 关闭手机绑定提示弹窗
-        RecommendPage(init_driver['driver']).phone_binding()
-        # 新手引导
-        RecommendPage(init_driver['driver']).discover_guide()
+
         # 点击筛选
         assert RecommendPage(init_driver['driver']).discover_screen_vip(2)
         logger.info("会员点击筛选按钮case开始结束")
