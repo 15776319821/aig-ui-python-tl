@@ -11,11 +11,13 @@ sys.path.append(os.getcwd())
 from pageproject.cuteu.profile.profile_page import ProfilePage
 from base.base_log import logger
 from case.cuteu.common import Publicservice
+import time
 class Testprofile():
     def test_profile_top(self,init_driver):
-        a = Publicservice()
-        a.mobile_phone(init_driver['driver'],13100000005)
+        # a = Publicservice()
+        # a.mobile_phone(init_driver['driver'],13100000005)
         '''这是个人空间页顶部位置的所有操作'''
+        time.sleep(3)
         ProfilePage(init_driver['driver']).into_profile()
         ProfilePage(init_driver['driver']).heart()
         ProfilePage(init_driver['driver']).voice()

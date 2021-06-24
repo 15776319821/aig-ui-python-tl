@@ -12,8 +12,9 @@ from case.cuteu.common import Publicservice as login
 
 class Testlive:
     def test_live_page(self,init_driver):
-        login().mobile_phone(init_driver['driver'],13100000005)
+        # login().mobile_phone(init_driver['driver'],13100000005)
         #导航栏进入直播页面
+        time.sleep(3)
         LivePage(init_driver['driver']).live_loc()
 
     def test_live_follow(self,init_driver):
@@ -33,7 +34,7 @@ class Testlive:
         #主播名字
     def test_username(self,init_driver):
         LivePage(init_driver['driver']).room_username()
-        assert LivePage(init_driver['driver']).room_username_assert()
+        # assert LivePage(init_driver['driver']).room_username_assert()
 
     def test_username_follow(self,init_driver):
         #关注

@@ -16,7 +16,7 @@ sys.path.append(os.getcwd())
 #         time.sleep(2)
 #         dri.Us(5)
 
-@pytest.fixture(scope='class')
+@pytest.fixture(scope='session')
 def init_driver():
     driver = setdriver().runapp()
     # dri = LoginoutPage(driver).loginout()

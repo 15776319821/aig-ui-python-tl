@@ -24,7 +24,8 @@ class Testrecommend():
     @allure.story("测试")
     # 推荐页-discover-点击卡片进入profile页
     def test_profile(self, init_driver):
-        login().mobile_phone(init_driver['driver'], 13100000005)
+        # login().mobile_phone(init_driver['driver'], 13100000005)
+        time.sleep(3)
         logger.info("discover点击卡片进入profile页case开始")
         # 点击推荐按钮
         RecommendPage(init_driver['driver']).recommend()

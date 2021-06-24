@@ -109,6 +109,7 @@ class ProfilePage(BaseAction):
         self.back()
         time.sleep(2)
         self.back()
+        time.sleep(2)
     '''show页面下的操作'''
     def switch_show(self):
         self.click_element(ProfileLoc.show_loc,'切换到show tab页')

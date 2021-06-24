@@ -7,6 +7,7 @@ sys.path.append(os.getcwd())
 from pageproject.cuteu.match.match_page import MatchPage
 from base.base_log import logger
 from case.cuteu.common import Publicservice as login
+import time
 
 # @pytest.fixture(scope='class')
 # def init_driver():
@@ -18,10 +19,11 @@ from case.cuteu.common import Publicservice as login
 class Testmatch:
     #检查匹配记录配对页
 
-    def test_match(self,init_driver):
-        login().mobile_phone(init_driver['driver'], 13100000004)
+    # def test_match(self,init_driver):
+        # login().mobile_phone(init_driver['driver'], 13100000004)
 
     def test_pair(self,init_driver):
+        time.sleep(3)
         logger.info("开始执行")
         #driver=init_driver['driver']
         #driver.find_element_by_id('com.cuteu.videochat:id/ivMatchHistory').click()
