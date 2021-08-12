@@ -5,3 +5,6 @@ def mag_list():
     return d
 
 
+    
+
+
