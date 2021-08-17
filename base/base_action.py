@@ -1,5 +1,6 @@
 # -*- coding:utf-8 -*-
 import os
+import allure
 import time
 from base.base_log import DemeLog
 from datetime import datetime
@@ -134,6 +135,10 @@ class BaseAction:
         try:
             self.driver.get_screenshot_as_file(screenshot_path)
             self.driver.save_screenshot(screenshot_path)
+            with open(screenshot_path, mode='rb') as f:
+                file = f.read()
+            allure.attach(file, img_dic, allure.attachment_type.PNG)
+
         except:
             logger.exception("当前网页截图失败")
         else:

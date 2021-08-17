@@ -20,7 +20,7 @@ class setdriver():
         desired_caps['platformName']='Android'
         #要测试手机安卓版本（9.1.1可以写9.1 也可以写9都行
         #desired_caps['platformVersion']=str(appProjectData['iphoneAndroidNum'])
-        desired_caps['platformVersion'] = '9'
+        desired_caps['platformVersion'] = '11'
         #安装apk包
         #desired_caps['app'] = str(apkpath)
         #设备的名字，adb命令：adb devices查看，这个设备号安卓可以随便写，ios必须写对
@@ -33,7 +33,7 @@ class setdriver():
         # desired_caps['unicodeKeyboard'] = False
         # desired_caps['resetKeyboard'] = False
         #启动app时不要清楚原有的数据
-        desired_caps['noReset']=True
+        desired_caps['noReset'] = True
         return desired_caps
 
 
