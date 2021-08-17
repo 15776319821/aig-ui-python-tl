@@ -56,12 +56,14 @@ class BaseAction:
         value=loc[1]
         #return self.driver.find_element(by,value)
         try:
-            findloc=WebDriverWait(self.driver,time,poll).until(EC.presence_of_element_located((by,value)))
+            findloc=WebDriverWait(self.driver, time, poll).until(EC.presence_of_element_located((by, value)))
             logger.info("发现{}元素".format(loc))
             return findloc
         except Exception as error:
-            logger.info("无法获取{}元素，是因为{}".format(loc,error))
-            return None
+            self.comparisonScreenShot(loc[1])
+            logger.info("无法获取{}元素，是因为{}".format(loc, error))
+            raise ElementNotVisibleException("无法获取{}元素，是因为{}".format(loc, error))
+
     #寻找多个元素
     def find_elements(self, loc,time=5,poll=1):
         by=loc[0]
