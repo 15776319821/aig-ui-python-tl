@@ -146,7 +146,6 @@ class Testrecommend():
         logger.info("点击推荐列表第一个主播case结束")
 
 
-
 if __name__ == '__main__':
     from base.base_driver import setdriver
     x=setdriver().runapp()
