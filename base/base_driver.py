@@ -20,7 +20,7 @@ class setdriver():
         desired_caps['platformName']='Android'
         #要测试手机安卓版本（9.1.1可以写9.1 也可以写9都行
         #desired_caps['platformVersion']=str(appProjectData['iphoneAndroidNum'])
-        desired_caps['platformVersion'] = '11'
+        desired_caps['platformVersion'] = '10'
         #安装apk包
         #desired_caps['app'] = str(apkpath)
         #设备的名字，adb命令：adb devices查看，这个设备号安卓可以随便写，ios必须写对
